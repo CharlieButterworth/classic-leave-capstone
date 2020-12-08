@@ -8,7 +8,12 @@
         }
     ],
     "gear": [
-        {}
+        {
+            "name": "sleeping bag"
+        },
+        {
+            "name": "tent"
+        }
     ],
     "trip": [
         {}
