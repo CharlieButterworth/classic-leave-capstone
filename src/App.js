@@ -3,6 +3,7 @@ import './App.css';
 import { Route, Redirect } from "react-router-dom"
 import { Login } from "./auth/Login"
 import { Register } from "./auth/Register"
+import { NavBar } from "./nav/NavBar"
 
 export const  App = () => (
  <>
@@ -11,7 +12,7 @@ export const  App = () => (
             if (localStorage.getItem("app_user_id")) {
                 return (
                     <>
-                        //Components that are rendered when the user is authenticated go inside this React fragment
+                        <Route render={props => <NavBar {...props} />} />
                     </>
                 )
             } else {
@@ -24,25 +25,7 @@ export const  App = () => (
     </>
 )
     
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
+
 
 export default App;
 
