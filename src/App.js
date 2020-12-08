@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { ApplicationViews } from "./ApplicationViews"
 import { Route, Redirect } from "react-router-dom"
 import { Login } from "./auth/Login"
 import { Register } from "./auth/Register"
@@ -13,6 +14,7 @@ export const  App = () => (
                 return (
                     <>
                         <Route render={props => <NavBar {...props} />} />
+                        <Route render={props => <ApplicationViews {...props} />} />
                     </>
                 )
             } else {
