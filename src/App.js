@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { ApplicationViews } from "./ApplicationViews"
 import { Route, Redirect } from "react-router-dom"
+import { BrowserRouter as Router } from 'react-router-dom';
 import { Login } from "./auth/Login"
 import { Register } from "./auth/Register"
 import { NavBar } from "./nav/NavBar"

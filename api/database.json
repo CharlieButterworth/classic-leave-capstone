@@ -1,16 +1,31 @@
 {
-    "users": [
-        {
-            "email": "cb@gmail.com",
-            "password": "cb",
-            "name": "Charlie Butterworth",
-            "id": 2
-        }
-    ],
-    "gear": [
-        {}
-    ],
-    "trip": [
-        {}
-    ]
+  "users": [
+    {
+      "email": "cb@gmail.com",
+      "password": "cb",
+      "name": "Charlie Butterworth",
+      "id": 2
+    },
+    {
+      "email": "csb@gmail.com",
+      "password": "cb",
+      "name": "Chuck Butters",
+      "id": 3
+    }
+  ],
+  "gear": [
+    {
+      "name": "Trash bags",
+      "id": 1
+    },
+    {
+      "name": "Trash bags",
+      "id": 2
+    },
+    {
+      "name": "Table",
+      "id": 3
+    }
+  ],
+  "trip": []
 }

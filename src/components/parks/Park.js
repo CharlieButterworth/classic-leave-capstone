@@ -1,13 +1,23 @@
 import React from "react"
+import "./ParkProvider"
 
 
-export const Park = ({parkObj}) => (
+
+export const Park = ({ parksObj }) => (
     <section className="parks">
-    <h4 className="national-parks">{parkObj.fullName}</h4>
+    <h4 className="national-parks">{parksObj.fullName}</h4>
  
-    <button id="park-detail--{parkObj.id}">Details</button>
+   <option value="{parksObj.fullName}">{parksObj.fullName} 
+   {parksObj.map(
+                    parksObj => {
 
-        
-
-</section>
+                        console.log(parksObj)
+                        return `<option value="${parksObj.fullName}">${parksObj.fullName}</option>`
+                        
+                    }
+                    ).join("")
+                }
+                </option>
+   
+ </section>       
 )
