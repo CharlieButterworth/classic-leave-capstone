@@ -1,37 +1,70 @@
 import React, { useContext, useEffect } from "react"
 import { GearContext } from "./GearProvider"
 import { Gear } from "./Gear"
+import { Link } from "react-router-dom"
 
+export const GarageList = (props) => {
 
-export const GarageList = () => {
-
-    const { gear, getGear } = useContext(GearContext)
+    const { gear, getGear, setGear } = useContext(GearContext)
 
 
 
     useEffect(() => {
-        getGear()
+        getGear().then(setGear)
     }, [])
 
-
-if (gear.length === true) {
-    
-    
     return (
-        <div className="gear">
+    <div className="gear">
+        <h1>Gear</h1>
+        <button onClick={() => props.history.push("/garage/create")}>
+            Add Gear
+        </button>
+        <article className="gearList">
         {
-            gear.map(g => <Gear key={g.id} garage={g} />)
-        }
+                    gear.map(gear => {
+                        return <Link key={gear.id} to={`/garage/create`}>
+                            <h3>{garage.gearName}</h3>
+                        </Link>
+                    })
+                }
+            </article>
         </div>
-        )
-    } else {
-        return (
-             <div className="gear">
-        {
-            gear.map(g => <Gear key={g.id} garage={g} />)
-        }
-        </div>
+    )
 
+}
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// if (gear.length === true) {
         
-    )}
-    }
+        
+    //     return (
+    //         <div className="gear">
+    //         {
+    //             gear.map(g => <Gear key={g.id} garage={g} />)
+    //         }
+    //         </div>
+    //         )
+    //     } else {
+    //         return (
+    //              <div className="gear">
+    //         {
+    //             gear.map(g => <Gear key={g.id} garage={g} />)
+    //         }
+    //         </div>
+    
+            
+    //     )}
