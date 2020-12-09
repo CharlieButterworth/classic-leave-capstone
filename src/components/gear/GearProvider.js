@@ -7,13 +7,13 @@ export const GearProvider = (props) => {
 
 
     const getGear = () => {
-        return fetch("http://localhost:8088/gear")
+        return fetch("http://localhost:8088/garage")
         .then(res => res.json())
             .then(setGear)
     }
 
     const addGear = gear => {
-        return fetch("http://localhost:8088/gear", {
+        return fetch("http://localhost:8088/garage", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -25,7 +25,7 @@ export const GearProvider = (props) => {
 }
 return (
         <GearContext.Provider value={{
-            gear, setGear, addGear, getGear
+            gear, addGear, getGear
         }}>
             {props.children}
         </GearContext.Provider>

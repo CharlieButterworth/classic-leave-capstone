@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Route } from "react-router-dom";
 import { ParkProvider } from "./components/parks/ParkProvider";
 import { ParkList } from "./components/parks/ParkList"
-import { GearList } from "./components/gear/GearList"
+import { GarageList } from "./components/gear/GarageList"
 import { GearProvider } from "./components/gear/GearProvider"
 
 
@@ -19,13 +19,15 @@ export const ApplicationViews = () => {
         </ParkProvider>
 
 
-        //GEAR INFO
+        
         
         <GearProvider>
-            <Route exact path="/gear" render={(props) => <GearList {...props} />}
-            />
-            <GearList />
+            <Route
+              path="/garage"
+              render={(props) => <GarageList {...props} />}
+              />
         </GearProvider>
+            
             </>
             
 

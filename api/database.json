@@ -7,15 +7,15 @@
             "id": 2
         }
     ],
-    "gear": [
+    "garage": [
         {
-            "name": "sleeping bag"
+            "id": 1,
+            "gearName": "sleeping bag"
         },
         {
-            "name": "tent"
+            "id": 2,
+            "gearName": "tent"
         }
     ],
-    "trip": [
-        {}
-    ]
+    "trip": []
 }

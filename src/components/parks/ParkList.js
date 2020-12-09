@@ -16,15 +16,10 @@ export const ParkList = (props) => {
         <h1>Select a Park</h1>
             <select className="dropdown" id="parkSelect">
                 <option value="0">Please select a park...</option>
-                {parks.map(
-            parksObj => {
-                return `<option value="${parksObj.fullName}">${parksObj.fullName}</option>`
-
-            }
-        ).join("")
-            }
+               
             </select>
-        `
+            
+        
         <div className="stateList">
         <h1>Select a State</h1>
             <select className="dropdown" id="stateSelect">
