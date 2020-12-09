@@ -8,8 +8,8 @@ export const GearForm = (props) => {
     const { addGear, getGear, setGear } = useContext(GearContext)
 
 
-
-    const gearType = useRef(null)
+    const gearName = useRef(null)
+    
     
     
     useEffect(() => {
@@ -17,14 +17,14 @@ export const GearForm = (props) => {
     }, [])
     
     const constructNewGear = () => {
-        const garageId = parseInt(gearType.id)
+        const garageId = parseInt(gearName.id)
 
         
         if (garageId === 0 ){
             window.alert("I mean you have to name the gear")
         } else {
             addGear({
-                gearType 
+                name: gearName.current.value
             })
             .then(() => props.history.push("./garage"))
         }
@@ -36,7 +36,7 @@ export const GearForm = (props) => {
             <fieldset>
                 <div className="form-group">
                     <label htmlFor="gearName">Gear name: </label>
-                    <input type="text" id="gearName"  required autoFocus className="form-control" placeholder="Gear Name" />
+                    <input type="text" id="gearName" ref={gearName} required autoFocus className="form-control" placeholder="Gear Name" />
                 </div>
             </fieldset>
             <button type="submit"

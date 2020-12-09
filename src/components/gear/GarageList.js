@@ -20,15 +20,15 @@ export const GarageList = (props) => {
             Add Gear
         </button>
         <article className="gearList">
-        {
+        {/* {
                     gear.map(gear => {
                         return <Link key={gear.id} to={`/garage/create`}>
-                            <h3>{garage.gearName}</h3>
+                            <h3>{gear.gearName}</h3>
                         </Link>
                     })
-                }
+                } */}
             </article>
-        </div>
+        </div> 
     )
 
 }

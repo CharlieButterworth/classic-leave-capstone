@@ -7,13 +7,13 @@ export const GearProvider = (props) => {
 
 
     const getGear = () => {
-        return fetch("http://localhost:8088/garage")
+        return fetch("http://localhost:8088/gear")
         .then(res => res.json())
             .then(setGear)
     }
 
     const addGear = gear => {
-        return fetch("http://localhost:8088/garage", {
+        return fetch("http://localhost:8088/gear", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
