@@ -12,7 +12,9 @@ export const ParkProvider = (props) => {
     const getParks = () => {
         return fetch(`https://developer.nps.gov/api/v1/parks?api_key=${apiKey.npsKey}`)
         .then(res => res.json())
-        .then() //this was bad had (setParks)
+        .then(parsedParks => {
+            setPark = parsedParks.data  //tried from holiday road
+        }) //this was bad had (setParks)
         }
        
         
