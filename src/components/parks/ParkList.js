@@ -5,33 +5,30 @@ import { Park } from "./Park"
 
 export const ParkList = () => {
     const { parks, getParks } = useContext(ParkContext)
-    console.log("HERE ARE THE PARKS", parks)
-
+    
     useEffect(() => {
         getParks()
     }, 
     [])
-
-    // useEffect(() => {
-    //    console.log("HERE ARE THE PARKS", parks)
-
-    // },[parks])
-
+    
+    
+    
     return (
-    <div className="parkList">
+        <div className="parkList">
         
         <h1>Select a Park</h1>
             
                 <select defaultValue="" name="park" ref={parks} id="parkLocation" className="form-control" >
 
-                <option value="0">Please select a park...</option>
+                <option value="0">Please select a park</option>
                     {
-                        parks.map(p => <Park key={p.id} parkObj={p}/>)
+                        parks.map(p => <option key={p.id} value={p.id}>{p.fullName} </option> )
                     }
                </select>
         </div>
         )
     }
+    
 
 
 
