@@ -1,59 +1,71 @@
 {
-    "users": [
-        {
-            "email": "cb@gmail.com",
-            "password": "cb",
-            "name": "Charlie Butterworth",
-            "id": 2
-        },
-        {
-            "email": "csb@gmail.com",
-            "password": "cb",
-            "name": "Chuck Butters",
-            "id": 3
-        }
-    ],
-    "gear": [
-        {
-            "name": "Trash bags",
-            "id": 1
-        },
-        {
-            "name": "Trash bags",
-            "id": 2
-        },
-        {
-            "name": "Table",
-            "id": 3
-        },
-        {
-            "name": "Head Lamp",
-            "id": 4
-        },
-        {
-            "name": "Fire Logs",
-            "id": 5
-        },
-        {
-            "name": "Food",
-            "id": 7
-        },
-        {
-            "name": "Hat",
-            "id": 8
-        },
-        {
-            "name": "Chair",
-            "id": 9
-        },
-        {
-            "name": "Sunscreen",
-            "id": 10
-        },
-        {
-            "name": "Table",
-            "id": 11
-        }
-    ],
-    "trip": []
+  "users": [
+    {
+      "email": "cb@gmail.com",
+      "password": "cb",
+      "name": "Charlie Butterworth",
+      "id": 2
+    },
+    {
+      "email": "csb@gmail.com",
+      "password": "cb",
+      "name": "Chuck Butters",
+      "id": 3
+    }
+  ],
+  "gear": [
+    {
+      "name": "Trash bags",
+      "id": 1
+    },
+    {
+      "name": "Trash bags",
+      "id": 2
+    },
+    {
+      "name": "Table",
+      "id": 3
+    },
+    {
+      "name": "Head Lamp",
+      "id": 4
+    },
+    {
+      "name": "Fire Logs",
+      "id": 5
+    },
+    {
+      "name": "Food",
+      "id": 7
+    },
+    {
+      "name": "Hat",
+      "id": 8
+    },
+    {
+      "name": "Chair",
+      "id": 9
+    },
+    {
+      "name": "Sunscreen",
+      "id": 10
+    },
+    {
+      "name": "Table",
+      "id": 11
+    },
+    {
+      "name": "Stove",
+      "id": 12
+    },
+    {
+      "name": "Head Lamp",
+      "id": 13
+    },
+    {
+      "name": "Head Lamp",
+      "id": 14
+    }
+  ],
+  "trip": []
 }

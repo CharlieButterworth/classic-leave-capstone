@@ -28,10 +28,7 @@ export const ApplicationViews = () => {
              exact path="/garage"
               render={(props) => <GarageList  {...props} />}
               />
-              {/* <Route
-              exact path="/garage"
-              render={(props) => <Gear {...props} />}
-              /> */}
+        
               <Route exact path="/garage/new"
               render={(props) => <GearForm {...props} />}
               />
