@@ -8,7 +8,7 @@ export const Gear = ({ gear }) => (
         <Card style={{ width: '18rem' }}>
   {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
   <Card.Body>
-    <Card.Title>Gear</Card.Title>
+    <Card.Title></Card.Title>
     <Card.Text>
      
     <div className="gear__name">{gear.name}</div>

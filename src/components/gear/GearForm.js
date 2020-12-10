@@ -26,7 +26,7 @@ export const GearForm = (props) => {
             addGear({
                 name: gearName.current.value
             })
-            .then(() => props.history.push("./garage"))
+            .then(() => props.history.push("./"))
         }
     }   
 
