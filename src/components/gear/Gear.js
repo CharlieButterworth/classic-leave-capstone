@@ -1,22 +1,27 @@
 import React from "react"
-import Card from "react-bootstrap/Card"
-import Button from "react-bootstrap/Button"
+import { Link } from "react-router-dom"
 import "./Gear.css"
+import {GearDetail} from "./GearDetail"
+import { propTypes } from "react-bootstrap/esm/Image"
+import { deleteGear } from "./GearProvider"
+
+
 
 export const Gear = ({ gear }) => (
     <section className="gear">
-        <Card style={{ width: '18rem' }}>
-  {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
-  <Card.Body>
-    <Card.Title></Card.Title>
-    <Card.Text>
+        <h3 className="gear__name">
+            <Link to={`/garage/${gear.id}`}>
+                { gear.name }
+            </Link>
+            
+        </h3>
+ 
      
-    <div className="gear__name">{gear.name}</div>
+    {/* <div className="gear__name">{gear.name}</div> */}
       
-    </Card.Text>
-    <Button variant="primary">See Pic</Button>
-  </Card.Body>
-</Card>
+    
+<button>Remove</button>
+  
 
 </section>
 )

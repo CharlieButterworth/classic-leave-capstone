@@ -21,6 +21,30 @@
     {
       "name": "Table",
       "id": 2
+    },
+    {
+      "name": "Cooler",
+      "id": 3
+    },
+    {
+      "name": "Football",
+      "id": 4
+    },
+    {
+      "name": "Trash bags",
+      "id": 5
+    },
+    {
+      "name": "Baseball",
+      "id": 6
+    },
+    {
+      "name": "Football",
+      "id": 7
+    },
+    {
+      "name": "Tent",
+      "id": 8
     }
   ],
   "trip": []

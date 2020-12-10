@@ -5,7 +5,7 @@ import { ParkList } from "./components/parks/ParkList"
 import { GarageList } from "./components/gear/GarageList"
 import { GearProvider } from "./components/gear/GearProvider"
 import { GearForm } from "./components/gear/GearForm"
-import { Gear } from "./components/gear/Gear"
+import { GearDetails } from "./components/gear/GearDetail"
 
 
 
@@ -27,6 +27,10 @@ export const ApplicationViews = () => {
             <Route
              exact path="/garage"
               render={(props) => <GarageList  {...props} />}
+              />
+              <Route
+             exact path="/garage/:gearId(/d+)"
+              render={(props) => <GearDetails  {...props} />}
               />
               
               <Route exact path="/garage/new"
