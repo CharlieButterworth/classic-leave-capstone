@@ -5,30 +5,36 @@ import { GearContext } from "./GearProvider"
 export const GearDetails = (props) => {
     const { deleteGear  } = useContext(GearContext)
 
-    const [gear, setGear] = useState()
+    const [gear, setGear] = useState([])
+
+    // useEffect(() => {
+    //     const gearid = parseInt(props.match.params.gearId)
+    //     getGearById(gearId).then(setGear)
+    // }, [])
 
     useEffect(() => {
-        const gearId = parseInt(props.match.params.gearId)
-        deleteGear(gearId)
-            .then(setGear)
-    }, [])
+        const gearId = gear.find(g => g.id === parseInt(props.match.params.gearId)) || {}
+        setGear(gearId)
+    }, [gear])
 
     return (
+        <>
         <section className="gear">
         <h3 className="gear__name">{gear.name}</h3>
         
         
-            <button onClick={
-                () => {
+            <button className="delete__btn"onClick={() => {
                     deleteGear(gear.Id)
                     .then(() => {
                         props.history.push("/garage")
                     })
+                    
                 }
             }>
                 Remove
             </button>
             </section>
+            </>
     )
-        }
+ }
             

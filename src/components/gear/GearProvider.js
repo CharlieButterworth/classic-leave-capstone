@@ -23,17 +23,21 @@ export const GearProvider = (props) => {
         })
         .then(getGear)
 }
+const getGearById = (gearId) => {
+        return fetch(`http://localhost:8088/garage/${gearId}`)
+            .then(res => res.json())
+    }
 
 
         const deleteGear = gearId => {
-    return fetch(`http://localhost:8088/gear`, {
+    return fetch(`http://localhost:8088/garage/${gearId}`, {
         method: "DELETE"
     })
         .then(getGear)
 }
 return (
         <GearContext.Provider value={{
-            gear, addGear, getGear, setGear, deleteGear
+            gear, addGear, getGear, setGear, deleteGear, getGearById
         }}>
             {props.children}
         </GearContext.Provider>

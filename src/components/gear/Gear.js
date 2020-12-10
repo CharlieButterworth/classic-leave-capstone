@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "react-router-dom"
 import "./Gear.css"
-import {GearDetail} from "./GearDetail"
+import {GearDetail} from "./GearDetails"
 import { propTypes } from "react-bootstrap/esm/Image"
 import { deleteGear } from "./GearProvider"
 
@@ -16,11 +16,6 @@ export const Gear = ({ gear }) => (
             
         </h3>
  
-     
-    {/* <div className="gear__name">{gear.name}</div> */}
-      
-    
-<button>Remove</button>
   
 
 </section>
