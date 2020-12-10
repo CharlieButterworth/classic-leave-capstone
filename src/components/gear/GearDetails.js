@@ -5,7 +5,7 @@ import { GearContext } from "./GearProvider"
 export const GearDetails = (props) => {
     const { deleteGear  } = useContext(GearContext)
 
-    const [gear, setGear] = useState([])
+    const [gear, setGear] = useState({ });
 
     // useEffect(() => {
     //     const gearid = parseInt(props.match.params.gearId)
@@ -24,7 +24,7 @@ export const GearDetails = (props) => {
         
         
             <button className="delete__btn"onClick={() => {
-                    deleteGear(gear.Id)
+                    deleteGear(gear)
                     .then(() => {
                         props.history.push("/garage")
                     })

@@ -29,7 +29,7 @@ export const ApplicationViews = () => {
               render={(props) => <GarageList  {...props} />}
               />
               <Route
-             path="/garage/:gearId(/d+)"
+             exact path="/garage/:gearId(/d+)"
               render={(props) => <GearDetails  {...props} />}
               />
               

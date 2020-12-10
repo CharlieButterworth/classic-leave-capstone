@@ -33,6 +33,10 @@
     {
       "name": "Football",
       "id": 5
+    },
+    {
+      "name": "Head Lamp",
+      "id": 6
     }
   ],
   "trip": []
