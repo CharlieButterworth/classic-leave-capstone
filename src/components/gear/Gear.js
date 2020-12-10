@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card"
 import Button from "react-bootstrap/Button"
 import "./Gear.css"
 
-export const Gear = ({ garage }) => (
+export const Gear = ({ gear }) => (
     <section className="gear">
         <Card style={{ width: '18rem' }}>
   {/* <Card.Img variant="top" src="holder.js/100px180" /> */}
@@ -11,7 +11,7 @@ export const Gear = ({ garage }) => (
     <Card.Title>Gear</Card.Title>
     <Card.Text>
      
-    <p className="gear__name">{garage.gearName}</p>
+    <div className="gear__name">{gear.name}</div>
       
     </Card.Text>
     <Button variant="primary">See Pic</Button>

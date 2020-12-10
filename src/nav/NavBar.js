@@ -16,5 +16,9 @@ export const NavBar = (props) => {
                 <Link className="navbar__link" to="/trip">Plan Trip</Link>
             </li>
         </ul>
-    )
+)
+
+
+
+
 }
