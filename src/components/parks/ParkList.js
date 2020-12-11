@@ -3,7 +3,7 @@ import { ParkContext } from "./ParkProvider"
 import { Link } from "react-router-dom"
 import { Park } from "./Park"
 
-export const ParkList = () => {
+export const ParkList = (props) => {
     const { parks, getParks } = useContext(ParkContext)
     
     useEffect(() => {
@@ -17,13 +17,19 @@ export const ParkList = () => {
         <div className="parkList">
         
         <h1>Select a Park</h1>
+
+
+                <select
             
-                <select defaultValue="" name="park" ref={parks} id="parkLocation" className="form-control" >
+                 defaultValue="" name="park" ref={parks} id="parkLocation" className="form-control" >
 
                 <option value="0">Please select a park</option>
                     {
                         parks.map(p => <option key={p.id} value={p.id}>{p.fullName} </option> )
                     }
+            
+         
+                    
                </select>
         </div>
         )
