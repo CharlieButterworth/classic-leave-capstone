@@ -5,11 +5,11 @@ import { ParkList } from "./components/parks/ParkList"
 import { GarageList } from "./components/gear/GarageList"
 import { GearProvider } from "./components/gear/GearProvider"
 import { GearForm } from "./components/gear/GearForm"
-import { Gear } from "./components/gear/Gear"
+import { GearDetails } from "./components/gear/GearDetails"
 
 
 
-export const ApplicationViews = () => {
+export const ApplicationViews = (props) => {
     return (
 
         //PARK INFO
@@ -25,14 +25,15 @@ export const ApplicationViews = () => {
         
         <GearProvider>
             <Route
-             exact path="/garage"
+             exact path="/gear"
               render={(props) => <GarageList  {...props} />}
               />
-              {/* <Route
-              exact path="/garage"
-              render={(props) => <Gear {...props} />}
-              /> */}
-              <Route exact path="/garage/new"
+              <Route
+                path="/gear/:id(\d+)"
+              render={(props) => <GearDetails  {...props} />}
+              />
+              
+              <Route exact path="/gear/new"
               render={(props) => <GearForm {...props} />}
               />
         </GearProvider>

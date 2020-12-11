@@ -1,7 +1,7 @@
 
 import React, { useContext, useRef, useEffect } from "react"
 import { GearContext } from "./GearProvider"
-import "./Gear.css"
+
 
 
 export const GearForm = (props) => {
@@ -26,7 +26,7 @@ export const GearForm = (props) => {
             addGear({
                 name: gearName.current.value
             })
-            .then(() => props.history.push("./garage"))
+            .then(() => props.history.push("./"))
         }
     }   
 
