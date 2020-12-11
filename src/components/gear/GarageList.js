@@ -17,7 +17,7 @@ export const GarageList = (props) => {
     return (
     <div className="gear">
         <h1>Gear</h1>
-        <button onClick={() => props.history.push("/garage/new")}>
+        <button onClick={() => props.history.push("/gear/new")}>
             Add Gear
         </button>
         <div className="gearList">

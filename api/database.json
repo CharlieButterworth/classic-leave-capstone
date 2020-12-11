@@ -15,16 +15,8 @@
   ],
   "gear": [
     {
-      "name": "Chair",
-      "id": 1
-    },
-    {
       "name": "Table",
       "id": 2
-    },
-    {
-      "name": "Tent",
-      "id": 3
     },
     {
       "name": "Trash bags",
@@ -35,8 +27,8 @@
       "id": 5
     },
     {
-      "name": "Head Lamp",
-      "id": 6
+      "name": "Dog food",
+      "id": 7
     }
   ],
   "trip": []

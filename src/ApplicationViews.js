@@ -9,7 +9,7 @@ import { GearDetails } from "./components/gear/GearDetails"
 
 
 
-export const ApplicationViews = () => {
+export const ApplicationViews = (props) => {
     return (
 
         //PARK INFO
@@ -25,15 +25,15 @@ export const ApplicationViews = () => {
         
         <GearProvider>
             <Route
-             exact path="/garage"
+             exact path="/gear"
               render={(props) => <GarageList  {...props} />}
               />
               <Route
-             exact path="/garage/:gearId(/d+)"
+                path="/gear/:id(\d+)"
               render={(props) => <GearDetails  {...props} />}
               />
               
-              <Route exact path="/garage/new"
+              <Route exact path="/gear/new"
               render={(props) => <GearForm {...props} />}
               />
         </GearProvider>

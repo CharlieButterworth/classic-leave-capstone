@@ -23,14 +23,14 @@ export const GearProvider = (props) => {
         })
         .then(getGear)
 }
-const getGearById = (gearId) => {
-        return fetch(`http://localhost:8088/garage/${gearId}`)
+const getGearById = (id) => {
+        return fetch(`http://localhost:8088/gear/${id}`)
             .then(res => res.json())
     }
 
 
-        const deleteGear = gearId => {
-    return fetch(`http://localhost:8088/garage/${gearId}`, {
+        const deleteGear = (id) => {
+    return fetch(`http://localhost:8088/gear/${id}`, {
         method: "DELETE"
     })
         .then(getGear)
