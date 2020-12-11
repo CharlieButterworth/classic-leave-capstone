@@ -21,12 +21,15 @@ export const ParkProvider = (props) => {
        
        
         
-    
+    const getParkById = (id) => {
+        return fetch(`https://developer.nps.gov/api/v1/parks/?api_key=${apiKey.npsKey}`)
+            .then(res => res.json())
+    }
    
         
         return (
             <ParkContext.Provider value={{
-                parks, getParks, setParks
+                parks, getParks, setParks, getParkById
             }}>
             {props.children}
         </ParkContext.Provider>

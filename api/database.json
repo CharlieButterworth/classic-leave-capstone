@@ -15,20 +15,12 @@
   ],
   "gear": [
     {
-      "name": "Table",
-      "id": 2
-    },
-    {
-      "name": "Trash bags",
-      "id": 4
-    },
-    {
-      "name": "Football",
-      "id": 5
-    },
-    {
       "name": "Dog food",
       "id": 7
+    },
+    {
+      "name": "Chair",
+      "id": 9
     }
   ],
   "trip": []

@@ -2,10 +2,12 @@ import React, { useEffect } from "react";
 import { Route } from "react-router-dom";
 import { ParkProvider } from "./components/parks/ParkProvider";
 import { ParkList } from "./components/parks/ParkList"
+import { ParkDetails } from "./components/parks/ParkDetails"
 import { GarageList } from "./components/gear/GarageList"
 import { GearProvider } from "./components/gear/GearProvider"
 import { GearForm } from "./components/gear/GearForm"
 import { GearDetails } from "./components/gear/GearDetails"
+
 
 
 
@@ -18,6 +20,10 @@ export const ApplicationViews = (props) => {
             <Route exact path="/trip">
            <ParkList />
             </Route>
+            <Route
+            path="/trip"
+            render={(props) => <ParkDetails {...props} />}
+            />
         </ParkProvider>
 
 
