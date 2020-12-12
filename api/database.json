@@ -27,6 +27,26 @@
     {
       "name": "First Trip",
       "id": 1
+    },
+    {
+      "tripName": "Trip test",
+      "id": 2
+    },
+    {
+      "tripName": "Test 12",
+      "id": 3
+    },
+    {
+      "tripName": "Tripster",
+      "id": 4
+    },
+    {
+      "tripName": "Trip 2",
+      "id": 5
+    },
+    {
+      "tripName": "TRIP !",
+      "id": 6
     }
   ]
 }

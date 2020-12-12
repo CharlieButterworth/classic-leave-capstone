@@ -9,6 +9,7 @@ import { GearForm } from "./components/gear/GearForm"
 import { GearDetails } from "./components/gear/GearDetails"
 import { TripForm } from "./components/trips/TripForm"
 import { TripProvider } from "./components/trips/TripProvider";
+import {TripList} from "./components/trips/TripList"
 
 
 
@@ -28,6 +29,9 @@ export const ApplicationViews = (props) => {
             path="/trip"
             render={(props) => <ParkDetails {...props} />}
             />
+            <Route exact path="/trip"
+              render={(props) => <TripList {...props} />}
+              />
             <Route exact path="/trip/create"
               render={(props) => <TripForm {...props} />}
               />
