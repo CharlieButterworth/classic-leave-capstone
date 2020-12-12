@@ -15,13 +15,18 @@
   ],
   "gear": [
     {
-      "name": "Dog food",
-      "id": 7
-    },
-    {
       "name": "Chair",
       "id": 9
+    },
+    {
+      "name": "Table",
+      "id": 10
     }
   ],
-  "trip": []
+  "trip": [
+    {
+      "name": "First Trip",
+      "id": 1
+    }
+  ]
 }

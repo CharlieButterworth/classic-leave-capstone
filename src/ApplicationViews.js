@@ -7,6 +7,8 @@ import { GarageList } from "./components/gear/GarageList"
 import { GearProvider } from "./components/gear/GearProvider"
 import { GearForm } from "./components/gear/GearForm"
 import { GearDetails } from "./components/gear/GearDetails"
+import { TripForm } from "./components/trips/TripForm"
+import { TripProvider } from "./components/trips/TripProvider";
 
 
 
@@ -16,6 +18,8 @@ export const ApplicationViews = (props) => {
 
         //PARK INFO
         <>
+        <TripProvider>
+
         <ParkProvider>
             <Route exact path="/trip">
            <ParkList />
@@ -24,7 +28,11 @@ export const ApplicationViews = (props) => {
             path="/trip"
             render={(props) => <ParkDetails {...props} />}
             />
+            <Route exact path="/trip/create"
+              render={(props) => <TripForm {...props} />}
+              />
         </ParkProvider>
+              </TripProvider>
 
 
         
