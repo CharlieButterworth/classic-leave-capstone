@@ -1,52 +1,40 @@
 {
-  "users": [
-    {
-      "email": "cb@gmail.com",
-      "password": "cb",
-      "name": "Charlie Butterworth",
-      "id": 2
-    },
-    {
-      "email": "csb@gmail.com",
-      "password": "cb",
-      "name": "Chuck Butters",
-      "id": 3
-    }
-  ],
-  "gear": [
-    {
-      "name": "Chair",
-      "id": 11
-    },
-    {
-      "name": "Baseball Glove",
-      "id": 12
-    },
-    {
-      "name": "tent",
-      "id": 13
-    }
-  ],
-  "trip": [
-    {
-      "name": "First Trip",
-      "id": 1
-    },
-    {
-      "tripName": "Test trip 2",
-      "id": 2
-    },
-    {
-      "tripName": "Test trip 3",
-      "id": 3
-    },
-    {
-      "tripName": "Trip tesst",
-      "id": 4
-    },
-    {
-      "tripName": "",
-      "id": 5
-    }
-  ]
+    "users": [
+        {
+            "email": "cb@gmail.com",
+            "password": "cb",
+            "name": "Charlie Butterworth",
+            "id": 2
+        },
+        {
+            "email": "csb@gmail.com",
+            "password": "cb",
+            "name": "Chuck Butters",
+            "id": 3
+        }
+    ],
+    "gear": [
+        {
+            "name": "Chair",
+            "id": 11
+        },
+        {
+            "name": "Baseball Glove",
+            "id": 12
+        },
+        {
+            "name": "tent",
+            "id": 13
+        }
+    ],
+    "trip": [
+        {
+            "tripName": "First Trip",
+            "id": 1
+        },
+        {
+            "tripName": "First Trip",
+            "id": 2
+        }
+    ]
 }

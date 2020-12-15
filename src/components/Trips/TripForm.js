@@ -2,16 +2,19 @@ import React, { useContext, useRef, useEffect } from "react"
 import { TripContext } from "./TripProvider"
 import { ParkContext } from "../parks/ParkProvider"
 import { Form } from "react"
+import { GearContext } from "../gear/GearProvider"
 
 export const TripForm = (props) => {
     const { addTrip, getTrip, setTrip } = useContext(TripContext)
     const {parks, getParks } = useContext(ParkContext)
+    const { gear } = useContext(GearContext)
 
 
 
 
     const tripName = useRef(null)
     const parkName = useRef(null)
+    const activityName = useRef(null)
 
 
 
@@ -26,11 +29,12 @@ const constructNewTrip = () => {
         // const parkId = parseInt(parkId)
 
         
-        if (tripId === 0 ){
+        if (tripName === ""){
             window.alert("I mean you have to name the trip")
         } else {
             addTrip({
-                tripName: parkName.current.value
+                tripName: parkName.current.value,
+                // activityName: activityName.current.value
             })
             .then(() => props.history.push("./"))
         }
@@ -40,11 +44,25 @@ const constructNewTrip = () => {
     return (
         <>
         <form className="tripForm">
-            <h2 className="tripForm__title">Add Trip</h2>
+            <h2 className="tripForm__title"></h2>
             <fieldset>
+                <h3>PARK NAME</h3>
                 <div className="form-group">
                     <label htmlFor="tripName">Trip name: </label>
                     <input type="text" id="tripName" ref={parkName} required autoFocus className="form-control" placeholder="Trip Name" />
+                    <label htmlFor="tripName">Activities: </label>
+                    <input type="text" id="tripName" ref={parkName} required autoFocus className="form-control" placeholder="Activities" />
+                    {/* <Form>
+                    {['checkbox'].map((gear) => (
+                         <div key={checkbox} className="mb-3">
+                          <Form.Check type={checkbox} id={`http://localhost:8088/gear/${id}`}>
+                           <Form.Check.Input type={checkbox} isValid />
+                           <Form.Check.Label>{"http://localhost:8088/gear"}</Form.Check.Label>
+                               <Form.Control.Feedback type="valid">Packed!</Form.Control.Feedback>
+                          </Form.Check>
+                             </div>
+                              ))}
+                            </Form> */}
                 </div>
             </fieldset>
     <div className="parkName">{parks.fullName}</div>

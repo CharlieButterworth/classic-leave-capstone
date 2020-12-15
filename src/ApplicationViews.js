@@ -20,8 +20,8 @@ export const ApplicationViews = (props) => {
         //PARK INFO
         <>
         <TripProvider>
-
-        <ParkProvider>
+        <GearProvider>
+            <ParkProvider>
             <Route exact path="/trip">
            <ParkList />
             </Route>
@@ -39,6 +39,7 @@ export const ApplicationViews = (props) => {
               render={(props) => <ParkDetails {...props} />}
               />
         </ParkProvider>
+              </GearProvider>
               </TripProvider>
 
 
