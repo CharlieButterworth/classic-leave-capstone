@@ -1,7 +1,7 @@
 import React from "react"
 
 
-export const Trip = ({trip}) => (
+export const Trip = ({ trip }) => (
     <>
     <section className="parks">
             <article className="parkList">

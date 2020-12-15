@@ -3,50 +3,62 @@ import { ParkContext } from "./ParkProvider"
 import { Modal, Button } from "react-bootstrap"
 
 export const ParkDetails = (props) => {
-    const { getParkById }  = useContext(ParkContext)
+    const { getParkById, getParks }  = useContext(ParkContext)
 
-    const [parks, setPark] = useState({})
+    const [parks, setPark] = useState([])
+    const [selectedPark, setSelectedPark] = useState({})
 
-    const park = ({})
+    const park = ([])
 
     useEffect(() => {
-        const parkId = parseInt(props.match.params.id)
-        getParkById(parkId).then(setPark)
-        // console.log(props)
+        getParks()
     }, [])
 
-   
     // useEffect(() => {
-    //     const selectedPark = parks.find(p => p.id === parks.id) || {}
-    //    setPark(selectedPark)
-    // }, []) 
+    //     getParkById(parkId).then(setPark)
+    //     // console.log(props)
+    // }, [])
     
-
+    
+    useEffect(() => {
+            const parkId = parseInt(props.match.params.id)
+            
+            const parks= getParks()
+            const selectedParkName = parkId
+            const setSelectedPark = parks.filter(
+          (parksObj) => parksObj.fullName === selectedParkName)
+          
+  
+    }, [park]) 
+    
+    
     return (
-<>
+        <>
 <section className="park">
+        {console.log("USEEFFECT", parks)}
 
     <h3>HELLO</h3>
+    
 
     {console.log("PROPS", props)}
    
-<Modal.Dialog>
+{/* <Modal.Dialog>
 
-    <Modal.Title>{park.fullName}</Modal.Title>
-    {console.log("PARK", parks)}
+    <Modal.Title>{parks.fullName}</Modal.Title>
+    {console.log("PARK", park)}
 
 
   <Modal.Body>
-    <p>{park.fullName}</p>
-    <p>{park.entranceFees}</p>
+    <p>{parks.fullName}</p>
+    <p>{parks.entranceFees}</p>
   </Modal.Body>
 
   <Modal.Footer>
-    <Button onClick={() => props.history.push("/trip")}variant="secondary">Close</Button>
-    <Button onClick={() => props.history.push("/trip/create")} variant="primary">Lets Adventure</Button>
+    <Button onClick={() => props.history.push("/trip")} variant="secondary">Close</Button>
+    <Button onClick={() => props.history.push("/trip/create")} variant="primary">Let's Adventure</Button>
   </Modal.Footer>
 </Modal.Dialog>
-   
+    */}
 
 
 
