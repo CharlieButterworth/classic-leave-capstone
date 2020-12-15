@@ -22,9 +22,9 @@ export const ApplicationViews = (props) => {
         <TripProvider>
         <GearProvider>
             <ParkProvider>
-            <Route exact path="/trip">
-           <ParkList />
-            </Route>
+            <Route exact path="/trip"
+          render={(props) =>  <ParkList {...props}/>}
+            />
             <Route
             path="/trip"
             render={(props) => <ParkDetails {...props} />}
@@ -35,8 +35,9 @@ export const ApplicationViews = (props) => {
             <Route exact path="/trip/create"
               render={(props) => <TripForm {...props} />}
               />
+              
               <Route exact path="/trip/:id(\d+)"
-              render={(props) => <ParkDetails {...props} />}
+              render={(props) => <ParkDetails {...props}/>}
               />
         </ParkProvider>
               </GearProvider>

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 import { Park } from "./Park"
 
 export const ParkList = (props) => {
-    const { parks, getParks } = useContext(ParkContext)
+    const { parks, getParks, getParkById } = useContext(ParkContext)
 
     const park = useRef([]) //tried (null)
     
@@ -14,13 +14,16 @@ export const ParkList = (props) => {
     [])
     
     const handleParkSelect = () => {
-        // props.history.push(`/trip/${park.current.value}`)
-        // getParkById()
-        console.log(park.current.value)
+        
+        getParkById(park.current.value)
+        .then(() => 
+            props.history.push(`/trip/${park.current.value}`)
+        )
     }
     
     return (
         <div className="parkList">
+        {console.log(props)}
         
         <h1>Select a Park</h1>
 
