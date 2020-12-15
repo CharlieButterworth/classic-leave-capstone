@@ -15,7 +15,7 @@ export const ParkList = (props) => {
     
     const handleParkSelect = () => {
         
-        getParkById(park.current.value)
+        getParks()
         .then(() => 
             props.history.push(`/trip/${park.current.value}`)
         )

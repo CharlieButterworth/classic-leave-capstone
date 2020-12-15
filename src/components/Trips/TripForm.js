@@ -26,7 +26,7 @@ export const TripForm = (props) => {
 
 const constructNewTrip = () => {
         const tripId = parseInt(tripName.id)
-        // const parkId = parseInt(parkId)
+        const parkId = parseInt(parkId)
 
         
         if (tripName === ""){
@@ -34,7 +34,7 @@ const constructNewTrip = () => {
         } else {
             addTrip({
                 tripName: parkName.current.value,
-                // activityName: activityName.current.value
+                activityName: activityName.current.value
             })
             .then(() => props.history.push("./"))
         }
@@ -51,7 +51,7 @@ const constructNewTrip = () => {
                     <label htmlFor="tripName">Trip name: </label>
                     <input type="text" id="tripName" ref={parkName} required autoFocus className="form-control" placeholder="Trip Name" />
                     <label htmlFor="tripName">Activities: </label>
-                    <input type="text" id="tripName" ref={parkName} required autoFocus className="form-control" placeholder="Activities" />
+                    <input type="text" id="activityName" ref={activityName} required autoFocus className="form-control" placeholder="Activities" />
                     {/* <Form>
                     {['gear'].map((gear) => (
                          <div key={checkbox} className="mb-3">
