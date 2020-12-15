@@ -1,7 +1,7 @@
 import React, { useContext, useRef, useEffect } from "react"
 import { TripContext } from "./TripProvider"
 import { ParkContext } from "../parks/ParkProvider"
-import { Form } from "react"
+import { Form } from "react-bootstrap"
 import { GearContext } from "../gear/GearProvider"
 
 export const TripForm = (props) => {
@@ -53,9 +53,9 @@ const constructNewTrip = () => {
                     <label htmlFor="tripName">Activities: </label>
                     <input type="text" id="tripName" ref={parkName} required autoFocus className="form-control" placeholder="Activities" />
                     {/* <Form>
-                    {['checkbox'].map((gear) => (
+                    {['gear'].map((gear) => (
                          <div key={checkbox} className="mb-3">
-                          <Form.Check type={checkbox} id={`http://localhost:8088/gear/${id}`}>
+                          <Form.Check type={checkbox} id={`http://localhost:8088/gear/`}>
                            <Form.Check.Input type={checkbox} isValid />
                            <Form.Check.Label>{"http://localhost:8088/gear"}</Form.Check.Label>
                                <Form.Control.Feedback type="valid">Packed!</Form.Control.Feedback>

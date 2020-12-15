@@ -25,10 +25,10 @@ export const ApplicationViews = (props) => {
             <Route exact path="/trip"
           render={(props) =>  <ParkList {...props}/>}
             />
-            <Route
+            {/* <Route
             path="/trip"
             render={(props) => <ParkDetails {...props} />}
-            />
+            /> */}
             <Route exact path="/trip"
               render={(props) => <TripList {...props} />}
               />
@@ -36,7 +36,7 @@ export const ApplicationViews = (props) => {
               render={(props) => <TripForm {...props} />}
               />
               
-              <Route exact path="/trip/:id(\d+)"
+              <Route exact path="/trip/:id(\w\w\w\w\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w\w\w\w\w\w\w\w\w)"
               render={(props) => <ParkDetails {...props}/>}
               />
         </ParkProvider>

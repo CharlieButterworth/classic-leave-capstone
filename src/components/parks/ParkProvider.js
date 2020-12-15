@@ -21,9 +21,10 @@ export const ParkProvider = (props) => {
        
        
         
-    const getParkById = (id) => {
+    const getParkById = () => {
         return fetch(`https://developer.nps.gov/api/v1/parks/?api_key=${apiKey.npsKey}`)
             .then(res => res.json())
+            .then((data) => data.data).then(setParks)
     }
    
         

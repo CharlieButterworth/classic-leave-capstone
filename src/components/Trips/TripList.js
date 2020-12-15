@@ -17,9 +17,9 @@ export const TripList = (props) => {
     return (
     <div className="gear">
         <h1>Trips</h1>
-        <button onClick={() => props.history.push("/trip/create")}>
+        {/* <button onClick={() => props.history.push("/trip/create")}>
             Add Trip
-        </button>
+        </button> */}
         <div className="tripList">
             
         {
@@ -27,6 +27,9 @@ export const TripList = (props) => {
             trip.map(t => <Trip key={t.id} trip={t} />)
         }
             </div>
+            {/* <button onClick={() => props.history.push("/trip/create")}>
+            Add Trip
+        </button> */}
         </div> 
     )
 
