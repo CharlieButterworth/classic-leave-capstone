@@ -15,6 +15,7 @@ export const ParkDetails = (props) => {
         // console.log(props)
     }, [])
 
+   
     // useEffect(() => {
     //     const selectedPark = parks.find(p => p.id === parks.id) || {}
     //    setPark(selectedPark)
@@ -27,12 +28,12 @@ export const ParkDetails = (props) => {
 
     <h3>HELLO</h3>
 
-    {/* {console.log(props)} */}
+    {console.log("PROPS", props)}
    
 <Modal.Dialog>
 
     <Modal.Title>{park.fullName}</Modal.Title>
-    {console.log("PARK", park)}
+    {console.log("PARK", parks)}
 
 
   <Modal.Body>
