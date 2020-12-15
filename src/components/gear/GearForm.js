@@ -24,7 +24,8 @@ export const GearForm = (props) => {
             window.alert("I mean you have to name the gear")
         } else {
             addGear({
-                name: gearName.current.value
+                name: gearName.current.value,
+                activeUser: parseInt(localStorage.getItem("app_user_id"))
             })
             .then(() => props.history.push("./"))
         }

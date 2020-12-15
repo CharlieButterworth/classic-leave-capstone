@@ -1,32 +1,38 @@
 {
   "users": [
     {
-      "email": "cb@gmail.com",
+      "email": "cb@cb.com",
       "password": "cb",
-      "name": "Charlie Butterworth",
+      "name": "chuck butters",
+      "id": 1
+    },
+    {
+      "email": "cb@cbdd.com",
+      "password": "cb",
+      "name": "charlie chah",
       "id": 2
-    },
-    {
-      "email": "csb@gmail.com",
-      "password": "cb",
-      "name": "Chuck Butters",
-      "id": 3
-    },
-    {
-      "email": "ss@gmail.com",
-      "password": "ss",
-      "name": "Scott Silver",
-      "id": 4
     }
   ],
   "gear": [
     {
       "name": "Chair",
-      "id": 11
+      "activeUser": 1,
+      "id": 1
+    },
+    {
+      "name": "Football",
+      "activeUser": 1,
+      "id": 2
     },
     {
       "name": "Trash bags",
-      "id": 14
+      "activeUser": 1,
+      "id": 3
+    },
+    {
+      "name": "Chair",
+      "activeUser": 2,
+      "id": 4
     }
   ],
   "trip": [
