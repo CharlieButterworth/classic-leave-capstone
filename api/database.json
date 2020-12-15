@@ -1,27 +1,38 @@
 {
-  "users": [
-    {
-      "email": "cb@gmail.com",
-      "password": "cb",
-      "name": "Charlie Butterworth",
-      "id": 2
-    },
-    {
-      "email": "csb@gmail.com",
-      "password": "cb",
-      "name": "Chuck Butters",
-      "id": 3
-    }
-  ],
-  "gear": [
-    {
-      "name": "Dog food",
-      "id": 7
-    },
-    {
-      "name": "Chair",
-      "id": 9
-    }
-  ],
-  "trip": []
+    "users": [
+        {
+            "email": "cb@gmail.com",
+            "password": "cb",
+            "name": "Charlie Butterworth",
+            "id": 2
+        },
+        {
+            "email": "csb@gmail.com",
+            "password": "cb",
+            "name": "Chuck Butters",
+            "id": 3
+        },
+        {
+            "email": "ss@gmail.com",
+            "password": "ss",
+            "name": "Scott Silver",
+            "id": 4
+        }
+    ],
+    "gear": [
+        {
+            "name": "Chair",
+            "id": 11
+        },
+        {
+            "name": "Trash bags",
+            "id": 14
+        }
+    ],
+    "trip": [
+        {
+            "tripName": "First Trip",
+            "id": 1
+        }
+    ]
 }

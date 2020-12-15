@@ -28,7 +28,7 @@ export const GearDetails = (props) => {
 
         
             <button className="delete__btn"onClick={() => {
-        {console.log(gear)}
+        // {console.log(gear)}
                     deleteGear(gear.id)
                     .then(() => {
                         props.history.push("/gear")
