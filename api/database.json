@@ -16,11 +16,15 @@
   "gear": [
     {
       "name": "Chair",
-      "id": 9
+      "id": 11
     },
     {
-      "name": "Table",
-      "id": 10
+      "name": "Baseball Glove",
+      "id": 12
+    },
+    {
+      "name": "tent",
+      "id": 13
     }
   ],
   "trip": [
@@ -29,24 +33,20 @@
       "id": 1
     },
     {
-      "tripName": "Trip test",
+      "tripName": "Test trip 2",
       "id": 2
     },
     {
-      "tripName": "Test 12",
+      "tripName": "Test trip 3",
       "id": 3
     },
     {
-      "tripName": "Tripster",
+      "tripName": "Trip tesst",
       "id": 4
     },
     {
-      "tripName": "Trip 2",
+      "tripName": "",
       "id": 5
-    },
-    {
-      "tripName": "TRIP !",
-      "id": 6
     }
   ]
 }

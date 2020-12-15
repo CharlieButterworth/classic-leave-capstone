@@ -35,6 +35,9 @@ export const ApplicationViews = (props) => {
             <Route exact path="/trip/create"
               render={(props) => <TripForm {...props} />}
               />
+              <Route exact path="/trip/:id(\d+)"
+              render={(props) => <ParkDetails {...props} />}
+              />
         </ParkProvider>
               </TripProvider>
 
