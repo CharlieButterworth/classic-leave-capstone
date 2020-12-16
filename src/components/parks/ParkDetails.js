@@ -6,7 +6,7 @@ export const ParkDetails = (props) => {
     const { getParkById, getParks }  = useContext(ParkContext)
 
     const [parks, setPark] = useState([])
-    const [selectedPark, setSelectedPark] = useState({})
+    const [selectedPark, setSelectedPark] = useState([])
 
     const park = ([])
 
@@ -15,7 +15,7 @@ export const ParkDetails = (props) => {
     }, [])
 
     // useEffect(() => {
-    //     getParkById(parkId).then(setPark)
+    //     getParkById().then(setPark)
     //     // console.log(props)
     // }, [])
     
@@ -23,13 +23,12 @@ export const ParkDetails = (props) => {
     // useEffect(() => {
     //         const parkId = parseInt(props.match.params.id)
             
-    //         const parks= getParks()
+    //         const parks = getParks()
     //         const selectedParkName = parkId
-    //         const setSelectedPark = parks.filter(
-    //       (parksObj) => parksObj.fullName === selectedParkName)
+    //         const setSelectedPark = parks.filter((parks) => parks.fullName === selectedParkName)
           
   
-    // }, [park]) 
+    // }, [selectedPark]) 
     
     
     return (

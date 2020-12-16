@@ -10,7 +10,7 @@ import { NavBar } from "./nav/NavBar"
 export const  App = () => (
  <>
   <Route render={() => {
-          // The user id is saved under the key app_user_id in local Storage. Change below if needed!
+          // The user id is saved under the key app_user_id in local Storage. Change below if needed!   .length here?
             if (localStorage.getItem("app_user_id")) {
                 return (
                     <>

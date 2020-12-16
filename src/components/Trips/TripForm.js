@@ -34,7 +34,8 @@ const constructNewTrip = () => {
         } else {
             addTrip({
                 tripName: parkName.current.value,
-                activityName: activityName.current.value
+                activityName: activityName.current.value,
+                activeUser: parseInt(localStorage.getItem("app_user_id"))
             })
             .then(() => props.history.push("./"))
         }

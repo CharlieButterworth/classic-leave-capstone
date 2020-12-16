@@ -9,7 +9,9 @@ import { GearForm } from "./components/gear/GearForm"
 import { GearDetails } from "./components/gear/GearDetails"
 import { TripForm } from "./components/trips/TripForm"
 import { TripProvider } from "./components/trips/TripProvider";
-import {TripList} from "./components/trips/TripList"
+import { TripList } from "./components/trips/TripList"
+import { FriendProvider } from "./components/friends/FriendsProvider";
+import { FriendList } from "./components/friends/FriendList"
 
 
 
@@ -61,6 +63,22 @@ export const ApplicationViews = (props) => {
               />
         </GearProvider>
             
+
+
+            <FriendProvider>
+                <Route
+             exact path="/friend"
+              render={(props) => <FriendList  {...props} />}
+              />
+
+            </FriendProvider>
+
+
+
+
+
+
+
             </>
             
 
