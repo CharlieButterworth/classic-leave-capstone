@@ -20,16 +20,16 @@ export const ParkDetails = (props) => {
     // }, [])
     
     
-    useEffect(() => {
-            const parkId = parseInt(props.match.params.id)
+    // useEffect(() => {
+    //         const parkId = parseInt(props.match.params.id)
             
-            const parks= getParks()
-            const selectedParkName = parkId
-            const setSelectedPark = parks.filter(
-          (parksObj) => parksObj.fullName === selectedParkName)
+    //         const parks= getParks()
+    //         const selectedParkName = parkId
+    //         const setSelectedPark = parks.filter(
+    //       (parksObj) => parksObj.fullName === selectedParkName)
           
   
-    }, [park]) 
+    // }, [park]) 
     
     
     return (
