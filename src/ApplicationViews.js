@@ -12,6 +12,7 @@ import { TripProvider } from "./components/trips/TripProvider";
 import { TripList } from "./components/trips/TripList"
 import { FriendProvider } from "./components/friends/FriendsProvider";
 import { FriendList } from "./components/friends/FriendList"
+import { UserProvider } from "./components/user/UserProvider";
 
 
 
@@ -21,16 +22,18 @@ export const ApplicationViews = (props) => {
 
         //PARK INFO
         <>
+        
+
         <TripProvider>
         <GearProvider>
             <ParkProvider>
             <Route exact path="/trip"
           render={(props) =>  <ParkList {...props}/>}
-            />
+          />
             {/* <Route
             path="/trip"
             render={(props) => <ParkDetails {...props} />}
-            /> */}
+        /> */}
             <Route exact path="/trip"
               render={(props) => <TripList {...props} />}
               />
@@ -44,6 +47,7 @@ export const ApplicationViews = (props) => {
         </ParkProvider>
               </GearProvider>
               </TripProvider>
+            
 
 
         

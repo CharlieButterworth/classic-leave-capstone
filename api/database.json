@@ -28,16 +28,22 @@
       "name": "Chair",
       "activeUser": 2,
       "id": 4
+    },
+    {
+      "name": "Tent",
+      "activeUser": 2,
+      "id": 5
     }
   ],
   "trip": [
     {
-      "tripName": "rfrfr",
+      "tripName": "Test test",
+      "activeUser": 1,
       "id": 1
     },
     {
-      "tripName": "Test",
-      "activeUser": 2,
+      "tripName": "Testtt",
+      "activeUser": 1,
       "id": 2
     }
   ],
