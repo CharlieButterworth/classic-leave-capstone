@@ -26,8 +26,8 @@ const addTrip = trip => {
 
 
     }
-    const addPackedItem = gear => {
-        return fetch("http://localhost:8088/packedItem", {
+    const addPackedItem = () => {
+        return fetch(`http://localhost:8088/packedItem`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

@@ -1,16 +1,16 @@
 import React, { useContext, useRef, useEffect } from "react"
-import { TripContext } from "./TripProvider"
+import { TripContext, TripProvider } from "./TripProvider"
 import { ParkContext } from "../parks/ParkProvider"
 import { Form } from "react-bootstrap"
 import { GearContext } from "../gear/GearProvider"
 import { GarageList } from "../gear/GarageList"
 
 export const TripForm = (props) => {
-    const { addTrip, getTrip, setTrip, addPackedItem } = useContext(TripContext)
+    const { trip, addTrip, getTrip, setTrip, addPackedItem } = useContext(TripContext)
     const {parks, getParks } = useContext(ParkContext)
     const { gear, addGear, getGear } = useContext(GearContext)
 
-
+// const [gear ] = useState([])
 
 
     const tripName = useRef(null)
@@ -33,11 +33,15 @@ export const TripForm = (props) => {
     })}, [])
 
    
-    
+    // useEffect(() => {
+    //     getGear()
+    //     .then(() => {})
+
+    // }, [trip])
 
     
 
-const constructNewTrip = () => {
+const constructNewTrip = (gear) => {
         // const tripId = parseInt(tripId.id)
         // const parkId = parseInt(parkId)
 
@@ -47,21 +51,26 @@ const constructNewTrip = () => {
         } else {
             addTrip({
                 tripName: parkName.current.value,
-                // packedItem: gear.name.current.value,
-                
-                // activityName: activityName.current.value,  ----- need to add the form for gear around here
                 activeUser: parseInt(localStorage.getItem("app_user_id"))
             })
+            // console.log(activeUser)
+            .then(() => addPackedItem({
+                // gear: gear.Id,
+                activeUser: parseInt(localStorage.getItem("app_user_id"))
+            }
+            ))
             .then(() => props.history.push("./"))
         }
     }   
 
-    const handleItemSelect = () => {
-        addPackedItem({
-            // tripId,
-            // gearId,
-            activeUser: parseInt(localStorage.getItem("app_user_id"))
-        })
+    const handleItemSelect = (gear) => {
+        console.log("GEARRRRR", gear)
+       return (
+           <>
+       <h2 className="packedList">Packing List</h2>
+       <p>{gear.name}</p>
+       </>
+       )
 
     }
     
@@ -76,7 +85,7 @@ const constructNewTrip = () => {
                 <div className="form-group">
                     <label htmlFor="tripName">Trip name: </label>
                     <input type="text" id="tripName" ref={parkName} required autoFocus className="form-control" placeholder="Trip Name" />
-                    <select onChange = {handleItemSelect}> 
+                    <select onChange={handleItemSelect}> 
 
                     
                     
@@ -86,13 +95,13 @@ const constructNewTrip = () => {
                         
                     }
                     </select>
-                    {console.log(gear)}
+                    {/* {console.log(gear)} */}
                     
                   {/* Need to add gear here in order to have checkboxes to bring on trip */}
                   
-
+            <h3 className="packedList">Packed List</h3>
            
-    <div className="parkName">{parks.fullName}</div>
+    {/* <div className="parkName">{parks.fullName}</div> */}
             <button type="submit"
                 onClick={evt => {
                     evt.preventDefault() // Prevent browser from submitting the form

@@ -61,9 +61,9 @@ export const ParkDetails = (props) => {
 
 
 
-{/* <button onClick={() => {
+<button onClick={() => {
     props.history.push(`/trip/create`)
-}}>Let's Adventure!</button> */}
+}}>Let's Adventure!</button>
 
 </section>
 
