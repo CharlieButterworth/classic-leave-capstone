@@ -30,7 +30,8 @@ export const TripForm = (props) => {
 
         if (event.target.checked) {
             addGear({
-                userId: parseInt(activeUser)
+                userId: parseInt(activeUser),
+            
             })
         }
 
@@ -46,6 +47,7 @@ const constructNewTrip = () => {
         } else {
             addTrip({
                 tripName: parkName.current.value,
+                tripId,
                 // activityName: activityName.current.value,  ----- need to add the form for gear around here
                 activeUser: parseInt(localStorage.getItem("app_user_id"))
             })
@@ -66,8 +68,9 @@ const constructNewTrip = () => {
                   
                   {/* Need to add gear here in order to have checkboxes to bring on trip */}
                   
+                  {/* trying to filter through all gear of a user  */}
        
-{gear.map(gear => {
+{gear.filter(gear => {
     const userGear = gear.find(g => g.gearId === tripId && +localStorage.getItem("app_user_id"))
 
     if(userGear) {
