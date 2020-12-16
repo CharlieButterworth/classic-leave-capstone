@@ -5,9 +5,9 @@ export const GearContext = React.createContext()
 export const GearProvider = (props) => {
     const [gear, setGear] = useState([])
 
-
+    const user = localStorage.getItem("app_user_id")
     const getGear = () => {
-        return fetch("http://localhost:8088/gear")
+        return fetch(`http://localhost:8088/gear/?activeUser=${user}`)
         .then(res => res.json())
             .then(setGear)
     }

@@ -6,7 +6,7 @@ import { GearContext } from "../gear/GearProvider"
 import { GarageList } from "../gear/GarageList"
 
 export const TripForm = (props) => {
-    const { addTrip, getTrip, setTrip } = useContext(TripContext)
+    const { addTrip, getTrip, setTrip, addPackedItem } = useContext(TripContext)
     const {parks, getParks } = useContext(ParkContext)
     const { gear, addGear, getGear } = useContext(GearContext)
 
@@ -32,11 +32,7 @@ export const TripForm = (props) => {
                 userId: parseInt(userId),
     })}, [])
 
-    const handleCheckbox = (event) => {
-        let activeUser = +localStorage.getItem("app_user_id")
-        // console.log(activeUser)
-    }
-
+   
     
 
     
@@ -51,7 +47,7 @@ const constructNewTrip = () => {
         } else {
             addTrip({
                 tripName: parkName.current.value,
-                gearName: gear.name,
+                // packedItem: gear.name.current.value,
                 
                 // activityName: activityName.current.value,  ----- need to add the form for gear around here
                 activeUser: parseInt(localStorage.getItem("app_user_id"))
@@ -59,6 +55,15 @@ const constructNewTrip = () => {
             .then(() => props.history.push("./"))
         }
     }   
+
+    const handleItemSelect = () => {
+        addPackedItem({
+            // tripId,
+            // gearId,
+            activeUser: parseInt(localStorage.getItem("app_user_id"))
+        })
+
+    }
     
 
     return (
@@ -66,15 +71,16 @@ const constructNewTrip = () => {
         <form className="tripForm">
             <h2 className="tripForm__title"></h2>
             
-            <fieldset onChange = {handleCheckbox}>
+            <fieldset>
                 <h3>PARK NAME</h3>
                 <div className="form-group">
                     <label htmlFor="tripName">Trip name: </label>
                     <input type="text" id="tripName" ref={parkName} required autoFocus className="form-control" placeholder="Trip Name" />
-                    <select> 
+                    <select onChange = {handleItemSelect}> 
 
-                    <option type="dropdown" id="gearName" ref={gear} required autoFocus className="form-control" />
-                    <option value="0">Pack Yo Shiiiiittt</option>
+                    
+                    
+                    <option value="0">Pack Your Things</option>
                     {
                         gear.map(g => <option key={g.id} value={g.id}>{g.name} </option>)
                         

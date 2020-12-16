@@ -1,51 +1,73 @@
 {
-  "users": [
-    {
-      "email": "cb@cb.com",
-      "password": "cb",
-      "name": "chuck butters",
-      "id": 1
-    },
-    {
-      "email": "cb@cbdd.com",
-      "password": "cb",
-      "name": "charlie chah",
-      "id": 2
-    }
-  ],
-  "gear": [
-    {
-      "name": "Football",
-      "activeUser": 1,
-      "id": 2
-    },
-    {
-      "name": "Trash bags",
-      "activeUser": 1,
-      "id": 3
-    },
-    {
-      "name": "Chair",
-      "activeUser": 2,
-      "id": 4
-    },
-    {
-      "name": "Tent",
-      "activeUser": 2,
-      "id": 5
-    }
-  ],
-  "trip": [
-    {
-      "tripName": "Test test",
-      "activeUser": 1,
-      "id": 1
-    },
-    {
-      "tripName": "Testtt",
-      "activeUser": 1,
-      "id": 2
-    }
-  ],
-  "friend": []
+    "users": [
+        {
+            "email": "cb@cb.com",
+            "password": "cb",
+            "name": "chuck butters",
+            "id": 1
+        },
+        {
+            "email": "cb@cbdd.com",
+            "password": "cb",
+            "name": "charlie chah",
+            "id": 2
+        },
+        {
+            "email": "ass@fkgk.com",
+            "password": "cb",
+            "name": "Zack piller",
+            "id": 3
+        }
+    ],
+    "gear": [
+        {
+            "name": "Football",
+            "activeUser": 1,
+            "id": 2
+        },
+        {
+            "name": "Trash bags",
+            "activeUser": 1,
+            "id": 3
+        },
+        {
+            "name": "Chair",
+            "activeUser": 2,
+            "id": 4
+        },
+        {
+            "name": "Tent",
+            "activeUser": 2,
+            "id": 5
+        },
+        {
+            "name": "Saw",
+            "activeUser": 3,
+            "id": 6
+        },
+        {
+            "name": "Cord",
+            "activeUser": 3,
+            "id": 7
+        },
+        {
+            "name": "Rope",
+            "activeUser": 3,
+            "id": 8
+        },
+        {
+            "name": "Lighter",
+            "activeUser": 3,
+            "id": 9
+        }
+    ],
+    "trip": [
+        {
+            "tripName": "Test trip",
+            "activeUser": 3,
+            "id": 1
+        }
+    ],
+    "packedItem": [],
+    "friend": []
 }
