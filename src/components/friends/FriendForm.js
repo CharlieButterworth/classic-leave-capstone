@@ -31,7 +31,7 @@ export const FriendForm = (props) => {
 
 
 
-<button onClick={() => props.history.push("/gear/new")}>
+<button onClick={() => props.history.push("/friend/new")}>
     Add Friend
 </button>
 

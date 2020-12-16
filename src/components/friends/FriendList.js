@@ -18,12 +18,13 @@ export const FriendList = (props) => {
         <button onClick={() => props.history.push("/friend/new")}>
             Add Friend
         </button>
-        <div className="friendList">
+        <div className="friendList"
+            defaultValue="" name="friend" ref={friend} id="friends" className="form-control">
             
-        {
+        {/* {
             
             friend.map(f => <Friend key={f.id} friend={f} />)
-        }
+        } */}
             </div>
         </div> 
     )
