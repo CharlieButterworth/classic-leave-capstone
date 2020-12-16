@@ -34,6 +34,11 @@
     {
       "tripName": "rfrfr",
       "id": 1
+    },
+    {
+      "tripName": "Test",
+      "activeUser": 2,
+      "id": 2
     }
   ],
   "friend": []
