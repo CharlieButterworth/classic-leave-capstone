@@ -7,7 +7,7 @@ import { GearContext } from "../gear/GearProvider"
 export const TripForm = (props) => {
     const { addTrip, getTrip, setTrip } = useContext(TripContext)
     const {parks, getParks } = useContext(ParkContext)
-    const { gear } = useContext(GearContext)
+    const { gear, addGear } = useContext(GearContext)
 
 
 
@@ -24,9 +24,21 @@ export const TripForm = (props) => {
         .then(setTrip)
     }, [])
 
+
+    const handleCheckbox = (event) => {
+        let activeUser = +localStorage.getItem("app_user_id")
+
+        if (event.target.checked) {
+            addGear({
+                userId: parseInt(activeUser)
+            })
+        }
+
+    }
+
 const constructNewTrip = () => {
-        const tripId = parseInt(tripName.id)
-        const parkId = parseInt(parkId)
+        const tripId = parseInt(tripId.id)
+        // const parkId = parseInt(parkId)
 
         
         if (tripName === ""){
@@ -34,7 +46,7 @@ const constructNewTrip = () => {
         } else {
             addTrip({
                 tripName: parkName.current.value,
-                activityName: activityName.current.value,
+                // activityName: activityName.current.value,  ----- need to add the form for gear around here
                 activeUser: parseInt(localStorage.getItem("app_user_id"))
             })
             .then(() => props.history.push("./"))
@@ -51,8 +63,22 @@ const constructNewTrip = () => {
                 <div className="form-group">
                     <label htmlFor="tripName">Trip name: </label>
                     <input type="text" id="tripName" ref={parkName} required autoFocus className="form-control" placeholder="Trip Name" />
-                    <label htmlFor="tripName">Activities: </label>
-                    <input type="text" id="activityName" ref={activityName} required autoFocus className="form-control" placeholder="Activities" />
+                  
+                  {/* Need to add gear here in order to have checkboxes to bring on trip */}
+                  
+       
+{gear.map(gear => {
+    const userGear = gear.find(g => g.gearId === tripId && +localStorage.getItem("app_user_id"))
+
+    if(userGear) {
+        return (<Form.Check type="checkbox" key={gear.id} label={gear.name} id={userGear.id} defaultChecked= {true} onChange={event => {handleCheckbox(event)}} />
+        )
+    }
+    else {
+        <div></div>
+    }
+})}
+                  
                     {/* <Form>
                     {['gear'].map((gear) => (
                          <div key={checkbox} className="mb-3">

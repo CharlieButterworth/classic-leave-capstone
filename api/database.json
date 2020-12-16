@@ -1,45 +1,40 @@
 {
-    "users": [
-        {
-            "email": "cb@cb.com",
-            "password": "cb",
-            "name": "chuck butters",
-            "id": 1
-        },
-        {
-            "email": "cb@cbdd.com",
-            "password": "cb",
-            "name": "charlie chah",
-            "id": 2
-        }
-    ],
-    "gear": [
-        {
-            "name": "Chair",
-            "activeUser": 1,
-            "id": 1
-        },
-        {
-            "name": "Football",
-            "activeUser": 1,
-            "id": 2
-        },
-        {
-            "name": "Trash bags",
-            "activeUser": 1,
-            "id": 3
-        },
-        {
-            "name": "Chair",
-            "activeUser": 2,
-            "id": 4
-        }
-    ],
-    "trip": [
-        {
-            "tripName": "rfrfr",
-            "id": 1
-        }
-    ],
-    "friend": []
+  "users": [
+    {
+      "email": "cb@cb.com",
+      "password": "cb",
+      "name": "chuck butters",
+      "id": 1
+    },
+    {
+      "email": "cb@cbdd.com",
+      "password": "cb",
+      "name": "charlie chah",
+      "id": 2
+    }
+  ],
+  "gear": [
+    {
+      "name": "Football",
+      "activeUser": 1,
+      "id": 2
+    },
+    {
+      "name": "Trash bags",
+      "activeUser": 1,
+      "id": 3
+    },
+    {
+      "name": "Chair",
+      "activeUser": 2,
+      "id": 4
+    }
+  ],
+  "trip": [
+    {
+      "tripName": "rfrfr",
+      "id": 1
+    }
+  ],
+  "friend": []
 }
