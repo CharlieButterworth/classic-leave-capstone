@@ -26,13 +26,13 @@ const addTrip = trip => {
 
 
     }
-    const addPackedItem = () => {
+    const addPackedItem = (item) => {
         return fetch(`http://localhost:8088/packedItem`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
         },
-        body: JSON.stringify(trip)
+        body: JSON.stringify(item)
         
         })
         .then(setTrip)

@@ -36,7 +36,7 @@ export const ParkDetails = (props) => {
 <section className="park">
         {console.log("USEEFFECT", parks)}
 
-    <h3>HELLO</h3>
+    <h3>We are about to paarrtyyyy</h3>
     
 
     {console.log("PROPS", props)}

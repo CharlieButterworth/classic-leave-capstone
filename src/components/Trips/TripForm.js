@@ -1,4 +1,4 @@
-import React, { useContext, useRef, useEffect } from "react"
+import React, { useContext, useRef, useEffect, useState } from "react"
 import { TripContext, TripProvider } from "./TripProvider"
 import { ParkContext } from "../parks/ParkProvider"
 import { Form } from "react-bootstrap"
@@ -10,7 +10,7 @@ export const TripForm = (props) => {
     const {parks, getParks } = useContext(ParkContext)
     const { gear, addGear, getGear } = useContext(GearContext)
 
-// const [gear ] = useState([])
+    const [packedItems, setPackedItems ] = useState([])
 
 
     const tripName = useRef(null)
@@ -51,27 +51,30 @@ const constructNewTrip = (gear) => {
         } else {
             addTrip({
                 tripName: parkName.current.value,
-                activeUser: parseInt(localStorage.getItem("app_user_id"))
+                activeUser: parseInt(localStorage.getItem("app_user_id")),
+                
             })
             // console.log(activeUser)
-            .then(() => addPackedItem({
-                // gear: gear.Id,
-                activeUser: parseInt(localStorage.getItem("app_user_id"))
-            }
-            ))
+            // .then(() => addPackedItem({
+            //     // gear: gear.Id,
+            //     activeUser: parseInt(localStorage.getItem("app_user_id")),
+            //     packedItems,
+            //     // tripId
+            // }
+            // ))
             .then(() => props.history.push("./"))
         }
-    }   
+       
 
-    const handleItemSelect = (gear) => {
-        console.log("GEARRRRR", gear)
-       return (
-           <>
-       <h2 className="packedList">Packing List</h2>
-       <p>{gear.name}</p>
-       </>
-       )
+    // const handleItemSelect = (event) => {
+    //     const newItemId = parseInt(event.target.value)
+    //     const stateToChange = [...packedItems]
 
+    //     stateToChange.push(newItemId)
+    //     setPackedItems(stateToChange)
+        // {
+        //     gear.map(g => <p key={g.id} value={g.id}>{g.name}</p>)
+        // }
     }
     
 
@@ -81,11 +84,11 @@ const constructNewTrip = (gear) => {
             <h2 className="tripForm__title"></h2>
             
             <fieldset>
-                <h3>PARK NAME</h3>
+                <h3>Adventure Time!</h3>
                 <div className="form-group">
                     <label htmlFor="tripName">Trip name: </label>
                     <input type="text" id="tripName" ref={parkName} required autoFocus className="form-control" placeholder="Trip Name" />
-                    <select onChange={handleItemSelect}> 
+                    {/* <select onChange={handleItemSelect}> 
 
                     
                     
@@ -94,14 +97,14 @@ const constructNewTrip = (gear) => {
                         gear.map(g => <option key={g.id} value={g.id}>{g.name} </option>)
                         
                     }
-                    </select>
+                    </select> */}
                     {/* {console.log(gear)} */}
                     
                   {/* Need to add gear here in order to have checkboxes to bring on trip */}
                   
-            <h3 className="packedList">Packed List</h3>
-           
-    {/* <div className="parkName">{parks.fullName}</div> */}
+            {/* <h3 className="packedList">Packed List</h3>
+                {packedItems.map(item =>  <p>{item}</p>)}  {/*need to add onto this with a .filter in order to find the name of the gear*/}
+    {/* <div className="parkName">{parks.fullName}</div>  */}
             <button type="submit"
                 onClick={evt => {
                     evt.preventDefault() // Prevent browser from submitting the form
@@ -110,6 +113,9 @@ const constructNewTrip = (gear) => {
                 className="btn btn-primary">
                 Save Trip
             </button>
+            {/* <button onClick={() => props.history.push("/gear/new")}>
+            Add Gear
+        </button> */}
             {/* </select> */}
             </div>
             </fieldset>
@@ -119,6 +125,7 @@ const constructNewTrip = (gear) => {
         
     )
     }
+
 
 
 
