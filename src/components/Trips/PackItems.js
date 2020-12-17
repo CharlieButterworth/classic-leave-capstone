@@ -14,7 +14,7 @@ export const PackItems = (props) => {
     const [packedItems, setPackedItems ] = useState([])
 
     const tripName = useRef(null)
-    const parkName = useRef(null)
+   
 
     const packGear = () => {
 
@@ -22,6 +22,7 @@ export const PackItems = (props) => {
             window.alert("I mean you have to name the trip")
         } else {
             addPackedItem({
+                tripId: parseInt(props.match.params.id),
                 gear: gear.Id,
                 activeUser: parseInt(localStorage.getItem("app_user_id")),
                 
@@ -57,14 +58,20 @@ return (
                         gear.map(g => <option key={g.id} value={g.id}>{g.name} </option>)
                     }
                     {console.log(gear)}
+
                     </select>
 
+<h3 className="packedList">Packed List</h3>
+                {packedItems.map(item =>  <p>{item}</p>)}
 
-{/* <h3 className="packedList">Packed List</h3>
-                {packedItems.map(item =>  <p>{item}</p>)} */}
+                <button onClick={() => props.history.push("/gear/new")}>
+            Forget Anything??
+        </button>
 
-
-
+<button onClick={() => props.history.push("/gear/new")}>
+            Add Gear
+        </button>
+ 
 
     </form>
 

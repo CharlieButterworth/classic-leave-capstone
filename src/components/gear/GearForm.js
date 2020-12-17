@@ -48,6 +48,9 @@ export const GearForm = (props) => {
                 className="btn btn-primary">
                 Save Gear
             </button>
+            <button onClick={() => props.history.push("/trip/:id(\d+)")}>
+            Back To Trip
+        </button>
             </form>
         )
 

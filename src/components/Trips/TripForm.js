@@ -62,7 +62,7 @@ const constructNewTrip = (gear) => {
             //     // tripId
             // }
             // ))
-            .then(() => props.history.push("./"))
+            .then(() => props.history.push("./trip/"))
         }
        
 
@@ -84,7 +84,7 @@ const constructNewTrip = (gear) => {
             <h2 className="tripForm__title"></h2>
             
             <fieldset>
-                <h3>Adventure Time!</h3>
+                <h3>Step 1:</h3>
                 <div className="form-group">
                     <label htmlFor="tripName">Trip name: </label>
                     <input type="text" id="tripName" ref={parkName} required autoFocus className="form-control" placeholder="Trip Name" />
@@ -100,7 +100,7 @@ const constructNewTrip = (gear) => {
                     </select> */}
                     {/* {console.log(gear)} */}
                     
-                  {/* Need to add gear here in order to have checkboxes to bring on trip */}
+                  
                   
             {/* <h3 className="packedList">Packed List</h3>
                 {packedItems.map(item =>  <p>{item}</p>)}  {/*need to add onto this with a .filter in order to find the name of the gear*/}
@@ -113,9 +113,7 @@ const constructNewTrip = (gear) => {
                 className="btn btn-primary">
                 Save Trip
             </button>
-            {/* <button onClick={() => props.history.push("/gear/new")}>
-            Add Gear
-        </button> */}
+            
             {/* </select> */}
             </div>
             </fieldset>
