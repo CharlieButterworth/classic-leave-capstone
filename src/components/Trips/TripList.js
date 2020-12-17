@@ -24,6 +24,7 @@ export const TripList = (props) => {
         </button> */}
         <div className="tripList">
           <h3>My Trip's</h3>
+          <p>Don't see trips? Add gear to begin!</p>
         {
             
         trip.map(t => {

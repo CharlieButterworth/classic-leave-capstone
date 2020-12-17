@@ -34,7 +34,7 @@ const addTrip = trip => {
         },
         body: JSON.stringify(item)
         
-        }).then(setPackedItems)
+        }).then(getPackedItems)
         
 
 

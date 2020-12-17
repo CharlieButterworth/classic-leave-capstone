@@ -4,135 +4,97 @@ import { ParkContext } from "../parks/ParkProvider"
 import { Form } from "react-bootstrap"
 import { GearContext } from "../gear/GearProvider"
 import { GarageList } from "../gear/GarageList"
+import {Gear} from "../gear/Gear"
 
 
 
 export const PackItems = (props) => {
-    const { gear, addGear, getGear } = useContext(GearContext)
-    const { getPackedItems, addPackedItem, packedItems } = useContext(TripContext)
+    const { gear, getGear } = useContext(GearContext)
+    const { getPackedItems, addPackedItem, packedItems, setPackedItem } = useContext(TripContext)
 
-
+    const [itemArray, setItemArray] = useState([])
    const  [selectedItem, setSelectedItem] = useState(null)
 
     const tripName = useRef(null)
-
-
-
-
-    let item 
-    useEffect(() => {
-        console.log(selectedItem)
-        return item = gear.find(g => g.id === packedItems)
-    }, [selectedItem])
+    const gearValue = useRef(null)
 
     useEffect(() => {
         getPackedItems().then(getGear)
     }, [])
+
+
+    let item = ""
+    useEffect(() => {
+        // console.log(selectedItem)
+        return item = gear.find(g => g.id === packedItems)
+    }, [selectedItem])
+
    
 
     const packGear = (event) => {
-
+console.log("console", event.target.value)
      if (tripName === ""){
             window.alert("I mean you have to name the trip")
         } else {
             addPackedItem({
-                // tripId: parseInt(props.match.params.id),
-                // gear: parseInt(props.match.parmas.id),
-                newItemId: parseInt(event.target.value),
+                tripId: parseInt(props.match.params.id),
+                gearId: parseInt(event.target.value),
                 activeUser: parseInt(localStorage.getItem("app_user_id")),
                 
-                // tripId
-
-
-})
+                
+                
+                
+            })
+            
         }
     }
 
-    
 
-    // const handleItemSelect = (event) => {
-    //     const stateToChange = [...packedItems]
-
-    //     stateToChange.push(newItemId)
-    //     setPackedItems(stateToChange)
-    //     // {
-    //     //     gear.map(g => <p key={g.id} value={g.id}>{g.name}</p>)
-    //     // }
-    // }
-
-return (
+    return (
+        <>
     <div>
 
-    <>
     <form className="packForm">
-{console.log(packedItems)}
+{/* {console.log(packedItems)} */}
  <select onChange={(c => {
-    setSelectedItem(c.target.value)})}>
-    
-
- 
-
-                    
+    //  console.log("LOGGG", c)
+     let packList = +c.target.value
+    setSelectedItem(c.target.value)
+    itemArray.push(packList)
+    packGear(c)
+    })}>
                     
                     <option value="0">Pack Your Things</option>
                     {
-                        gear.map(g => <option key={g.id} value={g.id}>{g.name} </option>)
+                        gear.map(g => <option key={g.id} ref={gearValue} value={g.id} id={g.id}>{g.name} </option>)
+                        
                     }
-                    {console.log(gear)}
+                    {console.log("Gear", gear)}
+                    {/* {console.log(packedItems)} */}
 
                     </select>
 
-<h3 className="packedList">Packed List</h3>
-{/* {gear.find((g) => {
-    g.id === selectedItem 
-    return <p>{g.name}</p>
-
-})} */}
-                 {
-                    
-                  <p>{item}</p>
-
-                }  
                 
                 {/* {console.log(packedItems)} */}
 
-                <button onClick={() => props.history.push("/trip")}>
-            Done Packing
-        </button>
-
-<button onClick={() => props.history.push("/gear/new")}>
-            Add Gear
-        </button>
- 
- <button
-            type="submit"
-            onClick={(evt) => {
-                evt.preventDefault();
-                packGear()
-                .then(() => props.history.push("/trip") )
-            }}
-            className="btn btn-primary"
-            >
-            Add To trip
-          </button>
-
-    </form>
-
-
-
-
-
-
-    </>
-            </div>
-
-
-
-
+        
+        <h3 className="packedList">Packed List</h3>
+    {
+        itemArray.map(item => {
+            /* eslint-disable no-unused-expressions */
+           let gearItem = gear.find(g =>  {return item === g.id})
+        console.log("NEW CONSOLELOG", gear, item)
+            return (
+                <p>{gearItem.name}</p>
+            )
+        })
+    }
+                    {/* This is where the item is listed once selected in dropdown */}
                 
 
-
-
+    </form>
+            </div>
+    </>
 
 )
 

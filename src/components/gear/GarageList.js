@@ -5,11 +5,11 @@ import { Gear } from "./Gear"
 
 
 export const GarageList = (props) => {
+// this hook allows passing of data from children elements
+    const { gear, getGear, setGear } = useContext(GearContext)  
 
-    const { gear, getGear, setGear } = useContext(GearContext)
 
-
-
+// this useEffect tells React that my component needs to get the gear after render
     useEffect(() => {
         getGear()
     }, [])

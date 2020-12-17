@@ -23,6 +23,12 @@
       "password": "cb",
       "name": "Tyler b",
       "id": 4
+    },
+    {
+      "email": "ss@gmail.com",
+      "password": "cb",
+      "name": "Scott Silver",
+      "id": 5
     }
   ],
   "gear": [
@@ -77,11 +83,6 @@
       "id": 14
     },
     {
-      "name": "hello",
-      "activeUser": 2,
-      "id": 16
-    },
-    {
       "name": "JAcket",
       "activeUser": 2,
       "id": 17
@@ -95,6 +96,36 @@
       "name": "jeans",
       "activeUser": 2,
       "id": 19
+    },
+    {
+      "name": "tent",
+      "activeUser": 5,
+      "id": 20
+    },
+    {
+      "name": "chair",
+      "activeUser": 5,
+      "id": 21
+    },
+    {
+      "name": "table",
+      "activeUser": 5,
+      "id": 22
+    },
+    {
+      "name": "Dog leash",
+      "activeUser": 5,
+      "id": 23
+    },
+    {
+      "name": "Football",
+      "activeUser": 5,
+      "id": 24
+    },
+    {
+      "name": "Baseball gloves",
+      "activeUser": 5,
+      "id": 25
     }
   ],
   "trip": [
@@ -117,7 +148,87 @@
       "tripName": "Test trip",
       "activeUser": 2,
       "id": 4
+    },
+    {
+      "tripName": "First trip",
+      "activeUser": 5,
+      "id": 5
+    },
+    {
+      "tripName": "Second trip",
+      "activeUser": 5,
+      "id": 6
+    },
+    {
+      "tripName": "Test",
+      "activeUser": 5,
+      "id": 7
+    },
+    {
+      "tripName": "Test trips",
+      "activeUser": 5,
+      "id": 8
+    },
+    {
+      "tripName": "Acadia",
+      "activeUser": 5,
+      "id": 9
     }
   ],
-  "packedItem": []
+  "packedItem": [
+    {
+      "tripId": 5,
+      "gearId": 20,
+      "activeUser": 5,
+      "id": 1
+    },
+    {
+      "tripId": 5,
+      "gearId": 22,
+      "activeUser": 5,
+      "id": 2
+    },
+    {
+      "tripId": 5,
+      "gearId": 20,
+      "activeUser": 5,
+      "id": 3
+    },
+    {
+      "tripId": 5,
+      "gearId": 21,
+      "activeUser": 5,
+      "id": 4
+    },
+    {
+      "tripId": 5,
+      "gearId": 21,
+      "activeUser": 5,
+      "id": 5
+    },
+    {
+      "tripId": 5,
+      "gearId": 20,
+      "activeUser": 5,
+      "id": 6
+    },
+    {
+      "tripId": 7,
+      "gearId": 22,
+      "activeUser": 5,
+      "id": 7
+    },
+    {
+      "tripId": 7,
+      "gearId": 25,
+      "activeUser": 5,
+      "id": 8
+    },
+    {
+      "tripId": 7,
+      "gearId": 21,
+      "activeUser": 5,
+      "id": 9
+    }
+  ]
 }
