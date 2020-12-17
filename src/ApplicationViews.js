@@ -12,6 +12,8 @@ import { TripProvider } from "./components/trips/TripProvider";
 import { TripList } from "./components/trips/TripList"
 import { FriendProvider } from "./components/friends/FriendsProvider";
 import { FriendList } from "./components/friends/FriendList"
+import  { PackForTrip, PackItems } from "./components/trips/PackItems"
+
 
 
 
@@ -21,22 +23,28 @@ export const ApplicationViews = (props) => {
 
         //PARK INFO
         <>
+        
+
         <TripProvider>
         <GearProvider>
             <ParkProvider>
             <Route exact path="/trip"
           render={(props) =>  <ParkList {...props}/>}
-            />
-            {/* <Route
-            path="/trip"
-            render={(props) => <ParkDetails {...props} />}
-            /> */}
+          />
+            <Route
+           exact path="/"
+            render={(props) => <TripList {...props} />}
+        />
             <Route exact path="/trip"
               render={(props) => <TripList {...props} />}
               />
             <Route exact path="/trip/create"
               render={(props) => <TripForm {...props} />}
               />
+              <Route exact path="/trip/:id(\d+)"
+              render={(props) => <PackItems {...props} />}
+              />
+              
               
               <Route exact path="/trip/:id(\w\w\w\w\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w\w\w\w\w\w\w\w\w)"
               render={(props) => <ParkDetails {...props}/>}
@@ -44,6 +52,7 @@ export const ApplicationViews = (props) => {
         </ParkProvider>
               </GearProvider>
               </TripProvider>
+            
 
 
         
@@ -65,13 +74,7 @@ export const ApplicationViews = (props) => {
             
 
 
-            <FriendProvider>
-                <Route
-             exact path="/friend"
-              render={(props) => <FriendList  {...props} />}
-              />
-
-            </FriendProvider>
+           
 
 
 

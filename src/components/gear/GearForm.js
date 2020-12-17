@@ -48,6 +48,7 @@ export const GearForm = (props) => {
                 className="btn btn-primary">
                 Save Gear
             </button>
+            
             </form>
         )
 

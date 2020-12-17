@@ -36,7 +36,7 @@ export const ParkDetails = (props) => {
 <section className="park">
         {console.log("USEEFFECT", parks)}
 
-    <h3>HELLO</h3>
+    <h3>Here we go...</h3>
     
 
     {console.log("PROPS", props)}
@@ -61,9 +61,9 @@ export const ParkDetails = (props) => {
 
 
 
-{/* <button onClick={() => {
+<button onClick={() => {
     props.history.push(`/trip/create`)
-}}>Let's Adventure!</button> */}
+}}>Let's Adventure!</button>
 
 </section>
 
