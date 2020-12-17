@@ -4,7 +4,7 @@ export const TripContext = React.createContext()
 
 export const TripProvider = (props) => {
     const [trip, setTrip] = useState([])
-
+    const [packedItems, setPackedItems ] = useState([])
 
 const user = localStorage.getItem("app_user_id")
 const getTrip = () => {
@@ -34,18 +34,24 @@ const addTrip = trip => {
         },
         body: JSON.stringify(item)
         
-        })
-        .then(setTrip)
+        }).then(setPackedItems)
+        
 
 
     }
+
+    const getPackedItems = () => {
+    return fetch(`http://localhost:8088/packedItem/?activeUser=${user}`)
+    .then(res => res.json())
+    .then(setPackedItems)
+}
 
     
 
 
 return (
         <TripContext.Provider value={{
-            trip, getTrip, setTrip, addTrip, addPackedItem
+            trip, getTrip, setTrip, addTrip, addPackedItem, packedItems, getPackedItems
         }}>
             {props.children}
         </TripContext.Provider>

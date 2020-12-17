@@ -74,13 +74,7 @@ export const ApplicationViews = (props) => {
             
 
 
-            <FriendProvider>
-                <Route
-             exact path="/friend"
-              render={(props) => <FriendList  {...props} />}
-              />
-
-            </FriendProvider>
+           
 
 
 

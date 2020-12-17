@@ -14,7 +14,7 @@ export const GarageList = (props) => {
         getGear()
     }, [])
 
-    // const currrentUser = localStorage.getItem("app_user_id")
+    
 
     return (
     <div className="gear">

@@ -37,11 +37,6 @@
       "id": 3
     },
     {
-      "name": "Tent",
-      "activeUser": 2,
-      "id": 5
-    },
-    {
       "name": "Cord",
       "activeUser": 3,
       "id": 7
@@ -85,18 +80,43 @@
       "name": "hello",
       "activeUser": 2,
       "id": 16
+    },
+    {
+      "name": "JAcket",
+      "activeUser": 2,
+      "id": 17
+    },
+    {
+      "name": "Sled",
+      "activeUser": 2,
+      "id": 18
+    },
+    {
+      "name": "jeans",
+      "activeUser": 2,
+      "id": 19
     }
   ],
   "trip": [
     {
-      "tripName": "Lets vacay",
+      "tripName": "First trip",
       "activeUser": 2,
       "id": 1
     },
     {
-      "tripName": "Trip party",
+      "tripName": "test",
       "activeUser": 2,
       "id": 2
+    },
+    {
+      "tripName": "test3",
+      "activeUser": 2,
+      "id": 3
+    },
+    {
+      "tripName": "Test trip",
+      "activeUser": 2,
+      "id": 4
     }
   ],
   "packedItem": []

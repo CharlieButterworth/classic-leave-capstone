@@ -8,6 +8,7 @@ import { TripForm } from "./TripForm"
 export const TripList = (props) => {
 
     const { trip, getTrip, setTrip } = useContext(TripContext)
+    // const { gear }
 
 
 

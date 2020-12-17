@@ -62,7 +62,7 @@ const constructNewTrip = (gear) => {
             //     // tripId
             // }
             // ))
-            .then(() => props.history.push("./trip/"))
+            .then(() => props.history.push("./"))
         }
        
 
