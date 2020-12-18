@@ -173,62 +173,91 @@
       "tripName": "Acadia",
       "activeUser": 5,
       "id": 9
+    },
+    {
+      "tripName": "Demo trip",
+      "activeUser": 5,
+      "id": 10
     }
   ],
   "packedItem": [
     {
-      "tripId": 5,
+      "tripId": 10,
       "gearId": 20,
       "activeUser": 5,
       "id": 1
     },
     {
-      "tripId": 5,
-      "gearId": 22,
+      "tripId": 10,
+      "gearId": 21,
       "activeUser": 5,
       "id": 2
     },
     {
-      "tripId": 5,
-      "gearId": 20,
+      "tripId": 10,
+      "gearId": 22,
       "activeUser": 5,
       "id": 3
     },
     {
-      "tripId": 5,
-      "gearId": 21,
+      "tripId": 10,
+      "gearId": 24,
       "activeUser": 5,
       "id": 4
     },
     {
-      "tripId": 5,
-      "gearId": 21,
+      "tripId": 10,
+      "gearId": 25,
       "activeUser": 5,
       "id": 5
     },
     {
-      "tripId": 5,
-      "gearId": 20,
+      "tripId": 10,
+      "gearId": 23,
       "activeUser": 5,
       "id": 6
     },
     {
-      "tripId": 7,
-      "gearId": 22,
+      "tripId": 10,
+      "gearId": 21,
       "activeUser": 5,
       "id": 7
     },
     {
-      "tripId": 7,
-      "gearId": 25,
+      "tripId": 10,
+      "gearId": 20,
       "activeUser": 5,
       "id": 8
     },
     {
-      "tripId": 7,
-      "gearId": 21,
+      "tripId": 10,
+      "gearId": 22,
       "activeUser": 5,
       "id": 9
+    },
+    {
+      "tripId": 10,
+      "gearId": 24,
+      "activeUser": 5,
+      "id": 10
+    },
+    {
+      "tripId": 6,
+      "gearId": 21,
+      "activeUser": 5,
+      "id": 11
+    },
+    {
+      "tripId": 6,
+      "gearId": 23,
+      "activeUser": 5,
+      "id": 12
+    },
+    {
+      "tripId": 5,
+      "gearId": 21,
+      "activeUser": 5,
+      "id": 13
     }
   ]
 }

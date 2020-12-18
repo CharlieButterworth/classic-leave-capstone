@@ -49,23 +49,7 @@ export const GarageList = (props) => {
 
 
 
-// if (gear.length === true) {
+
         
         
-    //     return (
-    //         <div className="gear">
-    //         {
-    //             gear.map(g => <Gear key={g.id} garage={g} />)
-    //         }
-    //         </div>
-    //         )
-    //     } else {
-    //         return (
-    //              <div className="gear">
-    //         {
-    //             gear.map(g => <Gear key={g.id} garage={g} />)
-    //         }
-    //         </div>
-    
-            
-    //     )}
+   
