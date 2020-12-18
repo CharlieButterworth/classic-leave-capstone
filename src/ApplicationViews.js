@@ -13,6 +13,7 @@ import { TripList } from "./components/trips/TripList"
 import { FriendProvider } from "./components/friends/FriendsProvider";
 import { FriendList } from "./components/friends/FriendList"
 import  { PackForTrip, PackItems } from "./components/trips/PackItems"
+import { PackedTripItems } from "./components/trips/PackedTripList";
 
 
 
@@ -43,6 +44,9 @@ export const ApplicationViews = (props) => {
               />
               <Route exact path="/trip/:id(\d+)"
               render={(props) => <PackItems {...props} />}
+              />
+               <Route exact path="/trip/:id(\d+)"
+              render={(props) => <PackedTripItems {...props} />}
               />
               
               

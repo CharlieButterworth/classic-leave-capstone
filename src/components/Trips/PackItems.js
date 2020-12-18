@@ -1,10 +1,8 @@
 import React, { useContext, useRef, useEffect, useState } from "react"
 import { TripContext, TripProvider } from "./TripProvider"
-import { ParkContext } from "../parks/ParkProvider"
-import { Form } from "react-bootstrap"
+
 import { GearContext } from "../gear/GearProvider"
-import { GarageList } from "../gear/GarageList"
-import {Gear} from "../gear/Gear"
+
 
 
 
