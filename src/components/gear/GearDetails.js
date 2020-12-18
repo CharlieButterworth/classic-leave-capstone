@@ -3,6 +3,7 @@ import { GearContext } from "./GearProvider"
 
 
 export const GearDetails = (props) => {
+    // this hook allows passing of data from children elements
     const { deleteGear, getGear, getGearById} = useContext(GearContext)
 
     const [gear, setGear] = useState({});
