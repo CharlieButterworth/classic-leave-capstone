@@ -15,6 +15,8 @@ export const GearForm = (props) => {
     useEffect(() => {
         getGear().then(setGear)
     }, [])
+
+    // This is how the gear is added
     
     const constructNewGear = () => {
         const garageId = parseInt(gearName.id)

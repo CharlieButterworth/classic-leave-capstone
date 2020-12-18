@@ -35,6 +35,7 @@ export const TripList = (props) => {
             Add Gear To Trip
         </button>
         
+        
         </>
         )})
             

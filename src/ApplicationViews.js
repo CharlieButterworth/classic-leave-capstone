@@ -45,7 +45,7 @@ export const ApplicationViews = (props) => {
               <Route exact path="/trip/:id(\d+)"
               render={(props) => <PackItems {...props} />}
               />
-               <Route exact path="/trip/:id(\d+)"
+               <Route exact path="/trip/packed/:id(\d+)"
               render={(props) => <PackedTripItems {...props} />}
               />
               

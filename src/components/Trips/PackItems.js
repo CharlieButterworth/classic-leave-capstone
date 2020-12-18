@@ -1,5 +1,5 @@
 import React, { useContext, useRef, useEffect, useState } from "react"
-import { TripContext, TripProvider } from "./TripProvider"
+import { TripContext } from "./TripProvider"
 
 import { GearContext } from "../gear/GearProvider"
 
@@ -91,6 +91,7 @@ console.log("console", event.target.value)
                 
 
     </form>
+
             </div>
     </>
 
