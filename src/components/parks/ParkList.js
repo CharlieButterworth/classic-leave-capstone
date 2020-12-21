@@ -2,12 +2,14 @@ import React, { useContext, useEffect, useRef} from "react"
 import { ParkContext } from "./ParkProvider"
 import { Link } from "react-router-dom"
 import { Park } from "./Park"
+import { TripContext } from "../trips/TripProvider"
 
 export const ParkList = (props) => {
     const { parks, getParks, getParkById } = useContext(ParkContext)
+    const { trip } = useContext(TripContext)
 
     const park = useRef([]) //tried (null)
-    
+    console.log("PARK PROPS", props)
     useEffect(() => {
         getParks()
     }, 
@@ -16,9 +18,9 @@ export const ParkList = (props) => {
     const handleParkSelect = () => {
         
         getParks()
-        .then(() => 
-            props.history.push(`/trip/${park.current.value}`)
-        )
+        // .then(() => 
+        //     props.history.push(`/trip/${tripId}`)
+        // )
     }
     
     return (

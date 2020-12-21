@@ -7,7 +7,7 @@ export const Trip = ({ trip }) => (
        <Card.Body> 
     <section className="parks">
             <article className="parkList">
-            <Link to={`/trip/packed/${trip.id}`}>  
+            <Link to={`/trips/${trip.id}`}>  
            <h3>{trip.tripName} </h3>   
            </Link>  
                 

@@ -7,13 +7,13 @@ export const GearProvider = (props) => {
 
     const user = localStorage.getItem("app_user_id")
     const getGear = () => {
-        return fetch(`http://localhost:8088/gear/?activeUser=${user}`)
+        return fetch(`http://localhost:8088/gears/?activeUser=${user}`)
         .then(res => res.json())
             .then(setGear)
     }
 
     const addGear = gear => {
-        return fetch("http://localhost:8088/gear", {
+        return fetch("http://localhost:8088/gears", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -24,13 +24,13 @@ export const GearProvider = (props) => {
         .then(getGear)
 }
 const getGearById = (id) => {
-        return fetch(`http://localhost:8088/gear/${id}`)
+        return fetch(`http://localhost:8088/gears/${id}`)
             .then(res => res.json())
     }
 
 
         const deleteGear = (id) => {
-    return fetch(`http://localhost:8088/gear/${id}`, {
+    return fetch(`http://localhost:8088/gears/${id}`, {
         method: "DELETE"
     })
         .then(getGear)

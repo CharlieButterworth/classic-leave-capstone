@@ -7,8 +7,8 @@ import { TripForm } from "./TripForm"
 
 export const TripList = (props) => {
 
-    const { trip, getTrip, setTrip } = useContext(TripContext)
-    // const { gear }
+    const { trips, getTrip, setTrip } = useContext(TripContext)
+    
 
 
 
@@ -19,19 +19,19 @@ export const TripList = (props) => {
     return (
     <div className="trip">
         {/* <h1>Trips</h1> */}
-        {/* <button onClick={() => props.history.push("/trip/create")}>
+        <button onClick={() => props.history.push("/trips/create")}>
             Add Trip
-        </button> */}
+        </button>
         <div className="tripList">
           <h3>My Trip's</h3>
           <p>Don't see trips? Add gear to begin!</p>
         {
             
-        trip.map(t => {
+        trips.map(t => {
 
             return ( <> <Trip key={t.id} trip={t} />
         
-        <button onClick={() => props.history.push(`/trip/${t.id}`)}>
+        <button onClick={() => props.history.push(`/trips/${t.id}`)}>
             Add Gear To Trip
         </button>
         
@@ -41,7 +41,7 @@ export const TripList = (props) => {
             
 }
  {/* <button onClick={() => props.history.push(`/trip/${trip.id})`)}>
-            Add Gear To Trip
+            Delete Gear
         </button> */}
             </div>
             

@@ -11,7 +11,7 @@ export const Gear = ({ gear }) => (
        <Card.Body> 
     <section className="gear">
         <h3 className="gear__name">
-            <Link to={`/gear/${gear.id}`}>
+            <Link to={`/gears/${gear.id}`}>
                 { gear.name }
             </Link>
             

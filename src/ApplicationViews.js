@@ -29,28 +29,28 @@ export const ApplicationViews = (props) => {
         <TripProvider>
         <GearProvider>
             <ParkProvider>
-            <Route exact path="/trip"
+            <Route exact path="/trips"
           render={(props) =>  <ParkList {...props}/>}
           />
             <Route
            exact path="/"
             render={(props) => <TripList {...props} />}
         />
-            <Route exact path="/trip"
+            <Route exact path="/trips"
               render={(props) => <TripList {...props} />}
               />
-            <Route exact path="/trip/create"
+            <Route exact path="/trips/create"
               render={(props) => <TripForm {...props} />}
               />
-              <Route exact path="/trip/:id(\d+)"
+              <Route path="/trips/:id(\d+)"
               render={(props) => <PackItems {...props} />}
               />
-               <Route exact path="/trip/packed/:id(\d+)"
+               {/* <Route exact path="/trips/:id(\d+)"
               render={(props) => <PackedTripItems {...props} />}
-              />
+              /> */}
               
               
-              <Route exact path="/trip/:id(\w\w\w\w\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w\w\w\w\w\w\w\w\w)"
+              <Route exact path="/trips/:id(\w\w\w\w\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w\w\w\w\w\w\w\w\w)"
               render={(props) => <ParkDetails {...props}/>}
               />
         </ParkProvider>
@@ -63,15 +63,15 @@ export const ApplicationViews = (props) => {
         
         <GearProvider>
             <Route
-             exact path="/gear"
+             exact path="/gears"
               render={(props) => <GarageList  {...props} />}
               />
               <Route
-                path="/gear/:id(\d+)"
+                path="/gears/:id(\d+)"
               render={(props) => <GearDetails  {...props} />}
               />
               
-              <Route exact path="/gear/new"
+              <Route exact path="/gears/new"
               render={(props) => <GearForm {...props} />}
               />
         </GearProvider>
