@@ -5,13 +5,21 @@ import {TripContext} from "./TripProvider"
 
 
 export const PackedTripItems = (props) => {
-    // const {gear, getGear} = useContext(GearContext)
-    const {trip, getTrip, getPackedItems, packedItems, } = useContext(TripContext)
+    const {trips, getTrip, getPackedItems, packedItems, } = useContext(TripContext)
     const {gear, getGear } = useContext(GearContext)
 
 
 
-useEffect(() => {
+// useEffect(() => {
+//     getTripPackedItems()
+// })
+
+
+
+
+
+
+    useEffect(() => {
     getPackedItems().then(() => {
         getTrip().then(() => {
             getGear()
@@ -24,40 +32,14 @@ useEffect(() => {
 return (
 
     <div className='packedItemsList'>
-
+<h3>What's Packed???</h3>
         
 {
    packedItems.map(pi => {
 /* eslint-disable no-unused-expressions */
-       gear.find(gear => {{pi.activeUser === gear.activeUser && pi.gearId === gear.id}
+       gear.find(gear => {{pi.activeUser === gear.activeUser && pi.tripId === trips.id}
      
-       return <Gear key={gear.id} gear={gear} />})
-            
-
-console.log("PACKED ITEMS AND TRIPS HERE", packedItems, trip,)
-     
-         
-            
-            
-            
-        
-          
-
-
-
-
-
-
-
-
-
-
-             {/* <button onClick={() => props.history.push(`/trip/${trip.id})`)}>
-            Add Gear To Trip
-        </button> */}
-            
-            
-            
+     return   <Gear key={gear.id} gear={gear} />})
             
         })
 }

@@ -47,7 +47,7 @@ const constructNewTrip = (gear) => {
 
         
         if (tripName === ""){
-            window.alert("I mean you have to name the trip")
+            window.alert("Please Name Trip!")
         } else {
             addTrip({
                 tripName: parkName.current.value,
@@ -62,7 +62,7 @@ const constructNewTrip = (gear) => {
             //     // tripId
             // }
             // ))
-            .then(() => props.history.push("./"))
+            .then(() => props.history.push("/"))
         }
        
 

@@ -29,9 +29,15 @@
       "password": "cb",
       "name": "Scott Silver",
       "id": 5
+    },
+    {
+      "email": "tw@gmail.com",
+      "password": "cb",
+      "name": "t w",
+      "id": 6
     }
   ],
-  "gear": [
+  "gears": [
     {
       "name": "Football",
       "activeUser": 1,
@@ -98,16 +104,6 @@
       "id": 19
     },
     {
-      "name": "sleeping bag",
-      "activeUser": 5,
-      "id": 22
-    },
-    {
-      "name": "tent",
-      "activeUser": 5,
-      "id": 23
-    },
-    {
       "name": "chair",
       "activeUser": 5,
       "id": 24
@@ -116,67 +112,48 @@
       "name": "sleeping pad",
       "activeUser": 5,
       "id": 25
+    },
+    {
+      "name": "Tennis Ball",
+      "activeUser": 5,
+      "id": 26
+    },
+    {
+      "name": "Sleeping bag",
+      "activeUser": 5,
+      "id": 27
     }
   ],
-  "trip": [
+  "trips": [
     {
-      "tripName": "Acadia",
+      "tripName": "Alaska",
       "activeUser": 5,
       "id": 1
     },
     {
-      "tripName": "This might work?",
+      "tripName": "Smokies",
       "activeUser": 5,
       "id": 2
-    },
-    {
-      "tripName": "This didnt work ",
-      "activeUser": 5,
-      "id": 3
     }
   ],
   "packedItem": [
     {
       "tripId": 1,
-      "gearId": 22,
-      "activeUser": 5,
-      "id": 1
-    },
-    {
-      "tripId": 1,
-      "gearId": 23,
+      "gearId": 27,
       "activeUser": 5,
       "id": 2
     },
     {
-      "tripId": 1,
+      "tripId": 2,
       "gearId": 25,
-      "activeUser": 5,
-      "id": 3
-    },
-    {
-      "tripId": 1,
-      "gearId": 24,
       "activeUser": 5,
       "id": 4
     },
     {
       "tripId": 1,
-      "gearId": 25,
+      "gearId": 26,
       "activeUser": 5,
       "id": 5
-    },
-    {
-      "tripId": 1,
-      "gearId": 22,
-      "activeUser": 5,
-      "id": 6
-    },
-    {
-      "tripId": 1,
-      "gearId": 25,
-      "activeUser": 5,
-      "id": 7
     }
   ]
 }

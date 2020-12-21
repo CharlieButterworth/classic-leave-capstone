@@ -3,20 +3,23 @@ import React, { useState } from "react"
 export const TripContext = React.createContext()
 
 export const TripProvider = (props) => {
-    const [trip, setTrip] = useState([])
+    const [trips, setTrip] = useState([])
     const [packedItems, setPackedItems ] = useState([])
 
 const user = localStorage.getItem("app_user_id")
+// const tripId = trips.id
+// const tripId = parseInt(props.match.params.id)
+// console.log(tripId)
 
 
 const getTrip = () => {
-    return fetch(`http://localhost:8088/trip/?activeUser=${user}`)
+    return fetch(`http://localhost:8088/trips/?activeUser=${user}`)
     .then(res => res.json())
     .then(setTrip)
 }
 
 const addTrip = trip => {
-        return fetch("http://localhost:8088/trip", {
+        return fetch("http://localhost:8088/trips", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -36,17 +39,24 @@ const addTrip = trip => {
         },
         body: JSON.stringify(item)
         
-        }).then(getPackedItems)
+        })
         
 
 
     }
 
-    const getPackedItems = () => {
-    return fetch(`http://localhost:8088/packedItem/?activeUser=${user}`)
+//     const getPackedItems = () => {
+//     return fetch(`http://localhost:8088/packedItem?_expand=gear&activeUser=${user}`)
+//     .then(res => res.json())
+//     .then(setPackedItems)
+// }
+
+const getTripPackedItems = (tripId) => {
+    return fetch(`http://localhost:8088/packedItem?_expand=gear&tripId=${tripId}`)
     .then(res => res.json())
     .then(setPackedItems)
 }
+// console.log("GETTRIPPACKEDITEM", getTripPackedItems)
 
 
 
@@ -55,7 +65,7 @@ const addTrip = trip => {
 
 return (
         <TripContext.Provider value={{
-            trip, getTrip, setTrip, addTrip, addPackedItem, packedItems, getPackedItems, 
+            trips, getTrip, setTrip, addTrip, addPackedItem, packedItems, getTripPackedItems
         }}>
             {props.children}
         </TripContext.Provider>
