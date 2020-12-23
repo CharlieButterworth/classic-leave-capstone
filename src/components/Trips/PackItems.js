@@ -27,14 +27,14 @@ export const PackItems = (props) => {
 
 
     const packGear = (event) => {
-console.log("console", event.target.value)
+// console.log("console", event.target.value)
      if (tripName === ""){
             window.alert("I mean you have to name the trip")
         } else {
             addPackedItem({
                 tripId: tripId,
                 gearId: parseInt(event.target.value),
-                activeUser: parseInt(localStorage.getItem("app_user_id")),
+                activeUser: parseInt(localStorage.getItem("app_user_id")), //take this out 
                 
                 
                 
