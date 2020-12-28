@@ -1,159 +1,97 @@
 {
   "users": [
     {
-      "email": "cb@cb.com",
+      "email": "cb@gmail.com",
       "password": "cb",
-      "name": "chuck butters",
+      "name": "Chuck Butters",
       "id": 1
-    },
-    {
-      "email": "cb@cbdd.com",
-      "password": "cb",
-      "name": "charlie chah",
-      "id": 2
-    },
-    {
-      "email": "ass@fkgk.com",
-      "password": "cb",
-      "name": "Zack piller",
-      "id": 3
-    },
-    {
-      "email": "bb@gm",
-      "password": "cb",
-      "name": "Tyler b",
-      "id": 4
-    },
-    {
-      "email": "ss@gmail.com",
-      "password": "cb",
-      "name": "Scott Silver",
-      "id": 5
-    },
-    {
-      "email": "tw@gmail.com",
-      "password": "cb",
-      "name": "t w",
-      "id": 6
     }
   ],
   "gears": [
     {
-      "name": "Football",
+      "name": "Tent",
+      "activeUser": 1,
+      "id": 1
+    },
+    {
+      "name": "Sleeping bag",
       "activeUser": 1,
       "id": 2
     },
     {
-      "name": "Trash bags",
+      "name": "Sleeping pad",
       "activeUser": 1,
       "id": 3
     },
     {
-      "name": "Cord",
-      "activeUser": 3,
-      "id": 7
+      "name": "Football",
+      "activeUser": 1,
+      "id": 4
     },
     {
-      "name": "Rope",
-      "activeUser": 3,
-      "id": 8
+      "name": "Trash Bags",
+      "activeUser": 1,
+      "id": 5
     },
     {
-      "name": "Lighter",
-      "activeUser": 3,
-      "id": 9
-    },
-    {
-      "name": "Chair",
-      "activeUser": 3,
-      "id": 10
-    },
-    {
-      "name": "Tent",
-      "activeUser": 3,
-      "id": 11
-    },
-    {
-      "name": "Trash bags",
-      "activeUser": 3,
-      "id": 12
-    },
-    {
-      "name": "chairs",
-      "activeUser": 2,
-      "id": 13
-    },
-    {
-      "name": "Baseball",
-      "activeUser": 2,
-      "id": 14
-    },
-    {
-      "name": "JAcket",
-      "activeUser": 2,
-      "id": 17
-    },
-    {
-      "name": "Sled",
-      "activeUser": 2,
-      "id": 18
-    },
-    {
-      "name": "jeans",
-      "activeUser": 2,
-      "id": 19
-    },
-    {
-      "name": "chair",
-      "activeUser": 5,
-      "id": 24
-    },
-    {
-      "name": "sleeping pad",
-      "activeUser": 5,
-      "id": 25
-    },
-    {
-      "name": "Tennis Ball",
-      "activeUser": 5,
-      "id": 26
-    },
-    {
-      "name": "Sleeping bag",
-      "activeUser": 5,
-      "id": 27
+      "name": "Baseball Gloves",
+      "activeUser": 1,
+      "id": 6
     }
   ],
   "trips": [
     {
-      "tripName": "Alaska",
-      "activeUser": 5,
+      "tripName": "Nashville ",
+      "activeUser": 1,
       "id": 1
     },
     {
-      "tripName": "Smokies",
-      "activeUser": 5,
+      "tripName": "Memphis",
+      "activeUser": 1,
       "id": 2
+    },
+    {
+      "tripName": "Acadia",
+      "activeUser": 1,
+      "id": 3
     }
   ],
   "packedItem": [
     {
       "tripId": 1,
-      "gearId": 27,
-      "activeUser": 5,
-      "id": 2
-    },
-    {
-      "tripId": 2,
-      "gearId": 25,
-      "activeUser": 5,
-      "id": 4
+      "gearId": 1,
+      "activeUser": 1,
+      "id": 1
     },
     {
       "tripId": 1,
-      "gearId": 26,
-      "activeUser": 5,
+      "gearId": 2,
+      "activeUser": 1,
+      "id": 2
+    },
+    {
+      "tripId": 1,
+      "gearId": 3,
+      "activeUser": 1,
+      "id": 3
+    },
+    {
+      "tripId": 3,
+      "gearId": 1,
+      "activeUser": 1,
+      "id": 4
+    },
+    {
+      "tripId": 3,
+      "gearId": 2,
+      "activeUser": 1,
       "id": 5
+    },
+    {
+      "tripId": 3,
+      "gearId": 4,
+      "activeUser": 1,
+      "id": 6
     }
   ]
 }

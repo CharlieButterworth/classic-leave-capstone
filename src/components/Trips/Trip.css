@@ -1,20 +1,16 @@
-.gears {
+
+
+.parks {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
-  }
-  
-  .gear {
-      flex-basis: 28%;
+}
+
+.parks {
+    flex-basis: 28%;
       margin: 1em;
       padding: 1em;
       border: 1px solid black;
       background-color: #bc986a;
-  }
-
-  .gearList {
-      display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
+}

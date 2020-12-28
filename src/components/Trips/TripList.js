@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react"
 import { TripContext } from "./TripProvider"
 import { Trip } from "./Trip"
 import { TripForm } from "./TripForm"
+import "./Trip.css"
 
 
 
@@ -29,7 +30,11 @@ export const TripList = (props) => {
             
         trips.map(t => {
 
-            return ( <> <Trip key={t.id} trip={t} />
+            return ( 
+            <>
+            <Trip key={t.id} trip={t} 
+                />
+                
         
         <button onClick={() => props.history.push(`/trips/${t.id}`)}>
             Add Gear To Trip

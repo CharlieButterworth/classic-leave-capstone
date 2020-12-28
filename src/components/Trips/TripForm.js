@@ -33,11 +33,7 @@ export const TripForm = (props) => {
     })}, [])
 
    
-    // useEffect(() => {
-    //     getGear()
-    //     .then(() => {})
-
-    // }, [trip])
+    
 
     
 
