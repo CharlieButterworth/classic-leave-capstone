@@ -36,9 +36,9 @@ export const TripList = (props) => {
                 />
                 
         
-        <button onClick={() => props.history.push(`/trips/${t.id}`)}>
+        {/* <button onClick={() => props.history.push(`/trips/${t.id}`)}>
             Add Gear To Trip
-        </button>
+        </button> */}
         
         
         </>

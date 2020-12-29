@@ -1,5 +1,6 @@
 import React, { useContext, useRef, useEffect, useState } from "react"
 import { TripContext } from "./TripProvider"
+import "./Trip.css"
 
 import { GearContext } from "../gear/GearProvider"
 
@@ -71,7 +72,7 @@ return (
             //   if (item.gear.tripId === trip.id){ 
             //       window.alert("Nothing is packed!")
             //   } else {
-            return <p>{item.gear.name}</p>;
+            return <p className="packItem">{item.gear.name}</p>;
           })
           }
         </form>

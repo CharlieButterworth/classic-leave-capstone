@@ -37,6 +37,11 @@
       "name": "Baseball Gloves",
       "activeUser": 1,
       "id": 6
+    },
+    {
+      "name": "Fishing pole",
+      "activeUser": 1,
+      "id": 7
     }
   ],
   "trips": [
@@ -92,6 +97,18 @@
       "gearId": 4,
       "activeUser": 1,
       "id": 6
+    },
+    {
+      "tripId": 2,
+      "gearId": 1,
+      "activeUser": 1,
+      "id": 7
+    },
+    {
+      "tripId": 2,
+      "gearId": 2,
+      "activeUser": 1,
+      "id": 8
     }
   ]
 }
