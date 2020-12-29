@@ -9,10 +9,10 @@ export const ParkContext = React.createContext()
 
 export const ParkProvider = (props) => {
     const [parks, setParks] = useState([])
-
+    const [campgrounds] =useState([])
 
     const getParks = () => {
-        return fetch(`https://developer.nps.gov/api/v1/parks?api_key=${apiKey.npsKey}`)
+        return fetch(`https://developer.nps.gov/api/v1/campgrounds?api_key=${apiKey.npsKey}`)
         .then(res => res.json())
         .then((data) => data.data).then(setParks)
             
@@ -30,7 +30,7 @@ export const ParkProvider = (props) => {
         
         return (
             <ParkContext.Provider value={{
-                parks, getParks, setParks, getParkById
+                parks, getParks, setParks, getParkById, campgrounds
             }}>
             {props.children}
         </ParkContext.Provider>

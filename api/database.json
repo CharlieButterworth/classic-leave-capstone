@@ -133,5 +133,3156 @@
       "activeUser": 3,
       "id": 4
     }
+  ],
+  "data": [
+    {
+      "id": "1241C56B-7003-4FDF-A449-29DA8BCB0A41",
+      "url": "",
+      "name": "Abrams Creek Campground",
+      "parkCode": "grsm",
+      "description": "Mountain ranges and a pristine creek are the backdrop for your camping adventure at Abrams Creek. At 1,125 ft, Abrams Creek provides a warm climate, characterized and hot, humid summers with moderate rainfall. Abrams Creek Campground offers campsites for tents as well as small RVs.",
+      "latitude": "",
+      "longitude": "",
+      "latLong": "",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Campsite reservations are required and may be made up to six months in advance.",
+      "reservationUrl": "https://www.recreation.gov/camping/campgrounds/273847",
+      "regulationsurl": "http://www.nps.gov/grsm/planyourvisit/campregs.htm",
+      "regulationsOverview": "All food and equipment used to prepare and store food must be kept sealed in a vehicle or in a camping unit constructed of solid, non-pliable material or as otherwise directed at all times when not in use. Campfires are permitted only in fire grates. You may collect wood in the park only if it is on the ground and dead. Beginning March 1, 2015 only heat-treated firewood that is bundled and certified by the United States Department of Agriculture (USDA) or a state agency may be brought into the park. Quiet hours are in effect from 10 pm to 6 am. Generator use is prohibited from 8 pm to 8 am. Your stay is limited to 14 consecutive days at a time. You may have up to six people per campsite.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - seasonal",
+        "toilets": [
+          "Vault Toilets - seasonal"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "No",
+        "laundry": "No",
+        "amphitheater": "No",
+        "dumpStation": "No",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - seasonal"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "Yes - seasonal"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "8658562445",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "GRSM_Smokies_Information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "17.50",
+          "description": "Camping Fee is per site, per night.",
+          "title": "Camping Fee"
+        }
+      ],
+      "directionsOverview": "",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Campground is open seasonally from late May until early October.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Abrams Creek"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "37878",
+          "city": "Tallassee",
+          "stateCode": "TN",
+          "line1": "6537 Abrams Creek Road",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "107 Park Headquarters Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [],
+      "weatherOverview": "",
+      "numberOfSitesReservable": "16",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "16",
+        "group": "0",
+        "horse": "0",
+        "tentOnly": "0",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "Campground is not ADA accessible.",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Only heat-treated firewood which is in its original packaging and bears a certification from the USDA or a state agency may be brought into the park. You may also collect wood which is dead and down in the park to burn at your campsite. Fires are permitted only in established fire rings at campsite.",
+        "rvAllowed": "1",
+        "rvInfo": "RVs and trailers not recommended.",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "12",
+        "adaInfo": "Campground is not ADA accessible.",
+        "trailerAllowed": "1",
+        "accessRoads": [
+          "Unpaved Roads - All vehicles OK in good weather"
+        ],
+        "classifications": [
+          "Primitive Camping Areas"
+        ]
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "4F9E59DF-BFCB-400F-8F4E-6A5233A47324",
+      "url": "https://www.nps.gov/biso/planyourvisit/alumfordcampground.htm",
+      "name": "Alum Ford Campground",
+      "parkCode": "biso",
+      "description": "Alum Ford is a primitive campground and offers six campsites with a vault toilet facility. No drinking water is located at this area. Alum Ford also has a boat ramp. There are no fees to use the ramp.",
+      "latitude": "36.763908",
+      "longitude": "-84.54745",
+      "latLong": "{lat:36.763908, lng:-84.54745}",
+      "audioDescription": "The campground sits at the end of a gravel road with an entrance that passes by a small building with a bulletin board of information. This is where campers get information about the park. All sites have a gravel parking pad along with a gravel tent pad. Each site has a picnic table, lantern hook and fire ring with grill. Most sites will also have a food storage locker on site or one nearby. There is a vault toilet at the end of the campground road. The women's room is on the right and the men's room is on the left. Both are accessible.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "This campground is open year-round on the honor system. Sites may not be reserved.",
+      "reservationUrl": "",
+      "regulationsurl": "https://www.nps.gov/biso/planyourvisit/upload/2009-Alum-Ford-Campground.pdf",
+      "regulationsOverview": "All food, food items (mustard, ketchup, etc), coolers (even if they are empty or have ice, water, pop, etc), must be kept in a vehicle or trailer with hard sides, except while preparing or eating it. Parking is allowed on the asphalt surface ONLY, not on the grass or gravel pads (gravel pads are for tents). Pets MUST be restrained on a leash AT ALL TIMES. QUIET HOURS ARE FROM 10:00 PM (ET) TO 6:00 AM (ET) Alcohol is prohibited in the Kentucky area of the Park. All grey water (dishes, shower, etc) must NEVER be dumped onto the ground. Bicycles may be ridden at night only if you have a light in the front and a red reflective marker on the back.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - year round",
+        "toilets": [
+          "Vault Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "No",
+        "laundry": "No",
+        "amphitheater": "No",
+        "dumpStation": "No",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "No",
+        "potableWater": [
+          "No water"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "Yes - year round"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "4232867275",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "biso_information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "5.00",
+          "description": "This fee is for one night of camping for up to six persons per site. Holders of the Interagency Access/Senior Passport pay only half the fee per night.",
+          "title": "Campsite Fee"
+        }
+      ],
+      "directionsOverview": "Exit I-75 onto HWY 92 at Williamsburg (Exit 11). (This road has been recently upgraded and provides a direct access to Stearns and Blue Heron) Turn right on 92 for approximately 7 miles to the intersection of Hwy 700 and US 27 . Turn Left onto Hwy 700 and continue approximately 5.5 miles to the campground.",
+      "directionsUrl": "http://www.nps.gov/biso/planyourvisit/directions.htm",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Alum Ford is a primitive campground and offers six campsites with a vault toilet facility.  This campground is open year-round on a first come-first serve basis.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Alum Ford Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "42653",
+          "city": "Whitley City",
+          "stateCode": "KY",
+          "line1": "State Hwy 700",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37841",
+          "city": "Oneida",
+          "stateCode": "TN",
+          "line1": "4564 Leatherwood Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [
+        {
+          "credit": "NPS",
+          "crops": [],
+          "title": "Campsite at Alum Ford Campground",
+          "altText": "Campsite with leaves and picnic table",
+          "caption": "One of the few areas where visitors can camp near the river.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/3C81F483-1DD8-B71B-0B5CBEB6FD050CCF.jpg"
+        }
+      ],
+      "weatherOverview": "The weather along the Cumberland Plateau can be best described as unpredictable. Each season brings its own weather patterns. Summers are generally hot and humid, with high temperatures sometimes eclipsing 90 degrees. The low temperatures in winter often dip below freezing. Spring sees the most amount of precipitation, but rainfall can occur in various amounts throughout the year.",
+      "numberOfSitesReservable": "0",
+      "numberOfSitesFirstComeFirstServe": "6",
+      "campsites": {
+        "totalSites": "6",
+        "group": "0",
+        "horse": "0",
+        "tentOnly": "6",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "Campsite number 7 is wheelchair accessible on a gravel surface. The vault toilet is accessible on a paved surface.",
+        "internetInfo": "",
+        "cellPhoneInfo": "Cell phone reception is poor in this area due to the gorge.",
+        "fireStovePolicy": "Firewood must be purchased and/or collected from the local vicinity; to learn more visit http://dontmovefirewood.org/.",
+        "rvAllowed": "0",
+        "rvInfo": "No RVs in this campground.",
+        "rvMaxLength": "0",
+        "additionalInfo": "The campground is located adjacent to the Alum Ford Boat Launch, providing access for motorized boats to this remote section of Lake Cumberland. The Sheltowee Trace National Recreational Trail also passes through the campground. The Sheltowee Trace is a 260-mile back country trail through Daniel Boone National Forest, Big South Fork NRRA, and Natural Bridge, Cumberland Falls, & Pickett State Parks in Kentucky and Tennessee.",
+        "trailerMaxLength": "0",
+        "adaInfo": "There is one accessible site located at the end of the campground near the vault toilet which is also accessible. The surface is gravel only.",
+        "trailerAllowed": "0",
+        "accessRoads": [
+          "Unpaved Roads - All vehicles OK in good weather"
+        ],
+        "classifications": [
+          "Limited Development Campground"
+        ]
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "E3D6E089-3B10-46E0-91C8-F7A5C7BBE409",
+      "url": "",
+      "name": "Balsam Mt. Campground",
+      "parkCode": "grsm",
+      "description": "Mountain ranges and pristine streams are the backdrop for your camping adventure in Balsam Mt. At 5,300 feet, Balsam Mtn. provides a moderate climate, characterized by mild summer temperatures with heavy rainfall. Balsam Mtn. Campground offers an unforgettable outdoor experience with campsites for tents as well as RVs.",
+      "latitude": "35.5654362",
+      "longitude": "-83.1742988",
+      "latLong": "{lat:35.5654362, lng:-83.1742988}",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "No reservations. Campground sites are available on a first-come, first-served basis.",
+      "reservationUrl": "",
+      "regulationsurl": "https://www.nps.gov/grsm/planyourvisit/campregs.htm",
+      "regulationsOverview": "All food and equipment used to prepare and store food must be kept sealed in a vehicle or in a camping unit constructed of solid, non-pliable material or as otherwise directed at all times when not in use. Campfires are permitted only in fire grates. You may collect wood in the park only if it is on the ground and dead. Beginning March 1, 2015 only heat-treated firewood that is bundled and certified by the United States Department of Agriculture (USDA) or a state agency may be brought into the park. Quiet hours are in effect from 10 pm to 6 am. Generator use is prohibited from 8 pm to 8 am. Your stay is limited to 14 consecutive days at a time. You may have up to six people per campsite.",
+      "amenities": {
+        "trashRecyclingCollection": "",
+        "toilets": [],
+        "internetConnectivity": "",
+        "showers": [],
+        "cellPhoneReception": "",
+        "laundry": "",
+        "amphitheater": "",
+        "dumpStation": "",
+        "campStore": "",
+        "staffOrVolunteerHostOnsite": "",
+        "potableWater": [],
+        "iceAvailableForSale": "",
+        "firewoodForSale": "",
+        "foodStorageLockers": ""
+      },
+      "contacts": {
+        "phoneNumbers": [],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "GRSM_Smokies_Information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "14.00",
+          "description": "Camping Fee is per site, per night.",
+          "title": "Camping Fee"
+        }
+      ],
+      "directionsOverview": "",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Balsam Mtn. Campground is open from late May through early October.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Balsam Mt. Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [],
+      "weatherOverview": "",
+      "numberOfSitesReservable": "0",
+      "numberOfSitesFirstComeFirstServe": "46",
+      "campsites": {
+        "totalSites": "46",
+        "group": "0",
+        "horse": "0",
+        "tentOnly": "0",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "",
+        "rvAllowed": "0",
+        "rvInfo": "",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "",
+        "trailerAllowed": "0",
+        "accessRoads": [],
+        "classifications": []
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "09BC0AFC-F118-44EA-B7E1-1FE0191CA77E",
+      "url": "https://www.nps.gov/biso/planyourvisit/bandycreekcampground.htm",
+      "name": "Bandy Creek Campground",
+      "parkCode": "biso",
+      "description": "The campground offers a total of 181 campsites: 96 trailer sites which offer water and electric hook-ups, 49 sites for tent camping, and two group camping loops with 19 sites in one loop and 16 sites in the other. All campsites include picnic tables, fire rings, and access to restrooms and showers. A dump station is located near the registration kiosk. There are no sewer hook-ups at individual trailer sites. The group campsites also have their own cook shelters and campfire circles.",
+      "latitude": "36.48861",
+      "longitude": "-84.697154",
+      "latLong": "{lat:36.48861, lng:-84.697154}",
+      "audioDescription": "The campground sits on the right side of Bandy Creek Road with an access that passes by a building known as the campground kiosk. This is where campers check-in and/or get information about the park. The campground is made up of five loops: A loop for tent camping; B, C, and D loops are for tent and RV camping; and E loop is the group camp. All sites have a paved parking pad along with a gravel tent pad. Each site has a picnic table, lantern hook and fire ring with grill. Most sites will also have a food storage locker on site or one nearby. Hook up sites have an electrical pedestal that stands near the water hydrant as well. There are seven bathhouses throughout the campground. All are accessible except the one located in C loop. The bathhouses have a ramp that climbs up to the porch where there is a sink for dish washing. There is bathroom access from the top of the porch steps/ramp porch to a men's side on the far right, women's side to the left and an accessible restroom directly to the left. Inside the main bathrooms are stalls with wooden doors. A long counter with three sinks stands between two showers on the opposite side of the toilet stalls.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Campground reservations for sites within Big South Fork can now be made through National Recreation Reservation Service by calling 1-877-444-6777 or online at the National Recreation Reservation Service web site. Reservations may be made up to 240 days in advance. Group camp can be reserved up to 360 days in advance.",
+      "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232506?q=Bandy%20Creek",
+      "regulationsurl": "https://www.nps.gov/biso/planyourvisit/upload/Bandy-Creek-Campground-Map-Regs-2018-bw-2.pdf",
+      "regulationsOverview": "All food, food items (mustard, ketchup, etc), coolers (even if they are empty or have ice, water, pop, etc), must be kept in a vehicle or trailer with hard sides, except while preparing or eating it. Parking is allowed on the asphalt surface ONLY, not on the grass or gravel pads (gravel pads are for tents). Pets MUST be restrained on a leash AT ALL TIMES. QUIET HOURS ARE FROM 10:00 PM (ET) TO 6:00 AM (ET) All grey water (dishes, shower, etc) must NEVER be dumped onto the ground. Bicycles may be ridden at night only if you have a light in the front and a red reflective marker on the back. Bicycles MUST stay on pavement or gravel while in the campground. Motorized vehicles not designated for on highway use (i.e. ATV’s, golf carts, etc) are prohibited on public roads including campground roads within the Big South Fork NRRA.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - year round",
+        "toilets": [
+          "Flush Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "Hot - Year Round"
+        ],
+        "cellPhoneReception": "Yes - year round",
+        "laundry": "No",
+        "amphitheater": "Yes - year round",
+        "dumpStation": "Yes - year round",
+        "campStore": "Yes - seasonal",
+        "staffOrVolunteerHostOnsite": "Yes - year round",
+        "potableWater": [
+          "Yes - year round"
+        ],
+        "iceAvailableForSale": "Yes - year round",
+        "firewoodForSale": "Yes - year round",
+        "foodStorageLockers": "Yes - year round"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "4235699778",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          },
+          {
+            "phoneNumber": "4235692816",
+            "description": "",
+            "extension": "",
+            "type": "Fax"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "biso_information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "32.00",
+          "description": "This fee applies to all sites with 50-amp service within loops B, C, and D.",
+          "title": "Campsites with Water and 50-amp Electric Hook-up"
+        },
+        {
+          "cost": "20.00",
+          "description": "This fee applies to sites within loop A.",
+          "title": "Sites without Electric"
+        },
+        {
+          "cost": "125.00",
+          "description": "This fee applies for up to 25 persons per night. An additional $3.00 per night per person is required for more than 25 persons.",
+          "title": "Group Camp"
+        },
+        {
+          "cost": "25.00",
+          "description": "This fee applies to all sites with 30-amp service within loops B, C, and D.",
+          "title": "Campsites with Water and 30-amp Electric Hook-up"
+        }
+      ],
+      "directionsOverview": "Please use the following link to learn more about how to get here from various locations.",
+      "directionsUrl": "http://www.nps.gov/biso/planyourvisit/directions.htm",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Campground is open year-round. Campsites are on reservation system year-round. Sites not reserved may be obtained on a first come-first serve basis.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Bandy Creek Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "37841",
+          "city": "Oneida",
+          "stateCode": "TN",
+          "line1": "145 Campground Road",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37841",
+          "city": "Oneida",
+          "stateCode": "TN",
+          "line1": "4564 Leatherwood Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [
+        {
+          "credit": "NPS photo",
+          "crops": [],
+          "title": "Campsite at Bandy Creek",
+          "altText": "pop up camper and truck on a campsite",
+          "caption": "Campers enjoy a beautiful day in the park.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/3C797EEF-1DD8-B71B-0B6B2F6F976FFC20.jpg"
+        }
+      ],
+      "weatherOverview": "The weather along the Cumberland Plateau can be best described as unpredictable. Each season brings its own weather patterns. Summers are generally hot and humid, with high temperatures sometimes eclipsing 90 degrees. The low temperatures in winter often dip below freezing. Spring sees the most amount of precipitation, but rainfall can occur in various amounts throughout the year.",
+      "numberOfSitesReservable": "146",
+      "numberOfSitesFirstComeFirstServe": "149",
+      "campsites": {
+        "totalSites": "149",
+        "group": "2",
+        "horse": "0",
+        "tentOnly": "39",
+        "electricalHookups": "98",
+        "rvOnly": "108",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "Designated ADA campsites (A14, A43, D1, D41,D51, D52, Group E-1, and Group E-2) are wheelchair accessible with a paved parking surface and gravel tent pad.",
+        "internetInfo": "Free WiFi is available at the Bandy Creek Visitor Center which is located across the road from the campground entrance.",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Firewood must be purchased and/or collected from the local vicinity; to learn more visit http://dontmovefirewood.org/.",
+        "rvAllowed": "1",
+        "rvInfo": "There are ten 50 amp service sites: B11, C12, C32, D7, D24, D26, D29, D30, D31 and D48. All other sites in loops B, C and D provide 20/30 amp service. Right side trailers are permitted to park up to four feet on the tent pad, however they may not park on the grass.",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "The following campsites are designated as handicap accessible: A14, A43, D1, D41,D51, D52, Group E-1, and Group E-2. Loops A and D have two accessible bathhouses whereas Loop C and each of the Group Camps have one each.",
+        "trailerAllowed": "1",
+        "accessRoads": [
+          "Paved Roads - All vehicles OK"
+        ],
+        "classifications": [
+          "Developed Campground"
+        ]
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "88FE257F-E2CF-45DC-858E-7DF1B92AFF4F",
+      "url": "https://www.nps.gov/biso/planyourvisit/horsecamps.htm",
+      "name": "Bear Creek Horse Camp",
+      "parkCode": "biso",
+      "description": "This campground contains 23 developed campsites. Each site offers water and electricity, tables, grills, tie-outs for 4 horses, access to modern restrooms with hot showers, a dump station and access miles of horse trails. Bear Creek Horse Camp is located on Bear Creek Road off Hwy. 742, west of Stearns, Kentucky. The fee rate per night is $28.00 (half price for holders of the Interagency Access/Senior Passes).",
+      "latitude": "36.641091",
+      "longitude": "-84.523654",
+      "latLong": "{lat:36.641091, lng:-84.523654}",
+      "audioDescription": "The campground sits at the end of a gravel road with an entrance that passes by a small building with a bulletin board of information. This is where campers get information about the park. All sites have a gravel parking pad along with a gravel tent pad. Each site has a picnic table, lantern hook and fire ring with grill. Most sites will also have a food storage locker on site or one nearby. Hook up sites have an electrical pedestal that stands near the water hydrant as well. There is one accessible bathhouse located in the center of the campground. Access to the bathhouse porch is up a ramp or set of steps. There is bathroom access from the center of the porch to a men's side slightly on the left, women's side on the right side and an accessible restroom directly to the left. Inside the main bathrooms are stalls. The showers are straight to the back of the restroom on each side. A sink stands against the wall just outside the showers with the toilet stalls on the opposite side.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Bear Creek Horse Camp is now operated by the National Park Service. Camping reservations can be made by calling 1-877-444-6777 or online at www.recreation.gov. Unreserved sites are available on a first-come first-serve basis.",
+      "reservationUrl": "https://www.recreation.gov/camping/campgrounds/251468?q=Bear%20Creek%20Horse%20Camp",
+      "regulationsurl": "http://www.nps.gov/biso/planyourvisit/upload/Bear-Creek-Horse-Camp-Map-and-regulations-2015.pdf",
+      "regulationsOverview": "All food, food items (mustard, ketchup, etc), coolers (even if they are empty or have ice, water, pop, etc), must be kept in a vehicle or trailer with hard sides, except while preparing or eating it. Parking is not allowed on the gravel pads (gravel pads are for tents). Pets MUST be restrained on a leash AT ALL TIMES. QUIET HOURS ARE FROM 10:00 PM (ET) TO 6:00 AM (ET) All grey water (dishes, shower, etc) must NEVER be dumped onto the ground. Motorized vehicles not designated for on highway use (i.e. ATV’s, golf carts, etc) are prohibited on public roads including campground roads within the Big South Fork NRRA.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - seasonal",
+        "toilets": [
+          "Flush Toilets - seasonal"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "Hot - Seasonal"
+        ],
+        "cellPhoneReception": "Yes - seasonal",
+        "laundry": "No",
+        "amphitheater": "Yes - seasonal",
+        "dumpStation": "Yes - seasonal",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - seasonal"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "Yes - seasonal"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "4232867275",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "biso_information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "28.00",
+          "description": "This fee covers one night of camping for up to six persons per site. Holders of the Interagency Access/Senior Passports pay only half the fee.",
+          "title": "Campsite Fee"
+        }
+      ],
+      "directionsOverview": "From I-75, take exit 11 Williamsburg and travel west on Hwy 92 for 18.5 miles to U.S. 27. Turn left on U.S. 27 and travel approximately 2.4 miles to Hwy 1470. Turn right and follow the brown park signs to the Bear Creek Horse Campground approximately 8 miles.",
+      "directionsUrl": "https://www.nps.gov/biso/planyourvisit/directions.htm",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "This campground is open and on the reservation system from April through November. Sites that are not reserved may be used on a first come-first served basis.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Bear Creek Horse Camp"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "42649",
+          "city": "Strunk",
+          "stateCode": "KY",
+          "line1": "Lee Hollow Road",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37841",
+          "city": "Oneida",
+          "stateCode": "TN",
+          "line1": "4564 Leatherwood Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [
+        {
+          "credit": "NPS",
+          "crops": [],
+          "title": "Campsite at Bear Creek Horse Camp",
+          "altText": "campsite located near the entrance of campground",
+          "caption": "This campground provides access to one of many horse trails in the park.",
+          "url": "https://www.nps.gov/customcf/structured_data/upload/20150103_1203191.jpg"
+        },
+        {
+          "credit": "NPS",
+          "crops": [],
+          "title": "Bear Creek Horse Campsite",
+          "altText": "A picnic table sits under a tree next to a campsite pad.",
+          "caption": "Bear Creek Horse Camp",
+          "url": "https://www.nps.gov/common/uploads/structured_data/9325DAD2-F47E-2163-2A267153DC956A00.jpg"
+        }
+      ],
+      "weatherOverview": "The weather along the Cumberland Plateau can be best described as unpredictable. Each season brings its own weather patterns. Summers are generally hot and humid, with high temperatures sometimes eclipsing 90 degrees. The low temperatures in winter often dip below freezing. Spring sees the most amount of precipitation, but rainfall can occur in various amounts throughout the year.",
+      "numberOfSitesReservable": "22",
+      "numberOfSitesFirstComeFirstServe": "22",
+      "campsites": {
+        "totalSites": "23",
+        "group": "0",
+        "horse": "23",
+        "tentOnly": "23",
+        "electricalHookups": "23",
+        "rvOnly": "23",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "Wheelchair access to the bathhouse is available. Campsites and other surfaces are gravel only.",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Firewood must be purchased and/or collected from the local vicinity; to learn more visit http://dontmovefirewood.org/.",
+        "rvAllowed": "1",
+        "rvInfo": "RVs and trailers are permitted.",
+        "rvMaxLength": "52",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "There is currently one accessible site near the bathhouse which is also accessible.",
+        "trailerAllowed": "1",
+        "accessRoads": [
+          "Unpaved Roads - All vehicles OK in good weather"
+        ],
+        "classifications": [
+          "Developed Campground"
+        ]
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "559F6C6D-8688-4269-9578-86DE30B01674",
+      "url": "https://www.nps.gov/grsm/planyourvisit/camping-at-big-creek.htm",
+      "name": "Big Creek Campground",
+      "parkCode": "grsm",
+      "description": "Mountain ranges and a pristine creek are the backdrop for your camping adventure in Big Creek Campground. At 1,700 feet, Big Creek provides a moderate climate, characterized by mild winters and hot, humid summers. Big Creek Campground offers campsites for tents only.",
+      "latitude": "35.7502011",
+      "longitude": "-83.1114145",
+      "latLong": "{lat:35.7502011, lng:-83.1114145}",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "",
+      "reservationUrl": "",
+      "regulationsurl": "https://www.nps.gov/grsm/planyourvisit/campregs.htm",
+      "regulationsOverview": "All food and equipment used to prepare and store food must be kept sealed in a vehicle or in a camping unit constructed of solid, non-pliable material or as otherwise directed at all times when not in use. Campfires are permitted only in fire grates. You may collect wood in the park only if it is on the ground and dead. Beginning March 1, 2015 only heat-treated firewood that is bundled and certified by the United States Department of Agriculture (USDA) or a state agency may be brought into the park. Quiet hours are in effect from 10 pm to 6 am. Generator use is prohibited from 8 pm to 8 am. Your stay is limited to 14 consecutive days at a time. You may have up to six people per campsite. No more than two motor vehicles or one vehicle with trailer are allowed per campsite. Please keep wheels, including trailer wheels and guest cars, on the pavement. Park only in designated spaces. All tents must be pitched on the pad, where provided.",
+      "amenities": {
+        "trashRecyclingCollection": "",
+        "toilets": [],
+        "internetConnectivity": "",
+        "showers": [],
+        "cellPhoneReception": "",
+        "laundry": "",
+        "amphitheater": "",
+        "dumpStation": "",
+        "campStore": "",
+        "staffOrVolunteerHostOnsite": "",
+        "potableWater": [],
+        "iceAvailableForSale": "",
+        "firewoodForSale": "",
+        "foodStorageLockers": ""
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "828-486-5910",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "GRSM_Smokies_Information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "14.00",
+          "description": "Camping Fee is per site, per night.",
+          "title": "Camping Fee"
+        }
+      ],
+      "directionsOverview": "",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "The campground is open from early April through October.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Big Creek Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "37821",
+          "city": "Newport",
+          "stateCode": "TN",
+          "line1": "236 Big Creek Park Road",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "107 Park Headquarters Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [],
+      "weatherOverview": "",
+      "numberOfSitesReservable": "0",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "0",
+        "group": "0",
+        "horse": "0",
+        "tentOnly": "0",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "",
+        "rvAllowed": "0",
+        "rvInfo": "",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "",
+        "trailerAllowed": "0",
+        "accessRoads": [],
+        "classifications": []
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "78C8F7E4-CDD1-475C-A540-5EA8E22B1CAC",
+      "url": "https://www.nps.gov/biso/planyourvisit/blueheroncampground.htm",
+      "name": "Blue Heron Campground",
+      "parkCode": "biso",
+      "description": "Blue Heron Campground is located in the Kentucky portion of Big South Fork, 9 miles west of Stearns off Highway 742. The campground offers a total of 45 sites all with water and electric hook-ups, picnic tables, fire-rings, access to restrooms and showers and a dump station.",
+      "latitude": "36.678513",
+      "longitude": "-84.519058",
+      "latLong": "{lat:36.678513, lng:-84.519058}",
+      "audioDescription": "The campground sits at the end of a road with two loops that pass by a building known as the campground kiosk. This is where campers check-in and/or get information about the park. All sites have a paved parking pad along with a gravel tent pad. Each site has a picnic table, lantern hook and fire ring with grill. Most sites will also have a food storage locker on site or one nearby. Hook up sites have an electrical pedestal that stands near the water hydrant as well. There is one accessible bathhouse located next to the campground kiosk in the middle of the campground. Access to the bathhouse porch is flat without steps and there is a sink for dish washing. There is bathroom access from the center of the porch to a men's side on the far right, women's side slightly to the left and an accessible restroom directly to the left. Inside the main bathrooms are stalls with wooden doors. A long counter with three sinks stands between two showers on the opposite side of the toilet stalls.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Campground reservations for sites within Big South Fork can now be made through National Recreation Reservation Service by calling 1-877-444-6777 or online at www.recreation.gov. Reservations may be made up to 240 days in advance.",
+      "reservationUrl": "https://www.recreation.gov/camping/campgrounds/232505?q=Blue%20Heron%20Campground",
+      "regulationsurl": "http://www.nps.gov/biso/planyourvisit/upload/Blue-Heron-Campground-Map-and-Regs-2014.pdf",
+      "regulationsOverview": "All food, food items (mustard, ketchup, etc), coolers (even if they are empty or have ice, water, pop, etc), must be kept in a vehicle or trailer with hard sides, except while preparing or eating it. Parking is allowed on the asphalt surface ONLY, not on the grass or gravel pads (gravel pads are for tents). Pets MUST be restrained on a leash AT ALL TIMES. QUIET HOURS ARE FROM 10:00 PM (ET) TO 6:00 AM (ET) Alcohol is prohibited in the Kentucky area of the Park. All grey water (dishes, shower, etc) must NEVER be dumped onto the ground. Bicycles may be ridden at night only if you have a light in the front and a red reflective marker on the back. Bicycles MUST stay on pavement or gravel while in the campground. Motorized vehicles not designated for on highway use (i.e. ATV’s, golf carts, etc) are prohibited on public roads including campground roads within the Big South Fork NRRA.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - seasonal",
+        "toilets": [
+          "Flush Toilets - seasonal"
+        ],
+        "internetConnectivity": "Yes - seasonal",
+        "showers": [
+          "Hot - Seasonal"
+        ],
+        "cellPhoneReception": "Yes - seasonal",
+        "laundry": "No",
+        "amphitheater": "Yes - seasonal",
+        "dumpStation": "Yes - seasonal",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - seasonal"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "Yes - seasonal"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "4232867275",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "biso_information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "20.00",
+          "description": "This fee covers one night of camping for up to 6 persons.",
+          "title": "Camping Fee"
+        }
+      ],
+      "directionsOverview": "Exit I-75 onto HWY 92 at Williamsburg (Exit 11). (This road has been recently upgraded and provides a direct access to Stearns and Blue Heron) Turn right on 92 for approximately 20 miles. Continue at the 4-way stop light straight across 27 to HWY 1651. Watch for signs to Blue Heron. Turn left on Mine 18 Road (HWY 742). Mine 18 Road ends at Blue Heron Interpretive Center. The Blue Heron Campground will be on the right before you reach the end of the road.",
+      "directionsUrl": "http://www.nps.gov/biso/planyourvisit/directions.htm",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Blue Heron Campground is open and on the reservation system from April through November. Campsites that are not reserved are on a first-come/first-served basis throughout the season.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Blue Heron Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "42649",
+          "city": "Strunk",
+          "stateCode": "KY",
+          "line1": "5238 Mine 18 Road",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37841",
+          "city": "Oneida",
+          "stateCode": "TN",
+          "line1": "4564 Leatherwood Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [
+        {
+          "credit": "NPS",
+          "crops": [],
+          "title": "RV camper on site at Blue Heron",
+          "altText": "Red truck with RV camper on campsite",
+          "caption": "Campers enjoy the serenity of the campground.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/3C81F30C-1DD8-B71B-0B19F5A311BD0896.jpg"
+        }
+      ],
+      "weatherOverview": "The weather along the Cumberland Plateau can be best described as unpredictable. Each season brings its own weather patterns. Summers are generally hot and humid, with high temperatures sometimes eclipsing 90 degrees. The low temperatures in winter often dip below freezing. Spring sees the most amount of precipitation, but rainfall can occur in various amounts throughout the year.",
+      "numberOfSitesReservable": "43",
+      "numberOfSitesFirstComeFirstServe": "45",
+      "campsites": {
+        "totalSites": "45",
+        "group": "0",
+        "horse": "0",
+        "tentOnly": "45",
+        "electricalHookups": "45",
+        "rvOnly": "45",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "Wheelchair access is available from the campsite #29 to the bathhouse. The campground is paved with the exception of the tent pads which are gravel.",
+        "internetInfo": "Free WiFi is available at the campground kiosk.",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Firewood must be purchased and/or collected from the local vicinity; to learn more visit http://dontmovefirewood.org/.",
+        "rvAllowed": "1",
+        "rvInfo": "All sites have 20 and 30 amp service with water. There are no sewer hookups on each site.",
+        "rvMaxLength": "50",
+        "additionalInfo": "The Blue Heron Mining Community is located just a few miles from the campground and is open year-round for visitors who wish to learn about life in a company owned coal mining town. The Stearns Depot Visitor Center is located 9 miles away in the Big South Fork Scenic Railway Depot in Stearns, Kentucky. The visitor center is open daily from April through mid-to-late December each year.",
+        "trailerMaxLength": "0",
+        "adaInfo": "Campground has one accessible site (#29) which is near the bathhouse. The bathhouse has an accessible restroom with a hot water shower and toilet.",
+        "trailerAllowed": "1",
+        "accessRoads": [
+          "Paved Roads - All vehicles OK"
+        ],
+        "classifications": [
+          "Developed Campground"
+        ]
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "711EFDE3-F836-4A4C-B58C-D3E28386BDE4",
+      "url": "",
+      "name": "Cades Cove Campground",
+      "parkCode": "grsm",
+      "description": "Cades Cove combines the feel of primitive camping with the modern convenience of flush toilets and drinking water. A camp store provides visitors with basic necessities as well as bike rentals. Events like interpretive programs in the nearby amphitheater and bicycle-only days on the loop road provide visitors with a fun and unique experience.",
+      "latitude": "35.6027246",
+      "longitude": "-83.7762928",
+      "latLong": "{lat:35.6027246, lng:-83.7762928}",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Reservations can be made from May 15th - October 31st and up to 6 months in advance.",
+      "reservationUrl": "http://www.recreation.gov/camping/cades-cove-campground/r/campgroundDetails.do?contractCode=NRSO&parkId=70969",
+      "regulationsurl": "http://www.nps.gov/grsm/planyourvisit/campregs.htm",
+      "regulationsOverview": "All food and equipment used to prepare and store food must be kept sealed in a vehicle or in a camping unit constructed of solid, non-pliable material or as otherwise directed at all times when not in use. Campfires are permitted only in fire grates. You may collect wood in the park only if it is on the ground and dead. Beginning March 1, 2015 only heat-treated firewood that is bundled and certified by the United States Department of Agriculture (USDA) or a state agency may be brought into the park. Quiet hours are in effect from 10 pm to 6 am. Generator use is prohibited from 8 pm to 8 am. Your stay is limited to 14 consecutive days at a time. You may have up to six people per campsite. No more than two motor vehicles or one vehicle with trailer are allowed per campsite. Please keep wheels, including trailer wheels and guest cars, on the pavement. Park only in designated spaces. All tents must be pitched on the pad, where provided.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - year round",
+        "toilets": [
+          "Flush Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "No",
+        "laundry": "No",
+        "amphitheater": "Yes - seasonal",
+        "dumpStation": "Yes - year round",
+        "campStore": "Yes - seasonal",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - year round"
+        ],
+        "iceAvailableForSale": "Yes - seasonal",
+        "firewoodForSale": "Yes - seasonal",
+        "foodStorageLockers": "Yes - year round"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "(865) 448-2472",
+            "description": "",
+            "extension": "2",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "GRSM_Smokies_Information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "25.00",
+          "description": "Camping Fee is per site, per night during reservation season May 15th - October 31st.",
+          "title": "Camping Fee"
+        }
+      ],
+      "directionsOverview": "From Maryville, TN: Take US-321 North (you'll actually be driving south!) from Maryville to Townsend, TN (about 22 miles). At the traffic light in Townsend, continue straight on TN-73 and follow signs to Cades Cove. From Pigeon Forge, TN take US-321 South (you'll be driving westerly) to Townsend, TN. Turn left (south) at Townsend onto TN-73. Follow signs to Cades Cove.",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Open year round",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Cades Cove Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "37882",
+          "city": "Townsend",
+          "stateCode": "TN",
+          "line1": "10042 Campground Drive",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "107 Park Headquarters Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [],
+      "weatherOverview": "",
+      "numberOfSitesReservable": "159",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "159",
+        "group": "4",
+        "horse": "0",
+        "tentOnly": "0",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "Restrooms are ADA accessible. ADA accessible paths to restrooms.",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Only heat-treated firewood which is in its original packaging and bears a certification from the USDA or a state agency may be brought into the park. You may also collect wood which is dead and down in the park to burn at your campsite. Fires are permitted only in established fire rings at campsite.",
+        "rvAllowed": "1",
+        "rvInfo": "Roads are paved in the campground. Site driveways are also paved.",
+        "rvMaxLength": "40",
+        "additionalInfo": "",
+        "trailerMaxLength": "35",
+        "adaInfo": "12 ADA family sites and one group site. 2 CPAP sites.",
+        "trailerAllowed": "0",
+        "accessRoads": [
+          "Paved Roads - All vehicles OK"
+        ],
+        "classifications": [
+          "Limited Development Campground"
+        ]
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "E4E470BE-46E5-44B6-A65A-31CFAAB939DB",
+      "url": "",
+      "name": "Cades Cove Group Campground",
+      "parkCode": "grsm",
+      "description": "Cades Cove combines the feel of primitive camping with the modern convenience of flush toilets and drinking water. A camp store provides visitors with basic necessities as well as bike rentals. Events like interpretive programs in the nearby amphitheater and bicycle-only days on the loop road provide visitors with a fun and unique experience.",
+      "latitude": "",
+      "longitude": "",
+      "latLong": "",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "",
+      "reservationUrl": "",
+      "regulationsurl": "https://www.nps.gov/grsm/planyourvisit/campregs.htm",
+      "regulationsOverview": "",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - year round",
+        "toilets": [
+          "Flush Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "No",
+        "laundry": "No",
+        "amphitheater": "Yes - seasonal",
+        "dumpStation": "Yes - year round",
+        "campStore": "Yes - seasonal",
+        "staffOrVolunteerHostOnsite": "Yes - year round",
+        "potableWater": [
+          "Yes - year round"
+        ],
+        "iceAvailableForSale": "Yes - seasonal",
+        "firewoodForSale": "Yes - seasonal",
+        "foodStorageLockers": "Yes - year round"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "(865) 448-2472",
+            "description": "",
+            "extension": "2",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "GRSM_Smokies_Information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "35.00",
+          "description": "20 person maximum",
+          "title": "Group Site #1-2"
+        },
+        {
+          "cost": "65.00",
+          "description": "30 person maximum",
+          "title": "Group Site #3"
+        },
+        {
+          "cost": "53.00",
+          "description": "30 person maximum",
+          "title": "Group Site#4"
+        }
+      ],
+      "directionsOverview": "",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Open mid-March through October 31st.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Cades Cove Group Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "37882",
+          "city": "Townsend",
+          "stateCode": "TN",
+          "line1": "10042 Campground Drive",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "107 Park Headquarters Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [],
+      "weatherOverview": "",
+      "numberOfSitesReservable": "0",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "3",
+        "group": "3",
+        "horse": "0",
+        "tentOnly": "3",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Only heat-treated firewood which is in its original packaging and bears a certification from the USDA or a state agency may be brought into the park. You may also collect wood which is dead and down in the park to burn at your campsite. Fires are permitted only in established fire rings at campsite.",
+        "rvAllowed": "0",
+        "rvInfo": "",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "",
+        "trailerAllowed": "0",
+        "accessRoads": [],
+        "classifications": []
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "8B71E7E6-5EF0-49D8-8E33-2578A64A6DD5",
+      "url": "",
+      "name": "Cataloochee Campground",
+      "parkCode": "grsm",
+      "description": "Mountain ranges are the backdrop for your camping adventure in Cataloochee. At 2,600 feet, Cataloochee provides a moderate climate, characterized by mild winters and hot, humid summers. Cataloochee Campground offers campsites for tents as well as RVs. Reservations are required.",
+      "latitude": "35.6312996",
+      "longitude": "-83.0854465",
+      "latLong": "{lat:35.6312996, lng:-83.0854465}",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Reservations are required",
+      "reservationUrl": "http://www.recreation.gov/camping/cataloochee-campground/r/campgroundDetails.do?contractCode=NRSO&parkId=72293",
+      "regulationsurl": "https://www.nps.gov/grsm/planyourvisit/campregs.htm",
+      "regulationsOverview": "All food and equipment used to prepare and store food must be kept sealed in a vehicle or in a camping unit constructed of solid, non-pliable material or as otherwise directed at all times when not in use. Campfires are permitted only in fire grates. You may collect wood in the park only if it is on the ground and dead. Beginning March 1, 2015 only heat-treated firewood that is bundled and certified by the United States Department of Agriculture (USDA) or a state agency may be brought into the park. Quiet hours are in effect from 10 pm to 6 am. Generator use is prohibited from 8 pm to 8 am. Your stay is limited to 14 consecutive days at a time. You may have up to six people per campsite. No more than two motor vehicles or one vehicle with trailer are allowed per campsite. Please keep wheels, including trailer wheels and guest cars, on the pavement. Park only in designated spaces. All tents must be pitched on the pad, where provided.",
+      "amenities": {
+        "trashRecyclingCollection": "",
+        "toilets": [],
+        "internetConnectivity": "",
+        "showers": [],
+        "cellPhoneReception": "",
+        "laundry": "",
+        "amphitheater": "",
+        "dumpStation": "",
+        "campStore": "",
+        "staffOrVolunteerHostOnsite": "",
+        "potableWater": [],
+        "iceAvailableForSale": "",
+        "firewoodForSale": "",
+        "foodStorageLockers": ""
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "828-269-3161",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "GRSM_Smokies_Information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "20.00",
+          "description": "Camping Fee is per site, per night.  Reservations are required.",
+          "title": "Camping Fee"
+        }
+      ],
+      "directionsOverview": "",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Tre campground is open from late March until the end of October.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Cataloochee Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "37876",
+          "city": "Waynesville",
+          "stateCode": "NC",
+          "line1": "3576 Ranger Station Road",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "107 Park Headquarters Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [],
+      "weatherOverview": "",
+      "numberOfSitesReservable": "27",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "27",
+        "group": "3",
+        "horse": "7",
+        "tentOnly": "0",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "",
+        "rvAllowed": "0",
+        "rvInfo": "",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "",
+        "trailerAllowed": "0",
+        "accessRoads": [],
+        "classifications": []
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "B3B0C4BD-BB79-40AA-B678-B953294BB9A3",
+      "url": "",
+      "name": "Cosby Campground",
+      "parkCode": "grsm",
+      "description": "Mountain ranges and a pristine river are the backdrop for your camping adventure in Cosby. At 2,450 feet, Cosby provides a moderate climate, characterized by mild winters and hot, humid summers. Cosby Campground offers campsites for tents as well as RVs.",
+      "latitude": "",
+      "longitude": "",
+      "latLong": "",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Reservations can be made for up to 14 consecutive nights.",
+      "reservationUrl": "http://www.recreation.gov/camping/cosby-campground/r/campgroundSeasonDates.do?contractCode=NRSO&parkId=70960",
+      "regulationsurl": "http://www.nps.gov/grsm/planyourvisit/campregs.htm",
+      "regulationsOverview": "All food and equipment used to prepare and store food must be kept sealed in a vehicle or in a camping unit constructed of solid, non-pliable material or as otherwise directed at all times when not in use. Campfires are permitted only in fire grates. You may collect wood in the park only if it is on the ground and dead. Beginning March 1, 2015 only heat-treated firewood that is bundled and certified by the United States Department of Agriculture (USDA) or a state agency may be brought into the park. Quiet hours are in effect from 10 pm to 6 am. Generator use is prohibited from 8 pm to 8 am. Your stay is limited to 14 consecutive days at a time. You may have up to six people per campsite. No more than two motor vehicles or one vehicle with trailer are allowed per campsite. Please keep wheels, including trailer wheels and guest cars, on the pavement. Park only in designated spaces. All tents must be pitched on the pad, where provided.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - seasonal",
+        "toilets": [
+          "Flush Toilets - seasonal"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "No",
+        "laundry": "No",
+        "amphitheater": "Yes - seasonal",
+        "dumpStation": "Yes - seasonal",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - seasonal"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "Yes - seasonal"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "4234872683",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "GRSM_Smokies_Information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "14.00",
+          "description": "Per site per night.  Up to 6 people per site.",
+          "title": "Campsite Fee"
+        }
+      ],
+      "directionsOverview": "",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Open early April through October 31st.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Cosby Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "37722",
+          "city": "Cosby",
+          "stateCode": "TN",
+          "line1": "471 Cosby Park Road",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "107 Park Headquarters Rd.",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [],
+      "weatherOverview": "",
+      "numberOfSitesReservable": "26",
+      "numberOfSitesFirstComeFirstServe": "131",
+      "campsites": {
+        "totalSites": "157",
+        "group": "0",
+        "horse": "0",
+        "tentOnly": "0",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Only heat-treated firewood which is in its original packaging and bears a certification from the USDA or a state agency may be brought into the park. You may also collect wood which is dead and down in the park to burn at your campsite. Fires are permitted only in established fire rings at campsite.",
+        "rvAllowed": "0",
+        "rvInfo": "",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "",
+        "trailerAllowed": "0",
+        "accessRoads": [],
+        "classifications": []
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "2266A16D-7440-4B19-840A-B8B570FFF31F",
+      "url": "",
+      "name": "Deep Creek Campground",
+      "parkCode": "grsm",
+      "description": "Mountain ranges and a pristine creek are the backdrop for your camping adventure in Deep Creek. At 1,800 feet, Deep Creek provides a moderate climate, characterized by mild winters and hot, humid summers. Deep Creek Campground offers campsites for tents as well as RVs.",
+      "latitude": "",
+      "longitude": "",
+      "latLong": "",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "No Reservations Accepted. Sites are available on a first-come, first-served basis.",
+      "reservationUrl": "",
+      "regulationsurl": "https://www.nps.gov/grsm/planyourvisit/campregs.htm",
+      "regulationsOverview": "All food and equipment used to prepare and store food must be kept sealed in a vehicle or in a camping unit constructed of solid, non-pliable material or as otherwise directed at all times when not in use. Campfires are permitted only in fire grates. You may collect wood in the park only if it is on the ground and dead. Beginning March 1, 2015 only heat-treated firewood that is bundled and certified by the United States Department of Agriculture (USDA) or a state agency may be brought into the park. Quiet hours are in effect from 10 pm to 6 am. Generator use is prohibited from 8 pm to 8 am. Your stay is limited to 14 consecutive days at a time. You may have up to six people per campsite. No more than two motor vehicles or one vehicle with trailer are allowed per campsite. Please keep wheels, including trailer wheels and guest cars, on the pavement. Park only in designated spaces. All tents must be pitched on the pad, where provided.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - seasonal",
+        "toilets": [
+          "Flush Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "No",
+        "laundry": "No",
+        "amphitheater": "No",
+        "dumpStation": "Yes - seasonal",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - seasonal"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "No"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "828-488-3184",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "GRSM_Smokies_Information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "17.00",
+          "description": "Camping fee is per site, per night.",
+          "title": "Camping Fee"
+        }
+      ],
+      "directionsOverview": "",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Deep Creek Campground is open from early April through October.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Deep Creek Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "28713",
+          "city": "Bryson City",
+          "stateCode": "NC",
+          "line1": "1912 East Deep Creek Road",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "107 Park Headquarters Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [],
+      "weatherOverview": "",
+      "numberOfSitesReservable": "0",
+      "numberOfSitesFirstComeFirstServe": "92",
+      "campsites": {
+        "totalSites": "92",
+        "group": "3",
+        "horse": "0",
+        "tentOnly": "0",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Only heat-treated firewood which is in its original packaging and bears a certification from the USDA or a state agency may be brought into the park. You may also collect wood which is dead and down in the park to burn at your campsite. Fires are permitted only in established fire rings at campsite.",
+        "rvAllowed": "0",
+        "rvInfo": "",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "",
+        "trailerAllowed": "0",
+        "accessRoads": [],
+        "classifications": []
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "63D37502-C1A6-44B7-A2C3-C4F784C03318",
+      "url": "",
+      "name": "Elkmont Campground",
+      "parkCode": "grsm",
+      "description": "Mountain ranges and a pristine river are the backdrop for your camping adventure in Elkmont. At 2,150 feet, Elkmont provides a moderate climate, characterized by mild winters and hot, humid summers. Elkmont Campground offers campsites for tents as well as RVs.",
+      "latitude": "35.6596758",
+      "longitude": "-83.5863819",
+      "latLong": "{lat:35.6596758, lng:-83.5863819}",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Reservations are recommended to ensure availability but credit card payments may be processed on site. Sites may be reserved up to six months in advance.",
+      "reservationUrl": "https://www.recreation.gov/camping/campgrounds/273847",
+      "regulationsurl": "http://www.nps.gov/grsm/planyourvisit/campregs.htm",
+      "regulationsOverview": "All food and equipment used to prepare and store food must be kept sealed in a vehicle or in a camping unit constructed of solid, non-pliable material or as otherwise directed at all times when not in use. Campfires are permitted only in fire grates. You may collect wood in the park only if it is on the ground and dead. Beginning March 1, 2015 only heat-treated firewood that is bundled and certified by the United States Department of Agriculture (USDA) or a state agency may be brought into the park. Quiet hours are in effect from 10 pm to 6 am. Generator use is prohibited from 8 pm to 8 am. Your stay is limited to 14 consecutive days at a time. You may have up to six people per campsite. No more than two motor vehicles or one vehicle with trailer are allowed per campsite. Please keep wheels, including trailer wheels and guest cars, on the pavement. Park only in designated spaces. All tents must be pitched on the pad, where provided.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - seasonal",
+        "toilets": [
+          "Flush Toilets - seasonal"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "No",
+        "laundry": "No",
+        "amphitheater": "Yes - seasonal",
+        "dumpStation": "No",
+        "campStore": "Yes - seasonal",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - seasonal"
+        ],
+        "iceAvailableForSale": "Yes - seasonal",
+        "firewoodForSale": "Yes - seasonal",
+        "foodStorageLockers": "Yes - seasonal"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "8654305560",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "GRSM_Smokies_Information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "25.00",
+          "description": "Reservations are recommended from May 15th - October 31st.\nMaximum occupancy of each site is 6 people.  \nNo hook-ups, rest rooms with running water are available.",
+          "title": "Campsite"
+        },
+        {
+          "cost": "27.00",
+          "description": "Fee charged for riverside sites during reservation season May 15th - October 31st.",
+          "title": "Riverside Campsites"
+        }
+      ],
+      "directionsOverview": "",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "The Camground will close on November 1, 2020. The projected reopening date is May 14, 2021.",
+          "standardHours": {
+            "wednesday": "9:00AM - 5:00PM",
+            "monday": "9:00AM - 5:00PM",
+            "thursday": "9:00AM - 5:00PM",
+            "sunday": "9:00AM - 5:00PM",
+            "tuesday": "9:00AM - 5:00PM",
+            "friday": "9:00AM - 5:00PM",
+            "saturday": "9:00AM - 5:00PM"
+          },
+          "name": "Elkmont Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "434 Elkmont Road",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "107 Park Headquarters Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [
+        {
+          "credit": "NPS Photo/Bielenberg",
+          "crops": [],
+          "title": "Elkmont Campground",
+          "altText": "Sun shining through the forest over an occupied campsite.",
+          "caption": "Generations of campers have returned to Elkmont year after year, drawn by the sounds of the river, the tranquility of the forest, and the variety of recreational activities in the Elkmont area.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/62B5ADC9-E545-A229-43D915E3AD8ADA4A.jpg"
+        },
+        {
+          "credit": "NPS Photo/Bielenberg",
+          "crops": [],
+          "title": "Elkmont Campsite",
+          "altText": "Sun rays beaming through the forest over an occupied campsite.",
+          "caption": "Generations of campers have returned to Elkmont year after year, drawn by the sounds of the river, the tranquility of the forest, and the variety of recreational activities in the Elkmont area.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/62DF7BF7-D439-770F-CAD5B3C66C2B7038.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Elkmont Campsite",
+          "altText": "Unoccupied campsite in Elkmont Campground",
+          "caption": "Generations of campers have returned to Elkmont year after year, drawn by the sounds of the river, the tranquility of the forest, and the variety of recreational activities in the Elkmont area.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/62EDD811-EF45-E38E-CE1C595A6A5103A7.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Elkmont River Site",
+          "altText": "Unoccupied river campsite in Elkmont Campground.",
+          "caption": "Generations of campers have returned to Elkmont year after year, drawn by the sounds of the river, the tranquility of the forest, and the variety of recreational activities in the Elkmont area.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/62FD3D0D-A3A8-5155-72C43A5AB9E52AD2.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Elkmont Campsite",
+          "altText": "Unoccupied campsite in Elkmont Campground on a sunny summer day.",
+          "caption": "Generations of campers have returned to Elkmont year after year, drawn by the sounds of the river, the tranquility of the forest, and the variety of recreational activities in the Elkmont area.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/64C1EE06-D137-66C3-E8FB85D1189D374E.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Elkmont Campground Office",
+          "altText": "Elkmont Campground Office and information kiosk on a sunny day.",
+          "caption": "Generations of campers have returned to Elkmont year after year, drawn by the sounds of the river, the tranquility of the forest, and the variety of recreational activities in the Elkmont area.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/68845D29-A5CC-A283-E9075E601CDDEAB7.jpg"
+        },
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Elkmont Campground Store",
+          "altText": "Elkmont Campground store and vending machines.",
+          "caption": "Generations of campers have returned to Elkmont year after year, drawn by the sounds of the river, the tranquility of the forest, and the variety of recreational activities in the Elkmont area.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/688CA7E8-FA9C-CC90-7746DA1C90E7C8FA.jpg"
+        }
+      ],
+      "weatherOverview": "At 2,150 feet, Elkmont provides a moderate climate, characterized by mild winters and hot, humid summers. Temperature averages vary from the upper 80's to low 30's during Elkmont's open dates. The park receives an average annual rainfall of 55-80 inches of precipitation.",
+      "numberOfSitesReservable": "220",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "220",
+        "group": "4",
+        "horse": "0",
+        "tentOnly": "23",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "23",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "Amphitheatre is wheelchair accessible. Parking area, picnic table and fire ring at campsites are on paved surfaces.",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Only heat-treated firewood which is in its original packaging and bears a certification from the USDA or a state agency may be brought into the park. You may also collect wood which is dead and down in the park to burn at your campsite. Fires are permitted only in established fire rings at campsite.",
+        "rvAllowed": "1",
+        "rvInfo": "All wheels of vehicles must fit on the paved surface in the parking area of each site. Generator hours 8AM - 8PM. No dump station on site, the closest is 6 miles away at Sugarlands Visitor Center.",
+        "rvMaxLength": "35",
+        "additionalInfo": "",
+        "trailerMaxLength": "32",
+        "adaInfo": "Elkmont has 10 accessible sites, campground roads are paved.",
+        "trailerAllowed": "1",
+        "accessRoads": [
+          "Paved Roads - All vehicles OK"
+        ],
+        "classifications": [
+          "Limited Development Campground"
+        ]
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "1B42DF20-EB0E-4F6A-8094-BCF63BA6B54F",
+      "url": "",
+      "name": "Elkmont Group Campground",
+      "parkCode": "grsm",
+      "description": "These sites offers an ideal setting for group camping excursions and outdoor enthusiasts of all kinds.",
+      "latitude": "",
+      "longitude": "",
+      "latLong": "",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Available April 29th through October 31st.",
+      "reservationUrl": "http://www.recreation.gov/camping/elkmont-group-camp/r/campgroundDetails.do?contractCode=NRSO&parkId=70914",
+      "regulationsurl": "https://www.nps.gov/grsm/planyourvisit/campregs.htm",
+      "regulationsOverview": "",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - seasonal",
+        "toilets": [
+          "Flush Toilets - seasonal"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "No",
+        "laundry": "No",
+        "amphitheater": "Yes - seasonal",
+        "dumpStation": "Yes - seasonal",
+        "campStore": "Yes - seasonal",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - seasonal"
+        ],
+        "iceAvailableForSale": "Yes - seasonal",
+        "firewoodForSale": "Yes - seasonal",
+        "foodStorageLockers": "Yes - seasonal"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "(865) 430-5560",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "GRSM_Smokies_Information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "53.00",
+          "description": "Site #1, 30 people maximum, no RVs or trailers allowed.",
+          "title": "Camping Fee, Tent Only Area"
+        },
+        {
+          "cost": "35.00",
+          "description": "Site #2, 20 person maximum",
+          "title": "Camping Fee, Tent Only Area"
+        },
+        {
+          "cost": "26.00",
+          "description": "Site #3, 15 person maximum",
+          "title": "Camping Fee, Tent Only Area"
+        },
+        {
+          "cost": "35.00",
+          "description": "Site #4, 20 person maximum",
+          "title": "Camping Fee, Tent Only Area"
+        }
+      ],
+      "directionsOverview": "",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Open late April until October 31st.   Reservations required.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Elkmont Group Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "434 Elkmont Road",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "107 Park Headquarters Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [],
+      "weatherOverview": "",
+      "numberOfSitesReservable": "4",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "4",
+        "group": "4",
+        "horse": "0",
+        "tentOnly": "4",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Only heat-treated firewood which is in its original packaging and bears a certification from the USDA or a state agency may be brought into the park. You may also collect wood which is dead and down in the park to burn at your campsite. Fires are permitted only in established fire rings at campsite.",
+        "rvAllowed": "0",
+        "rvInfo": "",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "",
+        "trailerAllowed": "0",
+        "accessRoads": [],
+        "classifications": []
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "CC65EA50-831C-4C71-ABD1-3C32D780E4D4",
+      "url": "https://www.nps.gov/natr/planyourvisit/camping.htm",
+      "name": "Jeff Busby Campground",
+      "parkCode": "natr",
+      "description": "Jeff Busby campground includes an 18-site campground, picnic tables, restrooms, trails, exhibits and an overlook atop Little Mountain. Campground sites are on a first come first served basis, no reservations. Pull-through and back-in sites are available. Campgrounds are typically busiest during the spring and fall, especially during holiday weekends. There is no fee for camping. There is a 14 day stay limit.",
+      "latitude": "33.417",
+      "longitude": "-89.2693",
+      "latLong": "{lat:33.417, lng:-89.2693}",
+      "audioDescription": "The campground is on your left as your enter the Jeff Busby Site. This is the smallest of our three Natchez Trace Parkway. The parking areas at each site are paved. Please only park on the pavement. The sites are nestled throughout the forest with many trees providing shade in the summer and beautiful fall colors in the fall time.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Campground sites are on a first come first served basis, no reservations. Campgrounds are typically busiest during the spring and fall, especially during holiday weekends.",
+      "reservationUrl": "",
+      "regulationsurl": "http://www.nps.gov/natr/learn/management/lawsandpolicies.htm",
+      "regulationsOverview": "Total vehicle length including tow vehicles is 55 feet. Maximum height is 14 feet.  Maximum length of stay is 14 days, not to exceed 30 per year  Campsites are available on a first‐come, first‐served basis only  Camp only in designated sites  Connecting to utilities (water & electric) is prohibited. Visitors may use hair dryers, electric shavers, and electric toothbrushes at the restroom outlets.  All tires of vehicles must remain on pavement  Fires are permitted in personal camping grills, provided site grills, and fire rings only  All campfires must be completely extinguished when not attended  All pets must be on a leash less than 6 feet long, including while in campsites  Pets may not be left unattended tied to an object  Pet waste must be cleaned up and disposed of properly  Digging or leveling of campsites is prohibited  Cutting of vegetation is prohibited  Only dead and down wood may be gathered for campfire use  Garbage must be placed in garbage cans",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - year round",
+        "toilets": [
+          "Flush Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "Yes - year round",
+        "laundry": "No",
+        "amphitheater": "No",
+        "dumpStation": "No",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - year round"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "No"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "6626804027",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          },
+          {
+            "phoneNumber": "6626804049",
+            "description": "",
+            "extension": "",
+            "type": "Fax"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "Call the Parkway Visitor Center at 1-800-305-7417. A Park Ranger is available to answer your questions 7 days a week during normal business hours. The visitor center is closed Thanksgiving, December 25th and January 1st.",
+            "emailAddress": "natr_interpretation@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "0.00",
+          "description": "Campground sites are on a first come first served basis, no reservations. Campgrounds are typically busiest during the spring and fall, especially during holiday weekends.",
+          "title": "No fee"
+        }
+      ],
+      "directionsOverview": "At mile post 193.1 exit off of the Natchez Trace Parkway. Take the first left to enter into the campground. Latitude: 33.4170 Longitude: -89.2693",
+      "directionsUrl": "http://www.nps.gov/natr/planyourvisit/maps.htm",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "The campground is open year-round, first-come, first-served.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Jeff Busby Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "39735",
+          "city": "Ackerman",
+          "stateCode": "MS",
+          "line1": "Milepost 193.1 Natchez Trace Parkway / Bright Road & Prewitt Road",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "38804",
+          "city": "Tupelo",
+          "stateCode": "MS",
+          "line1": "2680 Natchez Trace Parkway",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Jeff Busby Campground in Springtime",
+          "altText": "One of the campsites at Jeff Busby featuring a fire ring and picnic table.",
+          "caption": "One of the campsites at Jeff Busby featuring a fire ring and picnic table.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/3C800454-1DD8-B71B-0B3707A25259B0F1.jpg"
+        },
+        {
+          "credit": "Marc Muench",
+          "crops": [],
+          "title": "Jeff Busby Campground in Fall",
+          "altText": "A family walking on a wooded campground road edged by split rail fence. Trees are in fall color.",
+          "caption": "Jeff Busby Campground",
+          "url": "https://www.nps.gov/common/uploads/structured_data/87C090B4-D910-2025-C8E7E4FDDA792C7C.jpg"
+        },
+        {
+          "credit": "NPS  image",
+          "crops": [],
+          "title": "Jeff Busby Campground Site Map",
+          "altText": "Map of campground loop showing 18 campsites. Number 9 is accessible.",
+          "caption": "Location and type of campsites at Jeff Busby Campground.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/B9F8299C-B3E8-C166-61540E4DE33268D5.jpg"
+        }
+      ],
+      "weatherOverview": "Mississippi is classified as a humid subtropical climate, the weather ranges from mild winters to hot summers with high humidity between May and September. Average high temperatures reach into the high 80's in summer, and into the high 40's in winter. Thunderstorms are common in Mississippi, especially in the southern part of the state, and from June through November, the state is occasionally affected by hurricanes moving north from the Gulf of Mexico. Check local forecasts.",
+      "numberOfSitesReservable": "0",
+      "numberOfSitesFirstComeFirstServe": "18",
+      "campsites": {
+        "totalSites": "18",
+        "group": "0",
+        "horse": "0",
+        "tentOnly": "0",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "Yes.",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Fire Rings provided and campfires are allowed.",
+        "rvAllowed": "1",
+        "rvInfo": "No electric or plumbing hookups. The length restriction for RVs is 55 feet, including a tow vehicle, and the height restriction is 14 feet. The Parkway can accommodate an RV weighing up to 40,000 pounds.",
+        "rvMaxLength": "55",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "Services available: restrooms, designated campsite with picnic table.",
+        "trailerAllowed": "1",
+        "accessRoads": [
+          "Paved Roads - All vehicles OK"
+        ],
+        "classifications": [
+          "Limited Development Campground"
+        ]
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "E525405F-CD51-455B-BB8A-375D58C6636E",
+      "url": "https://www.nps.gov/natr/planyourvisit/camping.htm",
+      "name": "Meriwether Lewis Campground",
+      "parkCode": "natr",
+      "description": "Meriwether Lewis campground located at milepost 385.9 includes a 32-site campground. Campground sites are on a first come first served basis, no reservations, no hook-ups, dump stations and showers. Pull-through and back-in sites are available. Campgrounds are typically busiest during the spring and fall, especially during holiday weekends. The rest of the Meriwether Lewis site includes hiking trails, a section of Old Trace, exhibits and picnic areas.",
+      "latitude": "35.522488",
+      "longitude": "-87.455978",
+      "latLong": "{lat:35.522488, lng:-87.455978}",
+      "audioDescription": "The 32 site campground is nestled on a ridge at the Meriwether Lewis Death and Burial Site. All sites are first come first served with no fees and no reservations. The pull-through and back-in sites are paved. Please only park on the pavement. There are no hook-ups, dump stations or showers at the campground. The campsites have grill and fire pits and are surrounded by forest.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Campground sites are on a first come first served basis, no reservations. Campgrounds are typically busiest during the spring and fall, especially during holiday weekends.",
+      "reservationUrl": "",
+      "regulationsurl": "http://www.nps.gov/natr/learn/management/lawsandpolicies.htm",
+      "regulationsOverview": "Total vehicle length including tow vehicles is 55 feet. Maximum height is 14 feet. Maximum stay is 14 consecutive days.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - year round",
+        "toilets": [
+          "Flush Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "No",
+        "laundry": "No",
+        "amphitheater": "No",
+        "dumpStation": "No",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - year round"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "No"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "18003057417",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          },
+          {
+            "phoneNumber": "6626804033",
+            "description": "",
+            "extension": "",
+            "type": "Fax"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "It is best to call the Parkway Visitor Center at 1-800-305-7417. A Park Ranger is available to answer your questions 7 days a week during normal business hours. The visitor center is closed Thanksgiving, December 25th and January 1st.",
+            "emailAddress": "natr_interpretation@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "0.00",
+          "description": "Campground sites are on a first come first served basis, no reservations. Campgrounds are typically busiest during the spring and fall, especially during holiday weekends.",
+          "title": "No fee"
+        }
+      ],
+      "directionsOverview": "At mile post 385.9 exit off of the Natchez Trace Parkway. At the dead end turn right, follow to the fork in the road and turn right. Take the second right to enter into the campground. Latitude: 35.522516 Longitude: -87.455926 GPS Site Address: 190 Meriwether Lewis Park Hohenwald, TN 38462",
+      "directionsUrl": "http://www.nps.gov/natr/planyourvisit/maps.htm",
+      "operatingHours": [
+        {
+          "exceptions": [
+            {
+              "exceptionHours": {
+                "wednesday": "Closed",
+                "monday": "Closed",
+                "thursday": "Closed",
+                "sunday": "Closed",
+                "tuesday": "Closed",
+                "friday": "Closed",
+                "saturday": "Closed"
+              },
+              "startDate": "2020-04-06",
+              "name": "Temporary Closure due to COVID-19",
+              "endDate": "2021-02-01"
+            }
+          ],
+          "description": "The campground is open year-round, first-come, first-served.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Meriwether Lewis Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "38462",
+          "city": "Hohenwald",
+          "stateCode": "TN",
+          "line1": "190 Meriwether Lewis Park",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "38804",
+          "city": "Tupelo",
+          "stateCode": "MS",
+          "line1": "2680 Natchez Trace Parkway",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Tent camping at the Meriwether Lewis Death and Burial Site Campground",
+          "altText": "Two blue tents are set up at campsite 29. The site is surrounded by green trees.",
+          "caption": "The campgroudn at the Meriwether Lewis site is a great basecamp for exploring the Natchez Trace Parkway in Tennessee",
+          "url": "https://www.nps.gov/common/uploads/structured_data/46418CB5-009A-DFF0-BC93DEEE9944741A.jpg"
+        }
+      ],
+      "weatherOverview": "Most of Tennessee is classified as a humid subtropical climate, the weather ranges from mild to cold winters with light snowfall to hot summers. Weather conditions across Tennessee can vary significantly based on elevation. In general terms, the spring months in Tennessee are mild with low humidity. Summers are warm, often hot, with high humidity. Fall could best be described as \"perfect.\" Winters are mild, but wet. Check local forecasts.",
+      "numberOfSitesReservable": "0",
+      "numberOfSitesFirstComeFirstServe": "32",
+      "campsites": {
+        "totalSites": "32",
+        "group": "0",
+        "horse": "0",
+        "tentOnly": "0",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "Yes",
+        "internetInfo": "",
+        "cellPhoneInfo": "Cell phone reception is dependent on service provider",
+        "fireStovePolicy": "Fire Rings provided and campfires are allowed.",
+        "rvAllowed": "1",
+        "rvInfo": "No electric or plumbing hookups or dump stations. The length restriction for RVs is 55 feet, including a tow vehicle, and the height restriction is 14 feet. The Parkway can accommodate an RV weighing up to 40,000 pounds.",
+        "rvMaxLength": "55",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "Services available: restrooms, visitor center (hours vary), interpretive trail, designated campsite with picnic table.",
+        "trailerAllowed": "1",
+        "accessRoads": [
+          "Paved Roads - All vehicles OK"
+        ],
+        "classifications": [
+          "Limited Development Campground"
+        ]
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "C44D4A8E-8C95-4360-BEC8-0C53C6BA4D35",
+      "url": "https://www.nps.gov/obed/planyourvisit/campgrounds.htm",
+      "name": "Rock Creek Campground",
+      "parkCode": "obed",
+      "description": "The Rock Creek Campground, located adjacent to the Nemo area of the Obed Wild & Scenic River, offers 11 spots for campers on a first come/first served basis. A $10 per night fee is charged and reservations are required. You may obtain your reservation by visiting www.recreation.gov and searching for \"Rock Creek Campground - TN\". The campground has grills and primitive toilet facilities, but no running water.",
+      "latitude": "36.06963726622717",
+      "longitude": "-84.66287612915039",
+      "latLong": "{lat:36.06963726622717, lng:-84.66287612915039}",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "This campground is on the reservation system through Recreation.gov.",
+      "reservationUrl": "https://www.recreation.gov/camping/campgrounds/253502",
+      "regulationsurl": "http://www.nps.gov/obed/learn/management/lawsandpolicies.htmhttp://www.nps.gov/obed/planyourvisit/upload/Rock-Creek-Campground-Map-2016-bw.pdf",
+      "regulationsOverview": "Various public documents help guide the further management of natural and cultural resources, and the recreational opportunities within the park. Please click on the link to find out more.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - year round",
+        "toilets": [
+          "Vault Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "No",
+        "laundry": "No",
+        "amphitheater": "No",
+        "dumpStation": "No",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - year round",
+        "potableWater": [
+          "No water"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "Yes - year round"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "4233466294",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "obri_information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "10.00",
+          "description": "The campground has grills and primitive toilet facilities, but no running water.",
+          "title": "Walk-in, tent-only site"
+        }
+      ],
+      "directionsOverview": "The Obed Wild & Scenic River Visitor Center is located at 208 North Maiden Street in downtown Wartburg, Tennessee.",
+      "directionsUrl": "http://www.nps.gov/obed/planyourvisit/directions.htm",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Campground is open year-round.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Rock Creek Campground"
+        }
+      ],
+      "addresses": [],
+      "images": [
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Tent camping at Rock Creek Campground",
+          "altText": "tent site",
+          "caption": "Tent camping is popular at Obed WSR.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/3C792D02-1DD8-B71B-0B2A2311F65698D7.jpg"
+        }
+      ],
+      "weatherOverview": "The weather along the Cumberland Plateau can be best described as unpredictable. Each season brings its own weather patterns. Summers are generally hot and humid, with high temperatures sometimes eclipsing 90 degrees. The low temperatures in winter often dip below freezing. Spring sees the most amount of precipitation, but rainfall can occur in various amounts throughout the year.",
+      "numberOfSitesReservable": "11",
+      "numberOfSitesFirstComeFirstServe": "11",
+      "campsites": {
+        "totalSites": "11",
+        "group": "0",
+        "horse": "0",
+        "tentOnly": "11",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "11",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "The designated ADA campsite is wheelchair accessible.",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Firewood must be purchased and/or collected from the local vicinity; to learn more visit http://dontmovefirewood.org/.",
+        "rvAllowed": "0",
+        "rvInfo": "Due to steep grade of road into the campground, RVs and trailers are not permitted.",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "One campsite is designated as ADA accessible with a paved surface and access to the vault toilet.",
+        "trailerAllowed": "0",
+        "accessRoads": [
+          "Unpaved Roads - All vehicles OK in good weather"
+        ],
+        "classifications": [
+          "Limited Development Campground"
+        ]
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "0B3A9971-2BAE-444E-85C1-095D72B7E65F",
+      "url": "https://www.nps.gov/natr/planyourvisit/camping.htm",
+      "name": "Rocky Springs Campground",
+      "parkCode": "natr",
+      "description": "Rocky Springs is located on the Natchez Trace Parkway at milepost 54.8. It includes a 22-site campground, picnic tables, restrooms, a section of the Old Natchez Trace, self-guiding walking trails through the old town site and the spring. Campground sites are on a first come first served basis, no reservations. Pull-through and back-in sites are available. Campgrounds are typically busiest during the spring and fall, especially during holiday weekends.",
+      "latitude": "32.08645",
+      "longitude": "-90.79871",
+      "latLong": "{lat:32.08645, lng:-90.79871}",
+      "audioDescription": "History and nature meet at Rocky Springs Campground. Campers can walk sections of the Old Natchez Trace on the Rocky Springs Section of the Natchez Trace National Scenic Trail. There are historic short walks and nature walks. General U.S. Grant camped here as he began his campaign of the siege of Vicksburg.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Campground sites are on a first come first served basis, no reservations. Campgrounds are typically busiest during the spring and fall, especially during holiday weekends.",
+      "reservationUrl": "",
+      "regulationsurl": "http://www.nps.gov/natr/learn/management/lawsandpolicies.htm",
+      "regulationsOverview": "Total vehicle length including tow vehicles is 55 feet. Maximum height is 14 feet.  Maximum length of stay is 14 days, not to exceed 30 per year  Campsites are available on a first‐come, first‐served basis only  Camp only in designated sites  Connecting to utilities (water & electric) is prohibited. Visitors may use hair dryers, electric shavers, and electric toothbrushes at the restroom outlets.  All tires of vehicles must remain on pavement  Fires are permitted in personal camping grills, provided site grills, and fire rings only  All campfires must be completely extinguished when not attended  All pets must be on a leash less than 6 feet long, including while in campsites  Pets may not be left unattended tied to an object  Pet waste must be cleaned up and disposed of properly  Digging or leveling of campsites is prohibited  Cutting of vegetation is prohibited  Only dead and down wood may be gathered for campfire use  Garbage must be placed in garbage cans",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - year round",
+        "toilets": [
+          "Flush Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "Yes - year round",
+        "laundry": "No",
+        "amphitheater": "Yes - year round",
+        "dumpStation": "No",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - year round"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "No"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "6626804027",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          },
+          {
+            "phoneNumber": "6626804049",
+            "description": "",
+            "extension": "",
+            "type": "Fax"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "Call the Parkway Visitor Center at 1-800-305-7417. A Park Ranger is available to answer your questions 7 days a week during normal business hours. The visitor center is closed Thanksgiving, December 25th and January 1st.",
+            "emailAddress": "natr_interpretation@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "0.00",
+          "description": "Campground sites are on a first come first served basis, no reservations. Campgrounds are typically busiest during the spring and fall, especially during holiday weekends.",
+          "title": "No fee"
+        }
+      ],
+      "directionsOverview": "At mile post 54.8 exit off of the Natchez Trace Parkway. Take the first right to enter into the campground. Latitude: 32.08645 Longitude -90.79871",
+      "directionsUrl": "http://www.nps.gov/natr/planyourvisit/maps.htm",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "The campground is open year-round, first-come, first-served.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Rocky Springs Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "39086",
+          "city": "Hermanville",
+          "stateCode": "MS",
+          "line1": "Milepost 54.8 Natchez Trace Parkway",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "38804-9517",
+          "city": "Tupelo",
+          "stateCode": "MS",
+          "line1": "2680 Natchez Trace Parkway",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [
+        {
+          "credit": "NPS Photo",
+          "crops": [],
+          "title": "Rocky Springs Campground in Autumn",
+          "altText": "Image of Rocky Springs campground in autumn, including two picnic tables and two fire rings",
+          "caption": "Campsites are available on a first come, first serve basis. No reservations.",
+          "url": "https://www.nps.gov/common/uploads/structured_data/3C80EAA3-1DD8-B71B-0B0D13BD39E5FD33.jpg"
+        },
+        {
+          "credit": "NPS photo/Brian Powers",
+          "crops": [],
+          "title": "Accessible Campsite",
+          "altText": "This wooded campsite has wheel chair access to the picnic table.",
+          "caption": "ADA Campsite",
+          "url": "https://www.nps.gov/common/uploads/structured_data/4F3A4DBF-A4B8-86A8-895690602E8903E2.jpeg"
+        },
+        {
+          "credit": "NPS photo/Brian Powers",
+          "crops": [],
+          "title": "Rocky Springs Arrowhead Entry Sign",
+          "altText": "A hanging wooden arrowhead sign with the post rider logo and the words Rocky Springs.",
+          "caption": "Rocky Springs Campground Entry Sign",
+          "url": "https://www.nps.gov/common/uploads/structured_data/4F51E413-0C89-FD57-7D65721159847D3C.jpg"
+        },
+        {
+          "credit": "NPS photo/Brian Powers",
+          "crops": [],
+          "title": "Road into Rocky Springs Campground",
+          "altText": "A paved road leading into forest.",
+          "caption": "Rocky Springs Campground Entry Road",
+          "url": "https://www.nps.gov/common/uploads/structured_data/4F72E77C-9E68-DBD9-CFE599D4D6975A30.jpg"
+        },
+        {
+          "credit": "NPS map",
+          "crops": [],
+          "title": "Rocky Springs Campground Map",
+          "altText": "Map shows campground loop with 22 sites. Number 10 is accessible.",
+          "caption": "Location and type of campsites at Rocky Springs Campground",
+          "url": "https://www.nps.gov/common/uploads/structured_data/BA3D05B1-B48F-C7BA-E44C94094C2020A3.jpg"
+        }
+      ],
+      "weatherOverview": "Mississippi is classified as a humid subtropical climate, the weather ranges from mild winters to hot summers with high humidity between May and September. Average high temperatures reach into the high 80's in summer, and into the high 40's in winter. Thunderstorms are common in Mississippi, especially in the southern part of the state, and from June through November, the state is occasionally affected by hurricanes moving north from the Gulf of Mexico. Check local forecasts.",
+      "numberOfSitesReservable": "0",
+      "numberOfSitesFirstComeFirstServe": "22",
+      "campsites": {
+        "totalSites": "22",
+        "group": "0",
+        "horse": "0",
+        "tentOnly": "0",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "Yes",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Fire Rings provided and campfires are allowed.",
+        "rvAllowed": "1",
+        "rvInfo": "No electric or plumbing hookups. The length restriction for RVs is 55 feet, including a tow vehicle, and the height restriction is 14 feet. The Parkway can accommodate an RV weighing up to 40,000 pounds.",
+        "rvMaxLength": "55",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "Services available: restrooms in campground, designated campsite with picnic table.",
+        "trailerAllowed": "1",
+        "accessRoads": [
+          "Paved Roads - All vehicles OK"
+        ],
+        "classifications": [
+          "Limited Development Campground"
+        ]
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "5EC50DAF-A871-466C-80B6-9729BDBF090B",
+      "url": "",
+      "name": "Smokemont Campground",
+      "parkCode": "grsm",
+      "description": "Mountain ranges and pristine streams and rivers are the backdrop for your camping adventure in Smokemont. Whether blanketed in spring wildflowers or vivid fall colors, the scenery at Smokemont never disappoints. At 2,200 feet, Smokemont provides a moderate climate, characterized by mild winters and hot, humid summers. Smokemont Campground offers an unforgettable outdoor experience with campsites for tents as well as RVs.",
+      "latitude": "35.5559132",
+      "longitude": "-83.3114313",
+      "latLong": "{lat:35.5559132, lng:-83.3114313}",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Reservation season is from May 15th-October 31st and can be made up to 6 months in advance",
+      "reservationUrl": "http://www.recreation.gov/camping/smokemont-campground/r/campgroundDetails.do?contractCode=NRSO&parkId=70967",
+      "regulationsurl": "http://www.nps.gov/grsm/planyourvisit/campregs.htm",
+      "regulationsOverview": "All food and equipment used to prepare and store food must be kept sealed in a vehicle or in a camping unit constructed of solid, non-pliable material or as otherwise directed at all times when not in use. Campfires are permitted only in fire grates. You may collect wood in the park only if it is on the ground and dead. Beginning March 1, 2015 only heat-treated firewood that is bundled and certified by the United States Department of Agriculture (USDA) or a state agency may be brought into the park. Quiet hours are in effect from 10 pm to 6 am. Generator use is prohibited from 8 pm to 8 am. Your stay is limited to 14 consecutive days at a time. You may have up to six people per campsite. No more than two motor vehicles or one vehicle with trailer are allowed per campsite. Please keep wheels, including trailer wheels and guest cars, on the pavement. Park only in designated spaces. All tents must be pitched on the pad, where provided.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - year round",
+        "toilets": [
+          "Flush Toilets - year round"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "None"
+        ],
+        "cellPhoneReception": "No",
+        "laundry": "No",
+        "amphitheater": "No",
+        "dumpStation": "Yes - year round",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - year round"
+        ],
+        "iceAvailableForSale": "Yes - seasonal",
+        "firewoodForSale": "Yes - seasonal",
+        "foodStorageLockers": "Yes - year round"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "8284979270",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "GRSM_Smokies_Information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "25.00",
+          "description": "Fee is per site, per night (May 15th-October 31st)",
+          "title": "Camping Fee"
+        }
+      ],
+      "directionsOverview": "From Cherokee, NC: Take Newfound Gap Road (US-441) North 6 miles. Turn right at campground sign. From Gatlinburg, TN: Take Newfound Gap Road (US-441) South 27 miles. Turn left at campground sign.",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "The campground is open year round.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Smokemont Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "28719",
+          "city": "Cherokee",
+          "stateCode": "NC",
+          "line1": "253 Smokemont Campground Road",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "107 Park Headquarters Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [],
+      "weatherOverview": "",
+      "numberOfSitesReservable": "142",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "142",
+        "group": "3",
+        "horse": "0",
+        "tentOnly": "0",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Only heat-treated firewood which is in its original packaging and bears a certification from the USDA or a state agency may be brought into the park. You may also collect wood which is dead and down in the park to burn at your campsite. Fires are allowed only in established fire rings at each campsite.",
+        "rvAllowed": "0",
+        "rvInfo": "",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "",
+        "trailerAllowed": "0",
+        "accessRoads": [],
+        "classifications": []
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "30033AFC-D90E-4B30-BDFC-6495D2B9CB64",
+      "url": "",
+      "name": "Smokemont Group Campground",
+      "parkCode": "grsm",
+      "description": "Mountain ranges and pristine streams and rivers are the backdrop for your camping adventure in Smokemont. Whether blanketed in spring wildflowers or vivid fall colors, the scenery at Smokemont never disappoints. At 2,200 feet, Smokemont provides a moderate climate, characterized by mild winters and hot, humid summers. Smokemont Campground offers an unforgettable outdoor experience with campsites for tents as well as RVs.",
+      "latitude": "35.5604013",
+      "longitude": "-83.3119259",
+      "latLong": "{lat:35.5604013, lng:-83.3119259}",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "",
+      "reservationUrl": "",
+      "regulationsurl": "",
+      "regulationsOverview": "",
+      "amenities": {
+        "trashRecyclingCollection": "",
+        "toilets": [],
+        "internetConnectivity": "",
+        "showers": [],
+        "cellPhoneReception": "",
+        "laundry": "",
+        "amphitheater": "",
+        "dumpStation": "",
+        "campStore": "",
+        "staffOrVolunteerHostOnsite": "",
+        "potableWater": [],
+        "iceAvailableForSale": "",
+        "firewoodForSale": "",
+        "foodStorageLockers": ""
+      },
+      "contacts": {
+        "phoneNumbers": [],
+        "emailAddresses": []
+      },
+      "fees": [],
+      "directionsOverview": "",
+      "directionsUrl": "",
+      "operatingHours": [],
+      "addresses": [
+        {
+          "postalCode": "37738",
+          "city": "Gatlinburg",
+          "stateCode": "TN",
+          "line1": "",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [],
+      "weatherOverview": "",
+      "numberOfSitesReservable": "0",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "0",
+        "group": "0",
+        "horse": "0",
+        "tentOnly": "0",
+        "electricalHookups": "0",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "",
+        "rvAllowed": "0",
+        "rvInfo": "",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "",
+        "trailerAllowed": "0",
+        "accessRoads": [],
+        "classifications": []
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "C8AA0A50-B50A-44C4-8535-84277F7160DA",
+      "url": "https://www.nps.gov/biso/planyourvisit/horsecamps.htm",
+      "name": "Station Camp Campground",
+      "parkCode": "biso",
+      "description": "This campground contains 24 developed campsites. Each site offers water and electricity, tables, grills, tie-outs for 4 horses, access to modern restrooms with hot showers, a dump station and access miles of horse trails. Station Camp Campground is located on station Camp Road approximately 4.5 miles from the intersection of Coopertown Road and Leatherwood Road . The fee rate per night is $28.00 (half price for holders of the Interagency Access/Senior Passes).",
+      "latitude": "36.546841",
+      "longitude": "-84.636076",
+      "latLong": "{lat:36.546841, lng:-84.636076}",
+      "audioDescription": "The campground sits at the end of a gravel road with an entrance that passes by a small bulletin board of information. This is where campers get information about the park. All sites have a gravel parking pad along with a gravel tent pad. Each site has a picnic table, lantern hook and fire ring with grill. Most sites will also have a food storage locker on site or one nearby. Hook up sites have an electrical pedestal that stands near the water hydrant as well. There is one accessible bathhouse located in the center of the campground. Access to the bathhouse porch is up a ramp or set of steps. There is bathroom access from the center of the porch to a men's side slightly on the left, women's side on the right side. Inside the main bathrooms are stalls. The showers are straight to the back of the restroom on each side. A sink stands against the wall just outside the showers with the toilet stalls on the opposite side.",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "Campground reservations for sites within Big South Fork can now be made through National Recreation Reservation Service by calling 1-877-444-6777 or online at www.recreation.gov. Reservations may be made up to 240 days in advance.",
+      "reservationUrl": "https://www.recreation.gov/camping/campgrounds/10004358?q=Station%20Camp%20Campground",
+      "regulationsurl": "https://www.nps.gov/biso/planyourvisit/upload/Station-Camp-Campground-map-regs.pdf",
+      "regulationsOverview": "All food, food items (mustard, ketchup, etc), coolers (even if they are empty or have ice, water, pop, etc), must be kept in a vehicle or trailer with hard sides, except while preparing or eating it. Parking is not allowed on the gravel pads (gravel pads are for tents). Pets MUST be restrained on a leash AT ALL TIMES. QUIET HOURS ARE FROM 10:00 PM (ET) TO 6:00 AM (ET) All grey water (dishes, shower, etc) must NEVER be dumped onto the ground. Motorized vehicles not designated for on highway use (i.e. ATV’s, golf carts, etc) are prohibited on public roads including campground roads within the Big South Fork NRRA.",
+      "amenities": {
+        "trashRecyclingCollection": "Yes - seasonal",
+        "toilets": [
+          "Flush Toilets - seasonal"
+        ],
+        "internetConnectivity": "Yes - seasonal",
+        "showers": [
+          "Hot - Seasonal"
+        ],
+        "cellPhoneReception": "Yes - seasonal",
+        "laundry": "No",
+        "amphitheater": "Yes - seasonal",
+        "dumpStation": "Yes - seasonal",
+        "campStore": "No",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - seasonal"
+        ],
+        "iceAvailableForSale": "No",
+        "firewoodForSale": "No",
+        "foodStorageLockers": "Yes - seasonal"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "4235699778",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "This email address is the main mailbox for the Big South Fork National River and Recreation Area. Someone will forward your email to the right person to answer any questions or concerns you may  have.",
+            "emailAddress": "biso_information@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "28.00",
+          "description": "This fee covers one night of camping for up to six persons per site. Holders of the Interagency Access/Senior Passports pay only half the fee.",
+          "title": "Campsite Fee"
+        }
+      ],
+      "directionsOverview": "After turning onto Hwy 297 westward from Oneida, TN, follow the road for approximately 5 miles and stay straight to continue on Station Camp Road another 5 miles. Turn right into Station Camp Campground.",
+      "directionsUrl": "",
+      "operatingHours": [
+        {
+          "exceptions": [],
+          "description": "Campground is open and on the reservations system year-round. Sites not reserved may be obtained on a first come-first serve basis.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Station Camp Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "37841",
+          "city": "Oneida",
+          "stateCode": "TN",
+          "line1": "4504 Station Camp Rd",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "37841",
+          "city": "Oneida",
+          "stateCode": "TN",
+          "line1": "4564 Leatherwood Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [
+        {
+          "credit": "NPS",
+          "crops": [],
+          "title": "Station Camp Campground",
+          "altText": "A large black RV is parked next to tent pad with picnic table.",
+          "caption": "Station Camp Campground",
+          "url": "https://www.nps.gov/common/uploads/structured_data/87F24B71-B818-BA85-C0358FBFF36C46E7.jpg"
+        }
+      ],
+      "weatherOverview": "The weather along the Cumberland Plateau can be best described as unpredictable. Each season brings its own weather patterns. Summers are generally hot and humid, with high temperatures sometimes eclipsing 90 degrees. The low temperatures in winter often dip below freezing. Spring sees the most amount of precipitation, but rainfall can occur in various amounts throughout the year.",
+      "numberOfSitesReservable": "28",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "24",
+        "group": "0",
+        "horse": "24",
+        "tentOnly": "24",
+        "electricalHookups": "24",
+        "rvOnly": "24",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "Wheelchair access is available to the bathhouse. The surface around the campsites are gravel mostly.",
+        "internetInfo": "Cell service is available but limited.",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Fires may be built inside the fire-rings on each site.",
+        "rvAllowed": "1",
+        "rvInfo": "RVs and trailers can easily access the accessible site.",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "Site 7 is accessible and located directly across from the bathhouse.",
+        "trailerAllowed": "1",
+        "accessRoads": [
+          "Unpaved Roads - All vehicles OK in good weather"
+        ],
+        "classifications": [
+          "Developed Campground"
+        ]
+      },
+      "lastIndexedDate": ""
+    },
+    {
+      "id": "87CACD0F-E22C-4DED-9CA5-B6E1F08857CE",
+      "url": "",
+      "name": "Wilderness Road Campground",
+      "parkCode": "cuga",
+      "description": "This 160 site campground is located approximately 3 miles from the park visitor center off of Highway 58 in Virginia. 20, 30 and 50 amp electrical hookups are available at 41 of the sites. Hot showers and potable water are located in the comfort stations. Camping rigs up to 50 feet can be accomodated. Sites are accessed through paved loop roads. Most of the sites require backing in with the exception of one pull through site. Campsites are available on a first-come, first-serve basis",
+      "latitude": "",
+      "longitude": "",
+      "latLong": "",
+      "audioDescription": "",
+      "isPassportStampLocation": "0",
+      "passportStampLocationDescription": "",
+      "passportStampImages": [],
+      "reservationInfo": "",
+      "reservationUrl": "",
+      "regulationsurl": "",
+      "regulationsOverview": "",
+      "amenities": {
+        "trashRecyclingCollection": "No",
+        "toilets": [
+          "Flush Toilets - seasonal"
+        ],
+        "internetConnectivity": "No",
+        "showers": [
+          "Hot - Seasonal",
+          "Free - Seasonal"
+        ],
+        "cellPhoneReception": "No",
+        "laundry": "No",
+        "amphitheater": "Yes - seasonal",
+        "dumpStation": "Yes - seasonal",
+        "campStore": "Yes - seasonal",
+        "staffOrVolunteerHostOnsite": "Yes - seasonal",
+        "potableWater": [
+          "Yes - seasonal"
+        ],
+        "iceAvailableForSale": "Yes - seasonal",
+        "firewoodForSale": "Yes - seasonal",
+        "foodStorageLockers": "No"
+      },
+      "contacts": {
+        "phoneNumbers": [
+          {
+            "phoneNumber": "6062482817",
+            "description": "",
+            "extension": "",
+            "type": "Voice"
+          },
+          {
+            "phoneNumber": "6062487276",
+            "description": "",
+            "extension": "",
+            "type": "Fax"
+          }
+        ],
+        "emailAddresses": [
+          {
+            "description": "",
+            "emailAddress": "cuga_interpretation@nps.gov"
+          }
+        ]
+      },
+      "fees": [
+        {
+          "cost": "20.00",
+          "description": "$20.00 per night per site with electrical hookup.",
+          "title": "Campsite with Electricity"
+        },
+        {
+          "cost": "10.00",
+          "description": "$10.00 per night per site with electrical hookup for Senior or Access Pass holders.",
+          "title": "Campsite with Electricity - Senior"
+        },
+        {
+          "cost": "14.00",
+          "description": "$14.00 per night per site for sites with no electricity.",
+          "title": "Campsite without Electricity"
+        },
+        {
+          "cost": "7.00",
+          "description": "$7.00 per night per site for tent sites with no electricity for Senior or Access Pass holders.",
+          "title": "Campsite without electricity - Senior"
+        },
+        {
+          "cost": "35.00",
+          "description": "Group camp sites are available. Cost is $35.00 per night per site.",
+          "title": "Group Camping"
+        }
+      ],
+      "directionsOverview": "The 160 site Wilderness Road Campground is located approximately 3 miles from the park visitor center off of Highway 58 in Virginia.",
+      "directionsUrl": "http://www.nps.gov/cuga/planyourvisit/campgrounds.htm",
+      "operatingHours": [
+        {
+          "exceptions": [
+            {
+              "exceptionHours": {
+                "wednesday": "Closed",
+                "monday": "Closed",
+                "thursday": "Closed",
+                "sunday": "Closed",
+                "tuesday": "Closed",
+                "friday": "Closed",
+                "saturday": "Closed"
+              },
+              "startDate": "2020-11-16",
+              "name": "Winter",
+              "endDate": "2021-03-14"
+            }
+          ],
+          "description": "The Wilderness Road Campground is open seasonally. Winter closure is from November 16th - March 14th. The campground is located approximately 3 miles from the park visitor center off of Highway 58 in Virginia. It has 160 sites in a beautiful wooded setting.",
+          "standardHours": {
+            "wednesday": "All Day",
+            "monday": "All Day",
+            "thursday": "All Day",
+            "sunday": "All Day",
+            "tuesday": "All Day",
+            "friday": "All Day",
+            "saturday": "All Day"
+          },
+          "name": "Wilderness Road Campground"
+        }
+      ],
+      "addresses": [
+        {
+          "postalCode": "24248",
+          "city": "Ewing",
+          "stateCode": "VA",
+          "line1": "854 National Park Road",
+          "type": "Physical",
+          "line3": "",
+          "line2": ""
+        },
+        {
+          "postalCode": "40965",
+          "city": "Middlesboro",
+          "stateCode": "KY",
+          "line1": "91 Bartlett Park Road",
+          "type": "Mailing",
+          "line3": "",
+          "line2": ""
+        }
+      ],
+      "images": [],
+      "weatherOverview": "Summers at Cumberland Gap are hot and humid, with temperatures commonly in the mid to upper 90s. Winters are generally mild with rain and some periods of snow January through March. Temperatures usually range in the 30s and 40s. Weather can sometimes be unpredictable, especially at higher elevations. If hiking in the backcountry, please remember that temperatures at higher elevations are five to ten degrees cooler. Wear comfortable clothing and footwear appropriate to the season.",
+      "numberOfSitesReservable": "0",
+      "numberOfSitesFirstComeFirstServe": "0",
+      "campsites": {
+        "totalSites": "160",
+        "group": "13",
+        "horse": "0",
+        "tentOnly": "0",
+        "electricalHookups": "41",
+        "rvOnly": "0",
+        "walkBoatTo": "0",
+        "other": "0"
+      },
+      "accessibility": {
+        "wheelchairAccess": "",
+        "internetInfo": "",
+        "cellPhoneInfo": "",
+        "fireStovePolicy": "Fires: Keep fires small. Build fires only in established fire rings. Use only dead wood which is down. Completely extinguish fires",
+        "rvAllowed": "0",
+        "rvInfo": "",
+        "rvMaxLength": "0",
+        "additionalInfo": "",
+        "trailerMaxLength": "0",
+        "adaInfo": "",
+        "trailerAllowed": "0",
+        "accessRoads": [],
+        "classifications": []
+      },
+      "lastIndexedDate": ""
+    }
   ]
 }

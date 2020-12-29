@@ -65,6 +65,7 @@ const deleteTrip = (id) => {
     })
         .then(getTrip)
 }
+
     
 
 
