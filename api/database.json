@@ -46,40 +46,12 @@
   ],
   "trips": [
     {
-      "tripName": "Nashville ",
-      "activeUser": 1,
-      "id": 1
-    },
-    {
-      "tripName": "Memphis",
-      "activeUser": 1,
-      "id": 2
-    },
-    {
       "tripName": "Acadia",
       "activeUser": 1,
       "id": 3
     }
   ],
   "packedItem": [
-    {
-      "tripId": 1,
-      "gearId": 1,
-      "activeUser": 1,
-      "id": 1
-    },
-    {
-      "tripId": 1,
-      "gearId": 2,
-      "activeUser": 1,
-      "id": 2
-    },
-    {
-      "tripId": 1,
-      "gearId": 3,
-      "activeUser": 1,
-      "id": 3
-    },
     {
       "tripId": 3,
       "gearId": 1,
@@ -97,18 +69,6 @@
       "gearId": 4,
       "activeUser": 1,
       "id": 6
-    },
-    {
-      "tripId": 2,
-      "gearId": 1,
-      "activeUser": 1,
-      "id": 7
-    },
-    {
-      "tripId": 2,
-      "gearId": 2,
-      "activeUser": 1,
-      "id": 8
     }
   ]
 }

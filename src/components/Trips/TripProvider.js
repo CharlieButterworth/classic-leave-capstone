@@ -59,13 +59,18 @@ const getTripPackedItems = (tripId) => {
 // console.log("GETTRIPPACKEDITEM", getTripPackedItems)
 
 
-
+const deleteTrip = (id) => {
+    return fetch(`http://localhost:8088/trips/${id}`, {
+        method: "DELETE"
+    })
+        .then(getTrip)
+}
     
 
 
 return (
         <TripContext.Provider value={{
-            trips, getTrip, setTrip, addTrip, addPackedItem, packedItems, getTripPackedItems
+            trips, getTrip, setTrip, addTrip, addPackedItem, packedItems, getTripPackedItems, deleteTrip
         }}>
             {props.children}
         </TripContext.Provider>
