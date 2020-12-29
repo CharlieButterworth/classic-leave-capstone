@@ -15,9 +15,9 @@
       background-color: #bc986a;
 }
 
-.packedList {
+.packForm {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: column;
     justify-content: space-between;
     flex-basis: 28%;
       margin: 1em;
@@ -26,15 +26,11 @@
       background-color: #bc986a;
 }
 
-.packedItem {
+.packItem {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: column;
     justify-content: space-between;
-    flex-basis: 28%;
-      margin: 1em;
-      padding: 1em;
-      border: 1px solid black;
-      background-color: #bc986a;
+    
 }
 
 .trip {
@@ -43,4 +39,23 @@
       padding: 1em;
       border: 1px solid black;
       background-color: #bc986a;
+}
+
+.trip-button {
+  display: flex;
+  border-radius: 15px
+}
+
+.gear-drop {
+  background-color: black;
+}
+
+.add-trip {
+  display: flex;
+  border-radius: 15px;
+  background-color: #fbeec1;
+}
+
+.trip-info {
+  border: pink
 }

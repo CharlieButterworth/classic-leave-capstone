@@ -46,7 +46,17 @@
   ],
   "trips": [
     {
-      "tripName": "Acadia",
+      "tripName": "Memphis",
+      "activeUser": 1,
+      "id": 1
+    },
+    {
+      "tripName": "Nashville",
+      "activeUser": 1,
+      "id": 2
+    },
+    {
+      "tripName": "Memhpis",
       "activeUser": 1,
       "id": 3
     }
@@ -56,19 +66,7 @@
       "tripId": 3,
       "gearId": 1,
       "activeUser": 1,
-      "id": 4
-    },
-    {
-      "tripId": 3,
-      "gearId": 2,
-      "activeUser": 1,
-      "id": 5
-    },
-    {
-      "tripId": 3,
-      "gearId": 4,
-      "activeUser": 1,
-      "id": 6
+      "id": 1
     }
   ]
 }

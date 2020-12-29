@@ -6,7 +6,7 @@ import "./Trip.css"
 export const Trip = ({ trip }) => (
     <Card>
        <Card.Body> 
-    <section className="parks">
+    <section className="trip">
             <article className="parkList">
             <Link to={`/trips/${trip.id}`}>  
            <h3>{trip.tripName} </h3>   

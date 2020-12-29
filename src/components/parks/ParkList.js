@@ -3,6 +3,7 @@ import { ParkContext } from "./ParkProvider"
 import { Link } from "react-router-dom"
 import { Park } from "./Park"
 import { TripContext } from "../trips/TripProvider"
+import "./Park.css"
 
 export const ParkList = (props) => {
     const { parks, getParks, getParkById } = useContext(ParkContext)
@@ -36,7 +37,7 @@ export const ParkList = (props) => {
 
                 <option value="0">Please select a park</option>
                     {
-                        parks.map(p => <option key={p.id} value={p.id}>{p.fullName} </option> )
+                        parks.map(p => <option className="park-drop"key={p.id} value={p.id}>{p.fullName} </option> )
                     }
             
          

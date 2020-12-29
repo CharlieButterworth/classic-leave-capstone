@@ -56,10 +56,10 @@ return (
               packGear(c);
             }}
             >
-            <option value="0">Pack Your Things</option>
+            <option className="gear-drop"value="0">Pack Your Things</option>
             {
             gear.map((g) => (
-              <option key={g.id} value={g.id} id={g.id}>
+              <option  key={g.id} value={g.id} id={g.id}>
                 {g.name}
               </option>
             ))

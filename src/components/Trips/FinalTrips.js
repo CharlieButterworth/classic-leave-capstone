@@ -1,32 +1,22 @@
 import React, { useContext, useEffect } from "react"
 import { TripContext } from "./TripProvider"
 import { Trip } from "./Trip"
-import { TripForm } from "./TripForm"
-import "./Trip.css"
 
+export const FinalTrips = (props) => {
+ const { trips, getTrip, deleteTrip } = useContext(TripContext)
 
-
-export const TripList = (props) => {
-
-    const { trips, getTrip, deleteTrip } = useContext(TripContext)
-    
-
-
-
-    useEffect(() => {
+useEffect(() => {
         getTrip()
     }, [])
 
-    return (
-    <div className="trip-info">
-        
-        <button className="add-trip" onClick={() => props.history.push("/trips/create")}>
-            Add Trip
-        </button>
-        <div className="tripList">
-          <h3>My Trip's</h3>
-          <p>Don't see trips? Add gear to begin!</p>
-        {
+ return (
+
+     <div className="final-trips"> 
+     <h3>My Trip's</h3>
+     
+     
+     
+     {
             
         trips.map(t => {
 
@@ -52,10 +42,12 @@ export const TripList = (props) => {
         )})
             
 }
+     
+     
+     
+     
+     
+     </div>
 
-            </div>
-            
-        </div> 
-    )
-
+ )
 }
