@@ -8,7 +8,7 @@ import "./Trip.css"
 
 export const TripList = (props) => {
 
-    const { trips, getTrip, setTrip } = useContext(TripContext)
+    const { trips, getTrip, setTrip, deleteTrip } = useContext(TripContext)
     
 
 
@@ -34,20 +34,24 @@ export const TripList = (props) => {
             <>
             <Trip key={t.id} trip={t} 
                 />
+
+
+                <button className="tripDelete"onClick={() => {
+        // {console.log(gear)}
+                    deleteTrip(t.id)
+                    .then(() => {
+                        props.history.push("/trips")
+                    })
+                }
+            }>
+                Delete Trip
+            </button>
                 
-        
-        {/* <button onClick={() => props.history.push(`/trips/${t.id}`)}>
-            Add Gear To Trip
-        </button> */}
-        
-        
         </>
         )})
             
 }
- {/* <button onClick={() => props.history.push(`/trip/${trip.id})`)}>
-            Delete Gear
-        </button> */}
+ 
             </div>
             
         </div> 
