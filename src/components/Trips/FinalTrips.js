@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react"
 import { TripContext } from "./TripProvider"
 import { Trip } from "./Trip"
+import "./Trip.css"
 
 export const FinalTrips = (props) => {
  const { trips, getTrip, deleteTrip } = useContext(TripContext)
@@ -13,7 +14,9 @@ useEffect(() => {
 
      <div className="final-trips"> 
      <h3>My Trip's</h3>
-     
+     <p>Add some to gear to get started!
+        Then plan your Trip!
+     </p>
      
      
      {

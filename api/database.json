@@ -5,6 +5,18 @@
       "password": "cb",
       "name": "Chuck Butters",
       "id": 1
+    },
+    {
+      "email": "tmwebb4630@gmail.com",
+      "password": "camden20",
+      "name": "Taylor Webb",
+      "id": 2
+    },
+    {
+      "email": "cb@cb",
+      "password": "cb",
+      "name": "cb cb",
+      "id": 3
     }
   ],
   "gears": [
@@ -42,31 +54,84 @@
       "name": "Fishing pole",
       "activeUser": 1,
       "id": 7
+    },
+    {
+      "name": "Chair",
+      "activeUser": 2,
+      "id": 8
+    },
+    {
+      "name": "Tent",
+      "activeUser": 3,
+      "id": 9
+    },
+    {
+      "name": "Chair",
+      "activeUser": 3,
+      "id": 10
+    },
+    {
+      "name": "Football",
+      "activeUser": 3,
+      "id": 11
+    },
+    {
+      "name": "sleeping bag",
+      "activeUser": 3,
+      "id": 12
     }
   ],
   "trips": [
-    {
-      "tripName": "Memphis",
-      "activeUser": 1,
-      "id": 1
-    },
     {
       "tripName": "Nashville",
       "activeUser": 1,
       "id": 2
     },
     {
-      "tripName": "Memhpis",
+      "tripName": "Memphis",
       "activeUser": 1,
       "id": 3
+    },
+    {
+      "tripName": "Nashville",
+      "activeUser": 1,
+      "id": 4
+    },
+    {
+      "tripName": "fun",
+      "activeUser": 2,
+      "id": 5
+    },
+    {
+      "tripName": "Nashville",
+      "activeUser": 3,
+      "id": 6
     }
   ],
   "packedItem": [
     {
-      "tripId": 3,
-      "gearId": 1,
+      "tripId": 2,
+      "gearId": 2,
       "activeUser": 1,
       "id": 1
+    },
+    {
+      "tripId": 2,
+      "gearId": 4,
+      "activeUser": 1,
+      "id": 2
+    },
+    {
+      "tripId": 6,
+      "gearId": 10,
+      "activeUser": 3,
+      "id": 3
+    },
+    {
+      "tripId": 6,
+      "gearId": 12,
+      "activeUser": 3,
+      "id": 4
     }
   ]
 }
