@@ -1,8 +1,15 @@
 .gears {
     display: flex;
-    flex-direction: column;
+    flex-direction: wrap;
     justify-content: space-between;
 
+  }
+
+  .delete__btn {
+    display: flex;
+  border-radius: 20px;
+  align-content: center;
+  background-color: #fbeec1;
   }
   
   .gear {
@@ -15,15 +22,14 @@
 
   .gearList {
       display: flex;
-    flex-wrap: column;
+    flex-wrap: wrap;
     justify-content: space-between;
   }
 
   .gear-button {
-      display: flex;
-  border-radius: 20px;
-  align-content: center;
-  background-color: #bc986a;
+  display: flex;
+  border-radius: 15px;
+  background-color: #fbeec1;
 
   }
 
@@ -34,6 +40,13 @@
   }
 
   .btn-btn-primary {
+    display: flex;
+  border-radius: 20px;
+  align-content: center;
+  background-color: #fbeec1;
+  }
+
+  .delete-btn {
     display: flex;
   border-radius: 20px;
   align-content: center;

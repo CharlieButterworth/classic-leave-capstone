@@ -18,12 +18,11 @@ export const GarageList = (props) => {
     
 
     return (
+        <>
+            <Button className="gear-button" onClick={() => props.history.push("/gears/new")} variant="outline-primary">Add Gear</Button>
     <div className="gears">
-        <h1>Gear</h1>
-        <Button className="gear-button" onClick={() => props.history.push("/gears/new")} variant="outline-primary">Add Gear</Button>
-        {/* <button className="gear-button" onClick={() => props.history.push("/gears/new")}>
-            Add Gear
-        </button> */}
+        {/* <h1>Gear</h1> */}
+      
         <div className="gearList">
             
         {
@@ -32,6 +31,7 @@ export const GarageList = (props) => {
         }
             </div>
         </div> 
+        </>
     )
 
 }

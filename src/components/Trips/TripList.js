@@ -30,23 +30,28 @@ export const TripList = (props) => {
             
         trips.map(t => {
 
-            return ( <> <Trip key={t.id} trip={t} />
+            return ( 
+            <> 
+            <div className="trips">
+
+            <Trip key={t.id} trip={t} />
         
         <button className="add-trip" onClick={() => props.history.push(`/trips/${t.id}`)}>
             Add Gear To Trip
         </button>
         
         <button className="add-trip" onClick={() => {
-        // {console.log(gear)}
-                    deleteTrip(t.id)
-                    .then(() => {
-                        props.history.push("/trips")
-                    })
-                    
-                }
+            // {console.log(gear)}
+            deleteTrip(t.id)
+            .then(() => {
+                props.history.push("/trips")
+            })
+            
+        }
             }>
                 Delete Trip
             </button>
+        </div>
         
         </>
         )})

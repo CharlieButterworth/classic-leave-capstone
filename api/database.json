@@ -66,11 +66,6 @@
       "id": 9
     },
     {
-      "name": "Chair",
-      "activeUser": 3,
-      "id": 10
-    },
-    {
       "name": "Football",
       "activeUser": 3,
       "id": 11
@@ -84,6 +79,11 @@
       "name": "sleeping bag",
       "activeUser": 3,
       "id": 13
+    },
+    {
+      "name": "Football",
+      "activeUser": 3,
+      "id": 14
     }
   ],
   "trips": [
@@ -130,12 +130,6 @@
       "gearId": 4,
       "activeUser": 1,
       "id": 2
-    },
-    {
-      "tripId": 6,
-      "gearId": 10,
-      "activeUser": 3,
-      "id": 3
     },
     {
       "tripId": 6,
