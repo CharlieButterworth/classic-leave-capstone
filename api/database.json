@@ -79,6 +79,11 @@
       "name": "sleeping bag",
       "activeUser": 3,
       "id": 12
+    },
+    {
+      "name": "sleeping bag",
+      "activeUser": 3,
+      "id": 13
     }
   ],
   "trips": [

@@ -1,7 +1,7 @@
 import React, { useEffect, useContext, useRef } from "react"
 import { SiteContext } from "./SiteProvider"
 import { Site } from "./Sites"
-
+import "./Site.css"
 
 
 export const SiteList = (props) => {
@@ -24,7 +24,7 @@ console.log(props)
 
 return (
     <>
-   <select onChange = {handleSiteSelect} name="site" ref={campSite}>
+   <select className="site-doprdown" onChange = {handleSiteSelect} name="site" ref={campSite}>
 
     <option value="0">Please select a Site</option>
     {

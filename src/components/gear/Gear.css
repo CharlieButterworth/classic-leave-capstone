@@ -26,3 +26,17 @@
   background-color: #bc986a;
 
   }
+
+  .gearForm {
+    display: flex;
+    border: black;
+    background-color: #bc986a;
+  }
+
+  .btn-btn-primary {
+    display: flex;
+  border-radius: 20px;
+  align-content: center;
+  background-color: #fbeec1;
+  }
+
