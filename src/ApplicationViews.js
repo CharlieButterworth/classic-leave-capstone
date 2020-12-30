@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Route } from "react-router-dom";
-// import { ParkProvider } from "./components/parks/ParkProvider";
+import { ParkProvider } from "./components/parks/ParkProvider";
 // import { ParkList } from "./components/parks/ParkList"
 // import { ParkDetails } from "./components/parks/ParkDetails"
 import { GarageList } from "./components/gear/GarageList"
@@ -16,6 +16,7 @@ import  { PackForTrip, PackItems } from "./components/trips/PackItems"
 import {FinalTrips} from "./components/trips/FinalTrips"
 import { SiteList } from "./Sites/SiteList"
 import { SiteProvider } from "./Sites/SiteProvider";
+import { SiteDetails } from "./Sites/SiteDetail"
 
 
 
@@ -31,9 +32,12 @@ export const ApplicationViews = (props) => {
 
         <TripProvider>
         <GearProvider>
-            {/* <ParkProvider> */}
+            <ParkProvider>
             <Route exact path="/trips"
           render={(props) =>  <SiteList {...props}/>}
+          />
+           <Route exact path="/trip/:id(\w\w\w\w\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w\w\w\w\w\w\w\w\w)"
+          render={(props) =>  <SiteDetails {...props}/>}
           />
             <Route
            exact path="/"
@@ -58,7 +62,7 @@ export const ApplicationViews = (props) => {
               {/* <Route exact path="/trips/:id(\w\w\w\w\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w\w\w\w\w\w\w\w\w)"
               render={(props) => <ParkDetails {...props}/>}
               /> */}
-        {/* </ParkProvider> */}
+        </ParkProvider>
               </GearProvider>
               </TripProvider>
               </SiteProvider>

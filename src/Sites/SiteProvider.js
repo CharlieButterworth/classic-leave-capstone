@@ -4,6 +4,7 @@ export const SiteContext = React.createContext()
 
 export const SiteProvider = (props) => {
     const [campsite, setCampsite] = useState([])
+    // const [getSiteById, setCampsitebyId] = useState([])
 
 
     const getSites = () => {
@@ -14,10 +15,15 @@ export const SiteProvider = (props) => {
 
     console.log(campsite)
     
+    // const getSiteById = (siteId) => {
+    //     return fetch (`http://localhost:8088/data/${siteId}`)
+    //     .then(res => res/json())
+    //     .then(setCampsitebyId)
+    // }
     
     return (
         <SiteContext.Provider value={{
-            campsite, setCampsite, getSites
+            campsite, setCampsite, getSites, 
         }}>
             {props.children}
         </SiteContext.Provider>
