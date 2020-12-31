@@ -16,9 +16,9 @@
 }
 
 .packForm {
-    display: flex;
-    flex-wrap: column;
-    justify-content: space-between;
+    /* display: flex; */
+    /* flex-wrap: column; */
+    /* justify-content: space-between; */
     flex-basis: 28%;
       margin: 1em;
       padding: 1em;
@@ -26,12 +26,12 @@
       background-color: #bc986a;
 }
 
-.packItem {
+/* .packItem {
     display: flex;
     flex-wrap: column;
     justify-content: space-between;
     
-}
+} */
 
 .trip {
   flex-basis: 28%;

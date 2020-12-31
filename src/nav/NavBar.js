@@ -4,6 +4,11 @@ import "./NavBar.css"
 
 
 export const NavBar = (props) => {
+
+    const clearLocalStorage = () => {
+        localStorage.removeItem('app_user_id')
+    }
+    
     return (
         
         <ul className="navbar">
@@ -19,6 +24,7 @@ export const NavBar = (props) => {
             </li>
             
         </ul>
+        
 )
 
 

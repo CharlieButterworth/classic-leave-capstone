@@ -8,7 +8,7 @@ export const GearDetails = (props) => {
 
     const [gear, setGear] = useState({});
 
-    // this useEffect is matchin/setting gearId equal to the id found in props 
+    // this useEffect is matching/setting gearId equal to the id found in props 
 
     useEffect(() => {
         const gearId = parseInt(props.match.params.id)

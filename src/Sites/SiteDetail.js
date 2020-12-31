@@ -1,38 +1,70 @@
 import React, { useContext, useEffect, useState } from "react";
 import { SiteContext } from "./SiteProvider";
+import { Site } from "./Sites"
+import { Modal, Button } from "react-bootstrap"
 
 
 export const SiteDetails = (props) => {
-    const {campsite, getSites} = useContext(SiteContext)
-
-    const [selectedSite, setSelectedSite ] = useState([])
+    const {campsite, getSites, getCampSitebyId, setCampsite} = useContext(SiteContext)
+    const [siteId, setCampSitebyId] = useState([])
+    // const [campsite, setCampsite] = useState([])
 
     useEffect(() => {
-        getSites().then(setSelectedSite)
+       getSites()
     }, [])
+
+    // useEffect(() => {
+    //         const siteId = parseInt(props.match.params.id)
+    //     getCampSitebyId(siteId).then(setCampsite)
+    // }, [])
     
-    // console.log("SITE", siteId)
-    useEffect(() => {
-            const siteId = parseInt(props.match.params.id)
-            
-            const site = getSites()
-            const selectedSiteName = siteId
-            const pickedSite = campsite.filter((campsite) => campsite.name === selectedSiteName)
-          
-  
-    }, [selectedSite]) 
+//     useEffect(() => {
+//         const siteId = parseInt(props.match.params.id)
+//         getCampSitebyId(siteId)
+//         }, [])
+// console.log(siteId)
+
+    // useEffect(() => {
+       
+    //     const selectedSite = siteId
+
+    //     console.log("SITEDETAIL", props)
+
+    // }, [selectedSite])
 
 
 
     
     
     
+    console.log("RETURN", props)
     return (
         <>
-        <section className="site">
-            <h2 className="site__name">Details</h2>
-            <p>{campsite.name}</p>
+        <Modal.Dialog>
+ 
+    <Modal.Title>{campsite.name}</Modal.Title>
+ 
+
+  <Modal.Body>
+      <section className="site">
+             <button className="add-trip" onClick={() => props.history.push("/trips/create")}>
+            Add Trip
+        </button>
+            
+
+             {
+        campsite.map(s => <Site key={s.id} site={s} />)
+                }
+
             </section>
+  </Modal.Body>
+
+  <Modal.Footer>
+    <Button variant="secondary">Close</Button>
+    <Button variant="primary">Save changes</Button>
+  </Modal.Footer>
+</Modal.Dialog>
+        
             </>
     )
     

@@ -1,6 +1,8 @@
 import React from "react"
+import { Link } from "react-router-dom"
+import "./Site.css"
 
-export const Site = ({site}) => {
+export const Site = ({props,  site}) => {
     // console.log(site)
     return(
         <>
@@ -8,8 +10,14 @@ export const Site = ({site}) => {
  <section className="site">
         <h3 className="site__name">
           
-                { site.name }
-                { site.address}
+               <h3>{site.name}</h3>
+                <p className="siteInfo">Description: {site.description}</p>
+                 <p className="siteInfo">Total Number of Sites: {site.campsites.totalSites}</p>
+                 <p className="siteInfo">Reservation Info: {site.reservationInfo}</p>
+                <Link to={site.directionsUrl}>
+                     {site.directionsUrl}
+                    </Link> 
+              
          
              </h3>
 

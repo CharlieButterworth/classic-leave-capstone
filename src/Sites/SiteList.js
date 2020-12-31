@@ -14,8 +14,6 @@ export const SiteList = (props) => {
     }, [])
 
 const handleSiteSelect = () => {
-    
-   
         props.history.push(`/trip/${campSite.current.value}`)
     }
 console.log(props)
@@ -26,7 +24,7 @@ return (
     <>
    <select className="site-doprdown" onChange = {handleSiteSelect} name="site" ref={campSite}>
 
-    <option value="0">Please select a Site</option>
+    <option value="0">Find some inspiration!</option>
     {
         campsite.map(s => <option className="site-dropdown"key={s.id} value={s.id} >{s.name}</option>)
     }
