@@ -81,11 +81,6 @@
       "id": 17
     },
     {
-      "name": "Stove",
-      "activeUser": 3,
-      "id": 18
-    },
-    {
       "name": "Fire wood",
       "activeUser": 3,
       "id": 19
@@ -96,19 +91,19 @@
       "id": 20
     },
     {
-      "name": "Paper plates",
-      "activeUser": 3,
-      "id": 21
-    },
-    {
       "name": "Baseball Gloves",
       "activeUser": 3,
       "id": 23
     },
     {
-      "name": "Paper plates, spoons/forks",
+      "name": "Water Bottles",
       "activeUser": 3,
-      "id": 24
+      "id": 26
+    },
+    {
+      "name": "Tent",
+      "activeUser": 3,
+      "id": 27
     }
   ],
   "trips": [
@@ -141,6 +136,11 @@
       "tripName": "Alum Ford",
       "activeUser": 3,
       "id": 8
+    },
+    {
+      "tripName": "Nashville",
+      "activeUser": 3,
+      "id": 9
     }
   ],
   "packedItem": [
@@ -161,12 +161,6 @@
       "gearId": 17,
       "activeUser": 3,
       "id": 8
-    },
-    {
-      "tripId": 6,
-      "gearId": 18,
-      "activeUser": 3,
-      "id": 9
     },
     {
       "tripId": 6,
