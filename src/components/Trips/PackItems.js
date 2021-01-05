@@ -59,7 +59,7 @@ return (
             <option className="gear-drop"value="0">Pack Your Things</option>
             {
             gear.map((g) => (
-              <option  key={g.id} value={g.id} id={g.id}>
+              <option className="gear-drop"  key={g.id} value={g.id} id={g.id}>
                 {g.name}
               </option>
             ))

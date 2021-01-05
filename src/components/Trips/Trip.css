@@ -17,8 +17,8 @@
 
 .packForm {
     /* display: flex; */
-    /* flex-wrap: column; */
-    /* justify-content: space-between; */
+   flex-wrap: column; 
+     justify-content: space-between; 
     flex-basis: 28%;
       margin: 1em;
       padding: 1em;
@@ -57,8 +57,17 @@
   background-color: #fbeec1;
 }
 
-
+.site {
+border: 1px solid black;
+}
 /* .final-trips {
   display: flex;
   border: black;
 } */
+
+.gear-drop {
+  display: flex;
+  border-radius: 20px;
+  align-content: center;
+  background-color: #bc986a;
+}

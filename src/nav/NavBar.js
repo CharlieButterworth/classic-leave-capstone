@@ -10,7 +10,7 @@ export const NavBar = (props) => {
     }
     
     return (
-        
+       
         <ul className="navbar">
             <img></img>
             <li className="navbar__item">
@@ -22,8 +22,12 @@ export const NavBar = (props) => {
             <li className="navbar__item">
                 <Link className="navbar__link" to="/trips">Plan Trip</Link>
             </li>
-            
+        <Link className="navbar__item" onClick={() => {
+            clearLocalStorage()
+            props.history.push("/login")
+        }}>Log Out</Link>
         </ul>
+       
         
 )
 

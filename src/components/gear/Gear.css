@@ -36,7 +36,8 @@
 
   .gearForm {
     display: flex;
-    border: black;
+    /* border: black; */
+    border-radius: 20px;
     background-color: #bc986a;
   }
 
@@ -49,6 +50,19 @@
 
   .delete-btn {
     display: flex;
+  border-radius: 20px;
+  align-content: center;
+  background-color: #fbeec1;
+  }
+
+  .form-group {
+    display: flex;
+    border: black;
+    background-color: #bc986a;
+  }
+
+  .gearName {
+      display: flex;
   border-radius: 20px;
   align-content: center;
   background-color: #fbeec1;

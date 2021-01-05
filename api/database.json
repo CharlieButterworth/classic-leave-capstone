@@ -61,11 +61,6 @@
       "id": 8
     },
     {
-      "name": "sleeping bag",
-      "activeUser": 3,
-      "id": 13
-    },
-    {
       "name": "Football",
       "activeUser": 3,
       "id": 14
@@ -104,6 +99,16 @@
       "name": "Paper plates",
       "activeUser": 3,
       "id": 21
+    },
+    {
+      "name": "Baseball Gloves",
+      "activeUser": 3,
+      "id": 23
+    },
+    {
+      "name": "Paper plates, spoons/forks",
+      "activeUser": 3,
+      "id": 24
     }
   ],
   "trips": [
@@ -135,27 +140,10 @@
     {
       "tripName": "Alum Ford",
       "activeUser": 3,
-      "id": 7
-    },
-    {
-      "tripName": "Big Creek",
-      "activeUser": 3,
       "id": 8
     }
   ],
   "packedItem": [
-    {
-      "tripId": 6,
-      "gearId": 13,
-      "activeUser": 3,
-      "id": 4
-    },
-    {
-      "tripId": 6,
-      "gearId": 13,
-      "activeUser": 3,
-      "id": 5
-    },
     {
       "tripId": 6,
       "gearId": 14,
@@ -193,22 +181,16 @@
       "id": 11
     },
     {
-      "tripId": 7,
-      "gearId": 20,
+      "tripId": 8,
+      "gearId": 17,
       "activeUser": 3,
       "id": 12
     },
     {
-      "tripId": 7,
-      "gearId": 21,
+      "tripId": 8,
+      "gearId": 16,
       "activeUser": 3,
       "id": 13
-    },
-    {
-      "tripId": 7,
-      "gearId": 19,
-      "activeUser": 3,
-      "id": 14
     }
   ],
   "data": [

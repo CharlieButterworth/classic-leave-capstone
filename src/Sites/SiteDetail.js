@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { SiteContext } from "./SiteProvider";
 import { Site } from "./Sites"
 import { Modal, Button } from "react-bootstrap"
+import "./Site.css"
 
 
 export const SiteDetails = (props) => {
@@ -15,8 +16,10 @@ export const SiteDetails = (props) => {
 
     // useEffect(() => {
     //         const siteId = parseInt(props.match.params.id)
-    //     getCampSitebyId(siteId).then(setCampsite)
+    //     getCampSitebyId().then(setCampSitebyId(siteId))
     // }, [])
+
+    // console.log('SITEID', siteId )
     
 //     useEffect(() => {
 //         const siteId = parseInt(props.match.params.id)

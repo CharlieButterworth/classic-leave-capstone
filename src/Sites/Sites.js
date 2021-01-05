@@ -14,9 +14,9 @@ export const Site = ({props,  site}) => {
                 <p className="siteInfo">Description: {site.description}</p>
                  <p className="siteInfo">Total Number of Sites: {site.campsites.totalSites}</p>
                  <p className="siteInfo">Reservation Info: {site.reservationInfo}</p>
-                <Link to={site.directionsUrl}>
+                {/* <Link href={site.directionsUrl} to={site.directionsUrl}>
                      {site.directionsUrl}
-                    </Link> 
+                    </Link>  */}
               
          
              </h3>

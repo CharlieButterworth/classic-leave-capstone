@@ -22,7 +22,7 @@ console.log(props)
 
 return (
     <>
-   <select className="site-doprdown" onChange = {handleSiteSelect} name="site" ref={campSite}>
+   <select className="site-dropdown" onChange = {handleSiteSelect} name="site" ref={campSite}>
 
     <option value="0">Find some inspiration!</option>
     {
@@ -34,3 +34,4 @@ return (
 
 
 }
+
