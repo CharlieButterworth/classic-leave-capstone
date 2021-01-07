@@ -1,7 +1,7 @@
 
 import React, { useContext, useRef, useEffect } from "react"
 import { GearContext } from "./GearProvider"
-
+import "./Gear.css"
 
 
 export const GearForm = (props) => {
@@ -41,15 +41,15 @@ export const GearForm = (props) => {
                     <label htmlFor="gearName">Gear name: </label>
                     <input type="text" id="gearName" ref={gearName} required autoFocus className="form-control" placeholder="Gear Name" />
                 </div>
-            </fieldset>
             <button type="submit"
                 onClick={evt => {
                     evt.preventDefault() // Prevent browser from submitting the form
                     constructNewGear()
                 }}
-                className="btn btn-primary">
+                className="btn-btn-primary">
                 Save Gear
             </button>
+                </fieldset>
             
             </form>
         )

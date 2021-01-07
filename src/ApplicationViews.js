@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { Route } from "react-router-dom";
 import { ParkProvider } from "./components/parks/ParkProvider";
-import { ParkList } from "./components/parks/ParkList"
-import { ParkDetails } from "./components/parks/ParkDetails"
+// import { ParkList } from "./components/parks/ParkList"
+// import { ParkDetails } from "./components/parks/ParkDetails"
 import { GarageList } from "./components/gear/GarageList"
 import { GearProvider } from "./components/gear/GearProvider"
 import { GearForm } from "./components/gear/GearForm"
@@ -10,10 +10,13 @@ import { GearDetails } from "./components/gear/GearDetails"
 import { TripForm } from "./components/trips/TripForm"
 import { TripProvider } from "./components/trips/TripProvider";
 import { TripList } from "./components/trips/TripList"
-import { FriendProvider } from "./components/friends/FriendsProvider";
-import { FriendList } from "./components/friends/FriendList"
+// import { FriendProvider } from "./components/friends/FriendsProvider";
+// import { FriendList } from "./components/friends/FriendList"
 import  { PackForTrip, PackItems } from "./components/trips/PackItems"
-import { PackedTripItems } from "./components/trips/PackedTripList";
+import {FinalTrips} from "./components/trips/FinalTrips"
+import { SiteList } from "./Sites/SiteList"
+import { SiteProvider } from "./Sites/SiteProvider";
+import { SiteDetails } from "./Sites/SiteDetail"
 
 
 
@@ -25,16 +28,20 @@ export const ApplicationViews = (props) => {
         //PARK INFO
         <>
         
+      <SiteProvider>
 
         <TripProvider>
         <GearProvider>
             <ParkProvider>
             <Route exact path="/trips"
-          render={(props) =>  <ParkList {...props}/>}
+          render={(props) =>  <SiteList {...props}/>}
+          />
+           <Route exact path="/trip/:id(\w\w\w\w\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w\w\w\w\w\w\w\w\w)"
+          render={(props) =>  <SiteDetails {...props}/>}
           />
             <Route
            exact path="/"
-            render={(props) => <TripList {...props} />}
+           render={(props) => <FinalTrips {...props} />}
         />
             <Route exact path="/trips"
               render={(props) => <TripList {...props} />}
@@ -48,14 +55,17 @@ export const ApplicationViews = (props) => {
                {/* <Route exact path="/trips/:id(\d+)"
               render={(props) => <PackedTripItems {...props} />}
               /> */}
+              {/* <Route exact path="/campsite"
+              render={(props) => <ParkCampsites {...props} />}
+              /> */}
               
-              
-              <Route exact path="/trips/:id(\w\w\w\w\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w\w\w\w\w\w\w\w\w)"
+              {/* <Route exact path="/trips/:id(\w\w\w\w\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w.\w\w\w\w\w\w\w\w\w\w\w\w)"
               render={(props) => <ParkDetails {...props}/>}
-              />
+              /> */}
         </ParkProvider>
               </GearProvider>
               </TripProvider>
+              </SiteProvider>
             
 
 

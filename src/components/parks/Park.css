@@ -1,0 +1,6 @@
+.park-drop {
+    display: flex;
+  border-radius: 20px;
+  align-content: center;
+  background-color: #bc986a;
+}

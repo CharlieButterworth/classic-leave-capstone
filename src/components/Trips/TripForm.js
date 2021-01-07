@@ -33,11 +33,7 @@ export const TripForm = (props) => {
     })}, [])
 
    
-    // useEffect(() => {
-    //     getGear()
-    //     .then(() => {})
-
-    // }, [trip])
+    
 
     
 
@@ -110,7 +106,7 @@ const constructNewTrip = (gear) => {
                     evt.preventDefault() // Prevent browser from submitting the form
                     constructNewTrip()
                 }}
-                className="btn btn-primary">
+                className="btn-btn-primary">
                 Save Trip
             </button>
             

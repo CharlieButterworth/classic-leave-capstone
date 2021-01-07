@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react"
 import { GearContext } from "./GearProvider"
 import { Gear } from "./Gear"
+import { Button } from "react-bootstrap"
 
 
 
@@ -17,11 +18,11 @@ export const GarageList = (props) => {
     
 
     return (
-    <div className="gear">
-        <h1>Gear</h1>
-        <button onClick={() => props.history.push("/gears/new")}>
-            Add Gear
-        </button>
+        <>
+            <Button className="gear-button" onClick={() => props.history.push("/gears/new")} variant="outline-primary">Add Gear</Button>
+    <div className="gears">
+        {/* <h1>Gear</h1> */}
+      
         <div className="gearList">
             
         {
@@ -30,6 +31,7 @@ export const GarageList = (props) => {
         }
             </div>
         </div> 
+        </>
     )
 
 }

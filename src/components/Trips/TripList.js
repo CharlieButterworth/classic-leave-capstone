@@ -2,12 +2,13 @@ import React, { useContext, useEffect } from "react"
 import { TripContext } from "./TripProvider"
 import { Trip } from "./Trip"
 import { TripForm } from "./TripForm"
+import "./Trip.css"
 
 
 
 export const TripList = (props) => {
 
-    const { trips, getTrip, setTrip } = useContext(TripContext)
+    const { trips, getTrip, deleteTrip } = useContext(TripContext)
     
 
 
@@ -17,9 +18,9 @@ export const TripList = (props) => {
     }, [])
 
     return (
-    <div className="trip">
-        {/* <h1>Trips</h1> */}
-        <button onClick={() => props.history.push("/trips/create")}>
+    <div className="trip-info">
+        
+        <button className="add-trip" onClick={() => props.history.push("/trips/create")}>
             Add Trip
         </button>
         <div className="tripList">
@@ -29,20 +30,34 @@ export const TripList = (props) => {
             
         trips.map(t => {
 
-            return ( <> <Trip key={t.id} trip={t} />
+            return ( 
+            <> 
+            <div className="trips">
+
+            <Trip key={t.id} trip={t} />
         
-        <button onClick={() => props.history.push(`/trips/${t.id}`)}>
+        <button className="add-trip" onClick={() => props.history.push(`/trips/${t.id}`)}>
             Add Gear To Trip
         </button>
         
+        <button className="add-trip" onClick={() => {
+            // {console.log(gear)}
+            deleteTrip(t.id)
+            .then(() => {
+                props.history.push("/trips")
+            })
+            
+        }
+            }>
+                Delete Trip
+            </button>
+        </div>
         
         </>
         )})
             
 }
- {/* <button onClick={() => props.history.push(`/trip/${trip.id})`)}>
-            Delete Gear
-        </button> */}
+
             </div>
             
         </div> 

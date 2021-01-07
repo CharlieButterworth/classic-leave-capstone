@@ -29,7 +29,7 @@ const getGearById = (id) => {
     }
 
 
-        const deleteGear = (id) => {
+    const deleteGear = (id) => {
     return fetch(`http://localhost:8088/gears/${id}`, {
         method: "DELETE"
     })

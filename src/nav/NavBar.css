@@ -2,9 +2,25 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: left;
+    
+    /* background-color: #bc986a; */
 }
 
 .navbar__item {
     flex-basis: 20%;
     list-style-type: none;
+    border-style: solid;
+     flex-basis: 28%;
+     border-radius: 15px;
+     background-color: #fbeec1;
+    
+}
+
+.logout {
+    flex-basis: 20%;
+    list-style-type: none;
+    border-style: solid;
+     flex-basis: 28%;
+     border-radius: 15px;
+     background-color: #fbeec1;
 }

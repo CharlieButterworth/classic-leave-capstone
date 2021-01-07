@@ -1,12 +1,70 @@
-/* .gear {
+.gears {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: wrap;
     justify-content: space-between;
+
+  }
+
+  .delete__btn {
+    display: flex;
+  border-radius: 20px;
+  align-content: center;
+  background-color: #fbeec1;
   }
   
   .gear {
       flex-basis: 28%;
       margin: 1em;
+      border-radius: 15px;
       padding: 1em;
-      border: 1px solid goldenrod;
-  } */
+      border: 1px solid black;
+      background-color: #bc986a;
+  }
+
+  .gearList {
+      display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .gear-button {
+  display: flex;
+  border-radius: 15px;
+  background-color: #fbeec1;
+
+  }
+
+  .gearForm {
+    display: flex;
+    /* border: black; */
+    border-radius: 20px;
+    background-color: #bc986a;
+  }
+
+  .btn-btn-primary {
+    display: flex;
+  border-radius: 20px;
+  align-content: center;
+  background-color: #fbeec1;
+  }
+
+  .delete-btn {
+    display: flex;
+  border-radius: 20px;
+  align-content: center;
+  background-color: #fbeec1;
+  }
+
+  .form-group {
+    display: flex;
+    border: black;
+    background-color: #bc986a;
+  }
+
+  .gearName {
+      display: flex;
+  border-radius: 20px;
+  align-content: center;
+  background-color: #fbeec1;
+  }
+

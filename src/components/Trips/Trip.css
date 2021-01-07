@@ -1,0 +1,73 @@
+
+
+.parks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.parks {
+    flex-basis: 28%;
+      margin: 1em;
+      padding: 1em;
+      border: 1px solid black;
+      background-color: #bc986a;
+}
+
+.packForm {
+    /* display: flex; */
+   flex-wrap: column; 
+     justify-content: space-between; 
+    flex-basis: 28%;
+      margin: 1em;
+      padding: 1em;
+      border: 1px solid black;
+      background-color: #bc986a;
+}
+
+/* .packItem {
+    display: flex;
+    flex-wrap: column;
+    justify-content: space-between;
+    
+} */
+
+.trip {
+  flex-basis: 28%;
+      margin: 1em;
+      border-radius: 20px;
+      padding: 1em;
+      border: 1px solid black;
+      background-color: #bc986a;
+}
+
+.trip-button {
+  display: flex;
+  border-radius: 15px
+}
+
+.gear-drop {
+  background-color: black;
+}
+
+.add-trip {
+  display: flex;
+  border-radius: 15px;
+  background-color: #fbeec1;
+}
+
+.site {
+border: 1px solid black;
+}
+/* .final-trips {
+  display: flex;
+  border: black;
+} */
+
+.gear-drop {
+  display: flex;
+  border-radius: 20px;
+  align-content: center;
+  background-color: #bc986a;
+}

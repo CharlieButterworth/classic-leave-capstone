@@ -1,5 +1,6 @@
 import React, { useContext, useRef, useEffect, useState } from "react"
 import { TripContext } from "./TripProvider"
+import "./Trip.css"
 
 import { GearContext } from "../gear/GearProvider"
 
@@ -55,10 +56,10 @@ return (
               packGear(c);
             }}
             >
-            <option value="0">Pack Your Things</option>
+            <option className="gear-drop"value="0">Pack Your Things</option>
             {
             gear.map((g) => (
-              <option key={g.id} value={g.id} id={g.id}>
+              <option className="gear-drop"  key={g.id} value={g.id} id={g.id}>
                 {g.name}
               </option>
             ))
@@ -71,7 +72,7 @@ return (
             //   if (item.gear.tripId === trip.id){ 
             //       window.alert("Nothing is packed!")
             //   } else {
-            return <p>{item.gear.name}</p>;
+            return <p className="packItem">{item.gear.name}</p>;
           })
           }
         </form>
