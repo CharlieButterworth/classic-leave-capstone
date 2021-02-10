@@ -2,72 +2,72 @@
 // import { ParkContext } from "./ParkProvider"
 // import { Modal, Button } from "react-bootstrap"
 
-// export const ParkDetails = (props) => {
-//     const { getParkById, getParks }  = useContext(ParkContext)
+export const ParkDetails = (props) => {
+    const { getParkById, getParks }  = useContext(ParkContext)
 
-//     const [parks, setPark] = useState([])
-//     const [selectedPark, setSelectedPark] = useState([])
+    const [parks, setPark] = useState([])
+    const [selectedPark, setSelectedPark] = useState([])
 
-//     const park = ([])
+    const park = ([])
 
-//     useEffect(() => {
-//         getParks()
-//     }, [])
+    useEffect(() => {
+        getParks()
+    }, [])
 
-//     // useEffect(() => {
-//     //     getParkById().then(setPark)
-//     //     // console.log(props)
-//     // }, [])
+    useEffect(() => {
+        getParkById().then(setPark)
+        // console.log(props)
+    }, [])
     
     
-//     // useEffect(() => {
-//     //         const parkId = parseInt(props.match.params.id)
+    useEffect(() => {
+            const parkId = parseInt(props.match.params.id)
             
-//     //         const parks = getParks()
-//     //         const selectedParkName = parkId
-//     //         const setSelectedPark = parks.filter((parks) => parks.fullName === selectedParkName)
+            const parks = getParks()
+            const selectedParkName = parkId
+            const setSelectedPark = parks.filter((parks) => parks.fullName === selectedParkName)
           
   
-//     // }, [selectedPark]) 
+    }, [selectedPark]) 
     
     
-//     return (
-//         <>
-// <section className="park">
-//         {console.log("USEEFFECT", parks)}
+    return (
+        <>
+<section className="park">
+        {console.log("USEEFFECT", parks)}
 
-//     <h3>Here we go...</h3>
+    <h3>Here we go...</h3>
     
 
-//     {console.log("PROPS", props)}
+    {console.log("PROPS", props)}
    
-// {/* <Modal.Dialog>
+{/* <Modal.Dialog>
 
-//     <Modal.Title>{parks.fullName}</Modal.Title>
-//     {console.log("PARK", park)}
-
-
-//   <Modal.Body>
-//     <p>{parks.fullName}</p>
-//     <p>{parks.entranceFees}</p>
-//   </Modal.Body>
-
-//   <Modal.Footer>
-//     <Button onClick={() => props.history.push("/trip")} variant="secondary">Close</Button>
-//     <Button onClick={() => props.history.push("/trip/create")} variant="primary">Let's Adventure</Button>
-//   </Modal.Footer>
-// </Modal.Dialog>
-//     */}
+    <Modal.Title>{parks.fullName}</Modal.Title>
+    {console.log("PARK", park)}
 
 
+  <Modal.Body>
+    <p>{parks.fullName}</p>
+    <p>{parks.entranceFees}</p>
+  </Modal.Body>
 
-// <button onClick={() => {
-//     props.history.push(`/trip/create`)
-// }}>Let's Adventure!</button>
+  <Modal.Footer>
+    <Button onClick={() => props.history.push("/trip")} variant="secondary">Close</Button>
+    <Button onClick={() => props.history.push("/trip/create")} variant="primary">Let's Adventure</Button>
+  </Modal.Footer>
+</Modal.Dialog>
+    */}
 
-// </section>
 
-// </>
-//     )
 
-// }
+<button onClick={() => {
+    props.history.push(`/trip/create`)
+}}>Let's Adventure!</button>
+
+</section>
+
+</>
+    )
+
+}
