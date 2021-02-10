@@ -14,7 +14,7 @@ Install React Bootstrap with the following terminal command:
 npm install react-bootstrap bootstrap
 Install json-server with the following terminal command:
 npm install -g json-server
-Get an API key for The Strain API. Do NOT share this API key with anyone else.
+Get an API key for The Nationl Park Service. Do NOT share this API key with anyone else.
 
 Clone my repository to your local machine.
 
